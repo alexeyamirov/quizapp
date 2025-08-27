@@ -1,0 +1,30 @@
+  {
+  "welcome": {
+    "title": "Welcome to the Quiz App",
+    "chooseTheme": "Choose a theme",
+    "playButton": "Play"
+  },
+  "quiz": {
+    "question": "Question",
+    "of": "of",
+    "next": "Next"
+  },
+  "results": {
+    "title": "Quiz Results",
+    "score": "Your score: {{correct}} out of {{total}}",
+    "feedback": {
+      "10": "Outstanding knowledge!",
+      "9": "Perfect! But you could do even better",
+      "8": "Good knowledge!",
+      "7": "Nice result!",
+      "6": "Better than most of players",
+      "5": "It's ok",
+      "4": "Not bad, but you'll have to try again",
+      "3": "Try harder!",
+      "2": "You can do better, try again",
+      "1": "Did you guess?",
+      "0": "It doesn't seem you're an expert in the quiz theme"
+    },
+    "playAgain": "Play Again"
+  }
+}

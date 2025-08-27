@@ -14,6 +14,7 @@ const WelcomePage: React.FC = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4">
+
       <div className="w-full max-w-md p-8 space-y-8 bg-white rounded-lg shadow-md">
         <h1 className="text-3xl font-bold text-center text-indigo-600">
           {t('welcome.title')}
@@ -52,6 +53,9 @@ const WelcomePage: React.FC = () => {
           </button>
         </div>
       </div>
+      <p className="mt-6 text-gray-500 text-sm">
+        Powered by <code className="bg-gray-200 px-1 py-0.5 rounded">Tailwind CSS</code> v. 3.3.3
+      </p>
     </div>
   );
 };

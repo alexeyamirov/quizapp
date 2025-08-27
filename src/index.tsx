@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './tailwind.css'; // Import Tailwind CSS
+import './index.css'; // Import regular CSS
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './i18n/i18n'; // Import i18n configuration
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

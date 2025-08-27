@@ -1,7 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { quizData, QuizQuestion } from '../data/quizData';
+
+interface ShuffledOption {
+  text: string;
+  originalIndex: number;
+}
 
 const QuizPage: React.FC = () => {
   const { t } = useTranslation();
@@ -14,6 +19,24 @@ const QuizPage: React.FC = () => {
   const [userAnswers, setUserAnswers] = useState<number[]>([]);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [answered, setAnswered] = useState(false);
+  const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
+  const [shuffledOptions, setShuffledOptions] = useState<ShuffledOption[]>([]);
+
+  // Function to shuffle options for a question
+  const shuffleOptions = useCallback((question: QuizQuestion) => {
+    const options = question.options.map((text, originalIndex) => ({
+      text,
+      originalIndex
+    }));
+    
+    // Fisher-Yates shuffle algorithm
+    for (let i = options.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [options[i], options[j]] = [options[j], options[i]];
+    }
+    
+    return options;
+  }, []);
 
   // Initialize quiz with random questions
   useEffect(() => {
@@ -35,30 +58,25 @@ const QuizPage: React.FC = () => {
     setCurrentQuestionIndex(0);
     setSelectedOption(null);
     setAnswered(false);
-  }, [themeId, navigate]);
-
-  // Current question
-  const currentQuestion = questions[currentQuestionIndex];
-
-  // Handle option selection
-  const handleOptionSelect = (optionIndex: number) => {
-    if (answered) return;
+    setIsCorrect(null);
     
-    setSelectedOption(optionIndex);
-    setAnswered(true);
+    // Shuffle options for the first question
+    if (shuffledQuestions.length > 0) {
+      setShuffledOptions(shuffleOptions(shuffledQuestions[0]));
+    }
+  }, [themeId, navigate, shuffleOptions]);
 
-    // Save user's answer
-    const newUserAnswers = [...userAnswers];
-    newUserAnswers[currentQuestionIndex] = optionIndex;
-    setUserAnswers(newUserAnswers);
-  };
-
-  // Handle next question
-  const handleNextQuestion = () => {
+  // Handle next question - using useCallback to memoize the function
+  const handleNextQuestion = useCallback(() => {
     if (currentQuestionIndex < questions.length - 1) {
-      setCurrentQuestionIndex(currentQuestionIndex + 1);
+      const nextIndex = currentQuestionIndex + 1;
+      setCurrentQuestionIndex(nextIndex);
       setSelectedOption(null);
       setAnswered(false);
+      setIsCorrect(null);
+      
+      // Shuffle options for the next question
+      setShuffledOptions(shuffleOptions(questions[nextIndex]));
     } else {
       // Calculate score
       const correctAnswers = userAnswers.filter(
@@ -74,10 +92,46 @@ const QuizPage: React.FC = () => {
         } 
       });
     }
+  }, [currentQuestionIndex, questions, userAnswers, navigate, themeId, shuffleOptions]);
+
+  // Effect to handle automatic transition to next question
+  useEffect(() => {
+    let timer: NodeJS.Timeout;
+    
+    if (answered) {
+      timer = setTimeout(() => {
+        handleNextQuestion();
+      }, 2000); // 2 seconds delay
+    }
+    
+    return () => {
+      if (timer) clearTimeout(timer);
+    };
+  }, [answered, handleNextQuestion]);
+
+  // Current question
+  const currentQuestion = questions[currentQuestionIndex];
+
+  // Handle option selection
+  const handleOptionSelect = (shuffledIndex: number) => {
+    if (answered) return;
+    
+    // Get the original index from the shuffled options
+    const originalIndex = shuffledOptions[shuffledIndex].originalIndex;
+    const correct = originalIndex === currentQuestion.correctAnswer;
+    
+    setIsCorrect(correct);
+    setSelectedOption(shuffledIndex);
+    setAnswered(true);
+
+    // Save user's answer (using the original index)
+    const newUserAnswers = [...userAnswers];
+    newUserAnswers[currentQuestionIndex] = originalIndex;
+    setUserAnswers(newUserAnswers);
   };
 
-  // If questions are not loaded yet
-  if (!currentQuestion) {
+  // If questions are not loaded yet or shuffled options aren't ready
+  if (!currentQuestion || shuffledOptions.length === 0) {
     return (
       <div className="flex items-center justify-center min-h-screen">
         <div className="w-16 h-16 border-t-4 border-b-4 border-indigo-500 rounded-full animate-spin"></div>
@@ -97,7 +151,7 @@ const QuizPage: React.FC = () => {
           <img 
             src={currentQuestion.imageUrl} 
             alt="Quiz question" 
-            className="object-cover w-full h-64"
+            className="object-cover w-full h-96"
             onError={(e) => {
               const target = e.target as HTMLImageElement;
               target.src = 'https://via.placeholder.com/640x360?text=Image+Not+Found';
@@ -110,40 +164,43 @@ const QuizPage: React.FC = () => {
           {currentQuestion.question}
         </h2>
         
-        {/* Answer options */}
+        {/* Answer options - now using shuffled options */}
         <div className="space-y-3">
-          {currentQuestion.options.map((option, index) => (
+          {shuffledOptions.map((option, shuffledIndex) => (
             <button
-              key={index}
-              onClick={() => handleOptionSelect(index)}
+              key={shuffledIndex}
+              onClick={() => handleOptionSelect(shuffledIndex)}
               className={`w-full p-3 text-left rounded-lg transition-colors ${
-                selectedOption === index
-                  ? selectedOption === currentQuestion.correctAnswer
-                    ? 'bg-green-100 border-green-500 border-2'
-                    : 'bg-red-100 border-red-500 border-2'
-                  : answered && index === currentQuestion.correctAnswer
-                  ? 'bg-green-100 border-green-500 border-2'
-                  : 'bg-gray-100 hover:bg-gray-200'
+                selectedOption === shuffledIndex
+                  ? isCorrect
+                    ? 'bg-green-100 border-green-500 border-2' // Correct answer
+                    : 'bg-red-100 border-red-500 border-2'     // Wrong answer
+                  : 'bg-gray-100 hover:bg-gray-200'            // Unanswered
               }`}
               disabled={answered}
             >
-              {option}
+              {option.text}
             </button>
           ))}
         </div>
         
-        {/* Next button */}
-        <div className="mt-6 text-right">
-          <button
-            onClick={handleNextQuestion}
-            className={`px-6 py-2 text-white bg-indigo-600 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 ${
-              !answered && 'opacity-50 cursor-not-allowed'
-            }`}
-            disabled={!answered}
-          >
-            {currentQuestionIndex < questions.length - 1 ? t('quiz.next') : t('results.playAgain')}
-          </button>
-        </div>
+        {/* Feedback message */}
+        {answered && (
+          <div className={`mt-4 p-2 text-center rounded ${
+            isCorrect ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'
+          }`}>
+            {isCorrect 
+              ? 'Correct!' 
+              : 'Incorrect!'}
+          </div>
+        )}
+        
+        {/* Loading indicator for next question */}
+        {answered && (
+          <div className="mt-4 text-center text-sm text-gray-500">
+            Next question in 2 seconds...
+          </div>
+        )}
       </div>
     </div>
   );
