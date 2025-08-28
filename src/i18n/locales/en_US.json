@@ -14,7 +14,7 @@
     "score": "Your score: {{correct}} out of {{total}}",
     "feedback": {
       "10": "Outstanding knowledge!",
-      "9": "Perfect! But you could do even better",
+      "9": "Perfect! But you could do better",
       "8": "Good knowledge!",
       "7": "Nice result!",
       "6": "Better than most of players",
