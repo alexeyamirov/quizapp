@@ -1,30 +1,30 @@
   {
   "welcome": {
-    "title": "Welcome to the Quiz App",
-    "chooseTheme": "Choose a theme",
-    "playButton": "Play"
+    "title": "Сардэчна запрашаем згуляць у віктарыну",
+    "chooseTheme": "Выберыце тэму",
+    "playButton": "Гуляць"
   },
   "quiz": {
-    "question": "Question",
-    "of": "of",
-    "next": "Next"
+    "question": "Пытанне",
+    "of": "з",
+    "next": "Далей"
   },
   "results": {
-    "title": "Quiz Results",
-    "score": "Your score: {{correct}} out of {{total}}",
+    "title": "Вынікі віктарыны",
+    "score": "Ваш вынік: {{correct}} з {{total}}",
     "feedback": {
-      "10": "Outstanding knowledge!",
-      "9": "Perfect! But you could do even better",
-      "8": "Good knowledge!",
-      "7": "Nice result!",
-      "6": "Better than most of players",
-      "5": "It's ok",
-      "4": "Not bad, but you'll have to try again",
-      "3": "Try harder!",
-      "2": "You can do better, try again",
-      "1": "Did you guess?",
-      "0": "It doesn't seem you're an expert in the quiz theme"
+      "10": "Выдатныя веды!!!",
+      "9": "Амаль ідэальна! Аднак вы можаце нават лепш.",
+      "8": "Добрыя веды!",
+      "7": "Добрый вынік!",
+      "6": "Лепш, чым у большасці гульцоў!",
+      "5": "Нармальна!",
+      "4": "Нармалева, але паспрабуйце яшчэ раз.",
+      "3": "Спрабуйце больш старанна!",
+      "2": "Вы можаце лепш, паспрабуйце яшчэ раз.",
+      "1": "Вы гадалі?",
+      "0": "Мабыць, вы не эксперт у гэтай тэме віктарыны."
     },
-    "playAgain": "Play Again"
+    "playAgain": "Гуляць зноў"
   }
 }
