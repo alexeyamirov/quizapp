@@ -19,7 +19,7 @@ export const quizData: QuizTheme[] = [
     questions: [
       {
         id: 1,
-        imageUrl: "/images/cinema/tony_stark.jpg",
+        imageUrl: "/images/cinema/robert_downey_jr_as_tony_stark.jpg",
         question: "Which actor played the character Tony Stark in the Marvel Cinematic Universe?",
         options: [
           "Chris Evans",
@@ -43,19 +43,19 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 3,
-        imageUrl: "/images/cinema/inception_2010.jpg",
+        imageUrl: "/images/cinema/inception_2010_01.jpg",
         question: "Who directed the movie 'Inception' (2010)?",
         options: [
           "Christopher Nolan",
-          "Steven Spielberg",
+          "Darren Aronofsky",
           "James Cameron",
-          "Martin Scorsese"
+          "Denis Villeneuve"
         ],
         correctAnswer: 0
       },
       {
         id: 4,
-        imageUrl: "/images/cinema/emma_watson_as_hermione_granger_in_harry_potter.jpg",
+        imageUrl: "/images/cinema/emma_watson_as_hermione_granger.jpg",
         question: "Which actress played Hermione Granger in the Harry Potter films?",
         options: [
           "Jennifer Lawrence",
@@ -67,7 +67,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 5,
-        imageUrl: "/images/cinema/leonardo_dicaprio_as_jack_dawson_in_titanic_1997.jpg",
+        imageUrl: "/images/cinema/titanic_1997_01.jpg",
         question: "Which movie features a character named Jack Dawson?",
         options: [
           "The Departed (2006)",
@@ -79,7 +79,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 6,
-        imageUrl: "/images/cinema/heath_ledger_as_joker_in_dark_knight_2008.jpg",
+        imageUrl: "/images/cinema/dark_knight_2008_01.jpg",
         question: "Who played the Joker in 'The Dark Knight' (2008)?",
         options: [
           "Jared Leto",
@@ -91,7 +91,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 7,
-        imageUrl: "/images/cinema/quentin_tarantino_dancing.jpg",
+        imageUrl: "/images/cinema/quentin_tarantino_01.jpg",
         question: "Which of these films was NOT directed by Quentin Tarantino?",
         options: [
           "Pulp Fiction (1994)",
@@ -103,7 +103,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 8,
-        imageUrl: "/images/cinema/daniel_day_lewis_as_butcher_in_gangs_of_new_york_2002.jpg",
+        imageUrl: "/images/cinema/gangs_of_new_york_2002_01.jpg",
         question: "Which actor has won the most Academy Awards for Best Actor?",
         options: [
           "Jack Nicholson",
@@ -127,7 +127,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 10,
-        imageUrl: "/images/cinema/e_t_the_extra_terrestrial_1982.jpg",
+        imageUrl: "/images/cinema/e_t_the_extra_terrestrial_1982_01.jpg",
         question: "Who directed 'E.T. the Extra-Terrestrial' (1982)?",
         options: [
           "George Lucas",
@@ -151,7 +151,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 12,
-        imageUrl: "/images/cinema/keanu_reeves_as_neo_in_the_matrix_1999.jpg",
+        imageUrl: "/images/cinema/matrix_1999_01.jpg",
         question: "Who played Neo in 'The Matrix' (1999)?",
         options: [
           "Keanu Reeves",
@@ -163,7 +163,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 13,
-        imageUrl: "/images/cinema/desperado_1995.jpg",
+        imageUrl: "/images/cinema/desperado_1995_01.jpg",
         question: "What movie is this shot from?",
         options: [
           "Desperado (1995)",
@@ -175,7 +175,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 14,
-        imageUrl: "/images/cinema/dune_1984.jpg",
+        imageUrl: "/images/cinema/dune_1984_01.jpg",
         question: "What movie is this shot from?",
         options: [
           "Dune (1984)",
@@ -187,7 +187,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 15,
-        imageUrl: "/images/cinema/citizen_kane_1941.jpg",
+        imageUrl: "/images/cinema/citizen_kane_1941_01.jpg",
         question: "What movie is this shot from?",
         options: [
           "Citizen Kane (1941)",
@@ -199,7 +199,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 16,
-        imageUrl: "/images/cinema/citizen_kane_1941.jpg",
+        imageUrl: "/images/cinema/citizen_kane_1941_01.jpg",
         question: "Who is the director of the movie the shot from?",
         options: [
           "Orson Welles",
@@ -211,7 +211,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 17,
-        imageUrl: "/images/cinema/philadelphia_1993.jpg",
+        imageUrl: "/images/cinema/philadelphia_1993_01.jpg",
         question: "What city is the movie set in?",
         options: [
           "Philadelphia",
@@ -223,7 +223,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 18,
-        imageUrl: "/images/cinema/philadelphia_1993.jpg",
+        imageUrl: "/images/cinema/philadelphia_1993_01.jpg",
         question: "Who played Andrew Beckett in 'Philadelphia' (1993)?",
         options: [
           "Tom Hanks",
@@ -235,7 +235,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 19,
-        imageUrl: "/images/cinema/the_talented_mr_ripley_1999.jpg",
+        imageUrl: "/images/cinema/talented_mr_ripley_1999_01.jpg",
         question: "Who played Tom Ripley in 'The Talented Mr. Ripley' (1999)?",
         options: [
           "Matt Damon",
@@ -247,7 +247,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 20,
-        imageUrl: "/images/cinema/toy_story_1995_shot.jpg",
+        imageUrl: "/images/cinema/toy_story_1995_01.jpg",
         question: "Who directed the 'Toy Story' (1995)?",
         options: [
           "Woody Pride",
@@ -271,7 +271,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 22,
-        imageUrl: "/images/cinema/some_like_it_hot_1959_shot.jpg",
+        imageUrl: "/images/cinema/some_like_it_hot_1959_01.jpg",
         question: "What movie is this shot from?",
         options: [
           "Some Like It Hot (1959)",
@@ -295,7 +295,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 24,
-        imageUrl: "/images/cinema/shawn_young_as_rachel_in_blade_runner_1982.jpg",
+        imageUrl: "/images/cinema/blade_runner_1982_01.jpg",
         question: "Who played Rachel in 'Blade Runner' (1982)?",
         options: [
           "Daryl Hannah",
@@ -307,7 +307,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 25,
-        imageUrl: "/images/cinema/the_godfather_1972_shot.jpg",
+        imageUrl: "/images/cinema/godfather_1972_01.jpg",
         question: "Who directed 'The Godfather' (1972)?",
         options: [
           "Martin Scorsese",
@@ -319,7 +319,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 26,
-        imageUrl: "/images/cinema/star_wars_episode_4_a_new_hope_1977_poster.jpg",
+        imageUrl: "/images/cinema/star_wars_episode_4_a_new_hope_1977_01.jpg",
         question: "In what year was the first Star Wars film released?",
         options: [
           "1975",
@@ -331,7 +331,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 27,
-        imageUrl: "/images/cinema/roy_scheider_as_martyn_brody_in_jaws_1975.jpg",
+        imageUrl: "/images/cinema/jaws_1975_01.jpg",
         question: "Which Steven Spielberg film features a mechanical shark?",
         options: [
           "E.T. the Extra-Terrestrial (1982)",
@@ -343,7 +343,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 28,
-        imageUrl: "/images/cinema/james_cameron_on_set_avatar_2009.jpg",
+        imageUrl: "/images/cinema/james_cameron_avatar_2009.jpg",
         question: "Which James Cameron film became the highest-grossing movie of all time in 2009?",
         options: [
           "Titanic (1997)",
@@ -355,7 +355,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 29,
-        imageUrl: "/images/cinema/psycho_1960_shower_scene.jpg",
+        imageUrl: "/images/cinema/psycho_1960_01.jpg",
         question: "Which Alfred Hitchcock film features the famous shower scene?",
         options: [
           "Vertigo (1958)",
@@ -367,7 +367,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 30,
-        imageUrl: "/images/cinema/anthony_hopkins_as_hannibal_lecter_in_the_silence_of_lambs_1991.jpg",
+        imageUrl: "/images/cinema/silence_of_the_lambs_1991_01.jpg",
         question: "Who played Hannibal Lecter in 'The Silence of the Lambs' (1991)?",
         options: [
           "Anthony Hopkins",
@@ -379,7 +379,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 31,
-        imageUrl: "/images/cinema/tom_hanks_as_forrest_gump_in_forrest_gump_1994.jpg",
+        imageUrl: "/images/cinema/forrest_gump_1994_01.jpg",
         question: "What famous quote is from the movie 'Forrest Gump' (1994)?",
         options: [
           "Here's looking at you, kid",
@@ -391,7 +391,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 32,
-        imageUrl: "/images/cinema/gone_with_the_wind_1939.jpg",
+        imageUrl: "/images/cinema/gone_with_the_wind_1939_01.jpg",
         question: "Which 1939 film is considered the highest-grossing film of all time when adjusted for inflation?",
         options: [
           "The Wizard of Oz (1939)",
@@ -403,7 +403,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 33,
-        imageUrl: "/images/cinema/2001_a_space_odyssey_1968.jpg",
+        imageUrl: "/images/cinema/2001_a_space_odyssey_1968_01.jpg",
         question: "Who directed '2001: A Space Odyssey' (1968)?",
         options: [
           "Alfred Hitchcock",
@@ -427,7 +427,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 35,
-        imageUrl: "/images/cinema/the_shining_1980_01.jpg",
+        imageUrl: "/images/cinema/shining_1980_01.jpg",
         question: "Which Stephen King novel was adapted into a film by Stanley Kubrick?",
         options: [
           "Carrie (1976)",
@@ -439,7 +439,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 36,
-        imageUrl: "/images/cinema/john_travolta_as_vincent_vega_in_pulp_fiction_1994.jpg",
+        imageUrl: "/images/cinema/pulp_fiction_1994_01.jpg",
         question: "Which actor played Vincent Vega in 'Pulp Fiction' (1994)?",
         options: [
           "Samuel L. Jackson",
@@ -451,7 +451,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 37,
-        imageUrl: "/images/cinema/the_lord_of_the_rings_2001.jpg",
+        imageUrl: "/images/cinema/lord_of_the_rings_2001_01.jpg",
         question: "Who directed 'The Lord of the Rings' trilogy?",
         options: [
           "James Cameron",
@@ -463,7 +463,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 38,
-        imageUrl: "/images/cinema/back_to_the_future_1985.jpg",
+        imageUrl: "/images/cinema/back_to_the_future_1985_01.jpg",
         question: "What year does Marty McFly travel to in 'Back to the Future' (1985)?",
         options: [
           "1945",
@@ -475,13 +475,13 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 39,
-        imageUrl: "/images/cinema/fight_club_1999.jpg",
+        imageUrl: "/images/cinema/fight_club_1999_01.jpg",
         question: "Who directed 'Fight Club' (1999)?",
         options: [
           "Frank Darabont",
           "David Fincher",
-          "Christopher Nolan",
-          "Martin Scorsese"
+          "Guy Ritchie",
+          "Edgar Wright"
         ],
         correctAnswer: 1
       },
@@ -499,7 +499,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 41,
-        imageUrl: "/images/cinema/goodfellas_1990.jpg",
+        imageUrl: "/images/cinema/goodfellas_1990_01.jpg",
         question: "Who directed 'Goodfellas' (1990)?",
         options: [
           "Francis Ford Coppola",
@@ -511,11 +511,11 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 42,
-        imageUrl: "/images/cinema/the_dark_knight_2008.jpg",
+        imageUrl: "/images/cinema/dark_knight_2008_01.jpg",
         question: "Which actor played Batman in 'The Dark Knight' trilogy?",
         options: [
           "Christian Bale",
-          "Michael Keaton",
+          "Robert Pattinson",
           "Ben Affleck",
           "Val Kilmer"
         ],
@@ -523,19 +523,19 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 43,
-        imageUrl: "/images/cinema/the_truman_show_1998.jpg",
+        imageUrl: "/images/cinema/truman_show_1998_01.jpg",
         question: "Who starred as Truman Burbank in 'The Truman Show' (1998)?",
         options: [
           "Tom Hanks",
           "Jim Carrey",
           "Robin Williams",
-          "Will Smith"
+          "Nicolas Cage"
         ],
         correctAnswer: 1
       },
       {
         id: 44,
-        imageUrl: "/images/cinema/the_shawshank_redemption_1994.jpg",
+        imageUrl: "/images/cinema/shawshank_redemption_1994_01.jpg",
         question: "Which Stephen King novella was adapted into 'The Shawshank Redemption' (1994)?",
         options: [
           "The Green Mile",
@@ -547,7 +547,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 45,
-        imageUrl: "/images/cinema/judy_garland_as_dorothy_gale_in_the_wizard_of_oz_1939.jpg",
+        imageUrl: "/images/cinema/wizard_of_oz_1939_01.jpg",
         question: "What color are Dorothy's slippers in the 1939 film 'The Wizard of Oz'?",
         options: [
           "Silver",
@@ -559,7 +559,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 46,
-        imageUrl: "/images/cinema/humphrey_bogart_as_rick_blaine_in_casablanca_1942.jpg",
+        imageUrl: "/images/cinema/casablanca_1942_01.jpg",
         question: "Who played Rick Blaine in 'Casablanca' (1942)?",
         options: [
           "Clark Gable",
@@ -583,7 +583,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 48,
-        imageUrl: "/images/cinema/the_green_mile_1999.jpg",
+        imageUrl: "/images/cinema/green_mile_1999_01.jpg",
         question: "Who played John Coffey in 'The Green Mile' (1999)?",
         options: [
           "Morgan Freeman",
@@ -595,7 +595,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 49,
-        imageUrl: "/images/cinema/the_sixth_sense_1999_01.jpg",
+        imageUrl: "/images/cinema/sixth_sense_1999_01.jpg",
         question: "Who directed 'The Sixth Sense' (1999)?",
         options: [
           "James Wan",
@@ -607,7 +607,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 50,
-        imageUrl: "/images/cinema/the_terminator_1984_02.jpg",
+        imageUrl: "/images/cinema/terminator_1984_02.jpg",
         question: "Who played the Terminator in the 1984 film?",
         options: [
           "Michael Biehn",
@@ -619,7 +619,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 51,
-        imageUrl: "/images/cinema/the_princess_bride_1987_01.jpg",
+        imageUrl: "/images/cinema/princess_bride_1987_01.jpg",
         question: "Which actor played Westley in 'The Princess Bride' (1987)?",
         options: [
           "Cary Elwes",
@@ -631,7 +631,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 52,
-        imageUrl: "/images/cinema/the_breakfast_club_1985_01.jpg",
+        imageUrl: "/images/cinema/breakfast_club_1985_01.jpg",
         question: "Who directed 'The Breakfast Club' (1985)?",
         options: [
           "Martin Sheen",
@@ -655,7 +655,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 54,
-        imageUrl: "/images/cinema/the_exorcist_1973_01.jpg",
+        imageUrl: "/images/cinema/exorcist_1973_01.jpg",
         question: "In what year was 'The Exorcist' released?",
         options: [
           "1970",
@@ -667,7 +667,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 55,
-        imageUrl: "/images/cinema/the_sound_of_music_1965.jpg",
+        imageUrl: "/images/cinema/sound_of_music_1965_01.jpg",
         question: "Who played Maria von Trapp in 'The Sound of Music' (1965)?",
         options: [
           "Audrey Hepburn",
@@ -691,19 +691,19 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 57,
-        imageUrl: "/images/cinema/the_lion_king_1994.jpg",
+        imageUrl: "/images/cinema/lion_king_1994_01.jpg",
         question: "Who directed the original animated 'The Lion King' (1994)?",
         options: [
           "John Musker and Ron Clements",
           "Roger Allers and Rob Minkoff",
-          "Don Bluth",
-          "Brad Bird"
+          "William Hanna and Joseph Barbera",
+          "Walt Disney and Buena Vista"
         ],
         correctAnswer: 1
       },
       {
         id: 58,
-        imageUrl: "/images/cinema/scarface_1983.jpg",
+        imageUrl: "/images/cinema/scarface_1983_01.jpg",
         question: "Who played Tony Montana in 'Scarface' (1983)?",
         options: [
           "Robert De Niro",
@@ -715,7 +715,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 59,
-        imageUrl: "/images/cinema/mel_gibson_as_william_wallace_in_braveheart_1995.jpg",
+        imageUrl: "/images/cinema/braveheart_1995_01.jpg",
         question: "Who directed and starred in 'Braveheart' (1995)?",
         options: [
           "Mel Gibson",
@@ -727,7 +727,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 60,
-        imageUrl: "/images/cinema/jeff_bridges_as_the_dude_in_the_big_lebowski_1998_01.jpg",
+        imageUrl: "/images/cinema/big_lebowski_1998_01.jpg",
         question: "Who directed 'The Big Lebowski' (1998)?",
         options: [
           "Lloyd Bridges",
@@ -739,7 +739,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 61,
-        imageUrl: "/images/cinema/the_departed_2006.jpg",
+        imageUrl: "/images/cinema/departed_2006_01.jpg",
         question: "Which Martin Scorsese film won him his first Academy Award for Best Director?",
         options: [
           "Goodfellas (1990)",
@@ -751,7 +751,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 62,
-        imageUrl: "/images/cinema/the_social_network_2010.jpg",
+        imageUrl: "/images/cinema/social_network_2010_01.jpg",
         question: "Who directed 'The Social Network' (2010)?",
         options: [
           "Ari Aster",
@@ -763,7 +763,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 63,
-        imageUrl: "/images/cinema/tom_hanks_as_captain_john_miller_in_saving_private_ryan_1998.jpg",
+        imageUrl: "/images/cinema/saving_private_ryan_1998_01.jpg",
         question: "Which actor played Captain John Miller in 'Saving Private Ryan' (1998)?",
         options: [
           "Matt Damon",
@@ -775,7 +775,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 64,
-        imageUrl: "/images/cinema/the_notebook_2004_02.jpg",
+        imageUrl: "/images/cinema/notebook_2004_01.jpg",
         question: "Who played Noah Calhoun in 'The Notebook' (2004)?",
         options: [
           "Ryan Wilson",
@@ -787,7 +787,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 65,
-        imageUrl: "/images/cinema/jennifer_lawrence_as_kitniss_everdeen_in_the_hunger_games_2012_02.jpg",
+        imageUrl: "/images/cinema/hunger_games_2012_01.jpg",
         question: "Who played Katniss Everdeen in 'The Hunger Games' film series?",
         options: [
           "Jennifer Jason Leigh",
@@ -799,12 +799,12 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 66,
-        imageUrl: "/images/cinema/the_revenant_2015.jpg",
+        imageUrl: "/images/cinema/leonardo_dicaprio_oscars_2016.jpg",
         question: "For which film did Leonardo DiCaprio win his first Academy Award for Best Actor?",
         options: [
           "The Wolf of Wall Street (2013)",
           "The Revenant (2015)",
-          "The Departed (2006)",
+          "What's Eating Gilbert Grape (1993)",
           "Once Upon a Time in Hollywood (2019)"
         ],
         correctAnswer: 1
@@ -823,7 +823,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 68,
-        imageUrl: "/images/cinema/the_grand_budapest_hotel_2014.jpg",
+        imageUrl: "/images/cinema/grand_budapest_hotel_2014_01.jpg",
         question: "Who directed 'The Grand Budapest Hotel' (2014)?",
         options: [
           "Paul William Scott Anderson",
@@ -835,7 +835,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 69,
-        imageUrl: "/images/cinema/the_godfather_part_ii_1974.jpg",
+        imageUrl: "/images/cinema/godfather_part_ii_1974_01.jpg",
         question: "Who played the young Vito Corleone in 'The Godfather Part II' (1974)?",
         options: [
           "Al Pacino",
@@ -847,7 +847,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 70,
-        imageUrl: "/images/cinema/the_matrix_reloaded_2003_01.jpg",
+        imageUrl: "/images/cinema/matrix_reloaded_2003_01.jpg",
         question: "In which year was 'The Matrix Reloaded' released?",
         options: [
           "2001",
@@ -871,7 +871,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 72,
-        imageUrl: "/images/cinema/the_dark_knight_rises_2012.jpg",
+        imageUrl: "/images/cinema/dark_knight_rises_2012_01.jpg",
         question: "Who played Bane in 'The Dark Knight Rises' (2012)?",
         options: [
           "Tom Hardy",
@@ -883,7 +883,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 73,
-        imageUrl: "/images/cinema/the_avengers_2012.jpg",
+        imageUrl: "/images/cinema/joss_whedon_01.jpg",
         question: "Who directed 'The Avengers' (2012)?",
         options: [
           "Taika Waititi",
@@ -895,7 +895,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 74,
-        imageUrl: "/images/cinema/jodie_foster_as_clarice_starling_in_the_silence_of_lambs_1991.jpg",
+        imageUrl: "/images/cinema/silence_of_the_lambs_1991_02.jpg",
         question: "Who played Clarice Starling in 'The Silence of the Lambs' (1991)?",
         options: [
           "Meryl Streep",
@@ -907,7 +907,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 75,
-        imageUrl: "/images/cinema/the_pianist_2002.jpg",
+        imageUrl: "/images/cinema/pianist_2002_01.jpg",
         question: "Who directed 'The Pianist' (2002)?",
         options: [
           "Brady Corbet",
@@ -919,7 +919,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 76,
-        imageUrl: "/images/cinema/the_shining_1980_02.jpg",
+        imageUrl: "/images/cinema/shining_1980_02.jpg",
         question: "Who played Jack Torrance in 'The Shining' (1980)?",
         options: [
           "Robert De Niro",
@@ -931,7 +931,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 77,
-        imageUrl: "/images/cinema/the_princess_diaries_2001.jpg",
+        imageUrl: "/images/cinema/princess_diaries_2001_01.jpg",
         question: "Who played Mia Thermopolis in 'The Princess Diaries' (2001)?",
         options: [
           "Anne Hathaway",
@@ -943,7 +943,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 78,
-        imageUrl: "/images/cinema/the_martian_2015.jpg",
+        imageUrl: "/images/cinema/martian_2015_01.jpg",
         question: "Who played Mark Watney in 'The Martian' (2015)?",
         options: [
           "Brad Pitt",
@@ -955,7 +955,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 79,
-        imageUrl: "/images/cinema/the_devil_wears_prada_2006_01.jpg",
+        imageUrl: "/images/cinema/devil_wears_prada_2006_01.jpg",
         question: "Who played Miranda Priestly in 'The Devil Wears Prada' (2006)?",
         options: [
           "Glenn Close",
@@ -967,7 +967,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 80,
-        imageUrl: "/images/cinema/the_kings_speech_2010.jpg",
+        imageUrl: "/images/cinema/kings_speech_2010_01.jpg",
         question: "Who played King George VI in 'The King's Speech' (2010)?",
         options: [
           "Benedict Cumberbatch",
@@ -979,7 +979,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 81,
-        imageUrl: "/images/cinema/the_bourne_identity_2002.jpg",
+        imageUrl: "/images/cinema/bourne_identity_2002_01.jpg",
         question: "Who played Jason Bourne in 'The Bourne Identity' (2002)?",
         options: [
           "Brad Pitt",
@@ -991,7 +991,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 82,
-        imageUrl: "/images/cinema/the_prestige_2006.jpg",
+        imageUrl: "/images/cinema/prestige_2006_01.jpg",
         question: "Who directed 'The Prestige' (2006)?",
         options: [
           "David Fincher",
@@ -1003,7 +1003,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 83,
-        imageUrl: "/images/cinema/the_incredibles_2004.jpg",
+        imageUrl: "/images/cinema/incredibles_2004_01.jpg",
         question: "Who directed 'The Incredibles' (2004)?",
         options: [
           "John Lasseter",
@@ -1015,19 +1015,19 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 84,
-        imageUrl: "/images/cinema/the_wolf_of_wall_street_2013.jpg",
+        imageUrl: "/images/cinema/wolf_of_wall_street_2013_01.jpg",
         question: "Who played Jordan Belfort in 'The Wolf of Wall Street' (2013)?",
         options: [
-          "Brad Pitt",
+          "Bradley Cooper",
           "Leonardo DiCaprio",
-          "Matt Damon",
+          "Johan Hill",
           "Christian Bale"
         ],
         correctAnswer: 1
       },
       {
         id: 85,
-        imageUrl: "/images/cinema/the_matrix_1999_morpheus.jpg",
+        imageUrl: "/images/cinema/matrix_1999_02.jpg",
         question: "Who played Morpheus in 'The Matrix' (1999)?",
         options: [
           "Samuel L. Jackson",
@@ -1039,7 +1039,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 86,
-        imageUrl: "/images/cinema/the_dark_knight_2008_joker.jpg",
+        imageUrl: "/images/cinema/dark_knight_2008_02.jpg",
         question: "Which Batman film features the line 'Why so serious?'",
         options: [
           "Batman Begins",
@@ -1051,7 +1051,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 87,
-        imageUrl: "/images/cinema/the_godfather_1972_marlon.jpg",
+        imageUrl: "/images/cinema/godfather_1972_02.jpg",
         question: "Who played Vito Corleone in 'The Godfather' (1972)?",
         options: [
           "Al Pacino",
@@ -1063,7 +1063,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 88,
-        imageUrl: "/images/cinema/the_truman_show_1998_scene.jpg",
+        imageUrl: "/images/cinema/truman_show_1998_02.jpg",
         question: "What is the name of the fictional town in 'The Truman Show' (1998)?",
         options: [
           "Seahaven",
@@ -1075,10 +1075,10 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 89,
-        imageUrl: "/images/cinema/the_shawshank_redemption_1994_scene.jpg",
+        imageUrl: "/images/cinema/shawshank_redemption_1994_02.jpg",
         question: "Who directed 'The Shawshank Redemption' (1994)?",
         options: [
-          "Steven Spielberg",
+          "Clint Eastwood",
           "Frank Darabont",
           "Rob Reiner",
           "Brian De Palma"
@@ -1087,7 +1087,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 90,
-        imageUrl: "/images/cinema/the_princess_bride_1987_scene.jpg",
+        imageUrl: "/images/cinema/princess_bride_1987_02.jpg",
         question: "What is the name of the six-fingered man in 'The Princess Bride' (1987)?",
         options: [
           "Count Rugen",
@@ -1099,7 +1099,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 91,
-        imageUrl: "/images/cinema/the_breakfast_club_1985_scene.jpg",
+        imageUrl: "/images/cinema/breakfast_club_1985_02.jpg",
         question: "How many students are in detention in 'The Breakfast Club' (1985)?",
         options: [
           "3",
@@ -1111,7 +1111,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 92,
-        imageUrl: "/images/cinema/the_lion_king_1994_scene.jpg",
+        imageUrl: "/images/cinema/lion_king_1994_02.jpg",
         question: "Who voiced adult Simba in the original 'The Lion King' (1994)?",
         options: [
           "James Earl Jones",
@@ -1123,19 +1123,19 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 93,
-        imageUrl: "/images/cinema/the_matrix_1999_scene.jpg",
+        imageUrl: "/images/cinema/matrix_1999_03.jpg",
         question: "What color pill does Neo take in 'The Matrix' (1999)?",
         options: [
           "Blue",
           "Red",
           "Green",
-          "Yellow"
+          "Both"
         ],
         correctAnswer: 1
       },
       {
         id: 94,
-        imageUrl: "/images/cinema/the_silence_of_the_lambs_1991_scene.jpg",
+        imageUrl: "/images/cinema/silence_of_the_lambs_1991_03.jpg",
         question: "What is the name of the serial killer Clarice Starling is hunting in 'The Silence of the Lambs' (1991)?",
         options: [
           "Hannibal Lecter",
@@ -1147,7 +1147,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 95,
-        imageUrl: "/images/cinema/the_godfather_1972_scene.jpg",
+        imageUrl: "/images/cinema/godfather_1972_03.jpg",
         question: "What object is used as a threat in the famous 'offer he can't refuse' scene in 'The Godfather'?",
         options: [
           "A gun",
@@ -1159,7 +1159,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 96,
-        imageUrl: "/images/cinema/the_wizard_of_oz_1939_scene.jpg",
+        imageUrl: "/images/cinema/wizard_of_oz_1939_02.jpg",
         question: "What does the Scarecrow want from the Wizard in 'The Wizard of Oz' (1939)?",
         options: [
           "Courage",
@@ -1171,7 +1171,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 97,
-        imageUrl: "/images/cinema/the_sound_of_music_1965.jpg",
+        imageUrl: "/images/cinema/sound_of_music_1965_02.jpg",
         question: "In 'The Sound of Music' (1965), what country does the von Trapp family escape from?",
         options: [
           "Germany",
@@ -1183,7 +1183,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 98,
-        imageUrl: "/images/cinema/the_sixth_sense_1999_scene.jpg",
+        imageUrl: "/images/cinema/sixth_sense_1999_02.jpg",
         question: "What is the famous twist in 'The Sixth Sense' (1999)?",
         options: [
           "The boy is imaginary",
@@ -1195,7 +1195,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 99,
-        imageUrl: "/images/cinema/the_departed_2006_scene.jpg",
+        imageUrl: "/images/cinema/departed_2006_02.jpg",
         question: "In which city is 'The Departed' (2006) set?",
         options: [
           "New York",
@@ -1207,7 +1207,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 100,
-        imageUrl: "/images/cinema/the_lord_of_the_rings_2001_scene.jpg",
+        imageUrl: "/images/cinema/lord_of_the_rings_2001_02.jpg",
         question: "Who played Gandalf in 'The Lord of the Rings' trilogy?",
         options: [
           "Patrick Stewart",
@@ -1219,7 +1219,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 101,
-        imageUrl: "/images/cinema/the_green_mile_1999_scene.jpg",
+        imageUrl: "/images/cinema/green_mile_1999_02.jpg",
         question: "What is John Coffey's special ability in 'The Green Mile' (1999)?",
         options: [
           "Super strength",
@@ -1231,7 +1231,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 102,
-        imageUrl: "/images/cinema/the_shining_1980_03.jpg",
+        imageUrl: "/images/cinema/shining_1980_03.jpg",
         question: "What is the name of the hotel in 'The Shining' (1980)?",
         options: [
           "The Stanley Hotel",
@@ -1243,7 +1243,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 103,
-        imageUrl: "/images/cinema/the_terminator_1984_01.jpg",
+        imageUrl: "/images/cinema/terminator_1984_02.jpg",
         question: "What famous line does the Terminator say in the 1984 film?",
         options: [
           "Hasta la vista, baby",
@@ -1255,7 +1255,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 104,
-        imageUrl: "/images/cinema/jeff_bridges_as_the_dude_in_the_big_lebowski_1998_02.jpg",
+        imageUrl: "/images/cinema/big_lebowski_1998_02.jpg",
         question: "What is the main character's nickname in 'The Big Lebowski' (1998)?",
         options: [
           "The Dude",
@@ -1267,7 +1267,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 105,
-        imageUrl: "/images/cinema/the_notebook_2004_01.jpg",
+        imageUrl: "/images/cinema/notebook_2004_02.jpg",
         question: "In 'The Notebook' (2004), what does Noah build for Allie?",
         options: [
           "A boat",
@@ -1279,7 +1279,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 106,
-        imageUrl: "/images/cinema/the_avengers_2012_shot.jpg",
+        imageUrl: "/images/cinema/avengers_2012_01.jpg",
         question: "Which city is attacked by Loki and the Chitauri in 'The Avengers' (2012)?",
         options: [
           "Los Angeles",
@@ -1291,7 +1291,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 107,
-        imageUrl: "/images/cinema/the_social_network_2010.jpg",
+        imageUrl: "/images/cinema/social_network_2010_02.jpg",
         question: "Which university is featured in 'The Social Network' (2010)?",
         options: [
           "Stanford",
@@ -1303,7 +1303,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 108,
-        imageUrl: "/images/cinema/jennifer_lawrence_as_kitniss_everdeen_in_the_hunger_games_2012_01.jpg",
+        imageUrl: "/images/cinema/hunger_games_2012_02.jpg",
         question: "What is the name of Katniss Everdeen's sister in 'The Hunger Games' (2012)?",
         options: [
           "Rue",
@@ -1315,7 +1315,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 109,
-        imageUrl: "/images/cinema/leonardo_dicaprio_as_hugh_glass_in_the_revenant_2015.jpg",
+        imageUrl: "/images/cinema/revenant_2015_01.jpg",
         question: "What animal attacks Hugh Glass in 'The Revenant' (2015)?",
         options: [
           "Wolf",
@@ -1327,7 +1327,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 110,
-        imageUrl: "/images/cinema/ralph_fiennes_as_gustave_h_in_the_grand_budapesht_hotel_2014_shot.jpg",
+        imageUrl: "/images/cinema/grand_budapest_hotel_2014_02.jpg",
         question: "What is the profession of the main character Gustave H. in 'The Grand Budapest Hotel' (2014)?",
         options: [
           "Chef",
@@ -1339,7 +1339,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 111,
-        imageUrl: "/images/cinema/the_martian_2015_shot.jpg",
+        imageUrl: "/images/cinema/martian_2015_01.jpg",
         question: "What crop does Mark Watney grow on Mars in 'The Martian' (2015)?",
         options: [
           "Sweetpotatoes",
@@ -1351,7 +1351,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 112,
-        imageUrl: "/images/cinema/kristen_wiig_as_annie_walker_in_the_bridesmaids_2011.jpg",
+        imageUrl: "/images/cinema/bridesmaids_2011_01.jpg",
         question: "What is the name of the movie featuring Kristen Wiig as Annie Walker?",
         options: [
           "Date Night (2010)",
@@ -1375,7 +1375,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 114,
-        imageUrl: "/images/cinema/glenn_close_as_cruella_de_vil_in_101_dalmatians_1996_premiere.jpg",
+        imageUrl: "/images/cinema/101_dalmatians_1996_01.jpg",
         question: "What is the name of the character played by Glenn Close in '101 Dalmatians' (1996)?",
         options: [
           "Cruella de Vil",
@@ -1387,7 +1387,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 115,
-        imageUrl: "/images/cinema/the_lord_of_the_rings.jpg",
+        imageUrl: "/images/cinema/lord_of_the_rings_2001_03.jpg",
         question: "What is the nickname of Ian McKellen's character in 'The Lord of the Rings' (2001-2003)?",
         options: [
           "White",
@@ -1399,19 +1399,19 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 116,
-        imageUrl: "/images/cinema/glenn_close_as_cruella_de_vil_in_101_dalmatians_1996_premiere.jpg",
-        question: "What is the name of the character played by Glenn Close in '101 Dalmatians' (1996)?",
+        imageUrl: "/images/cinema/superman_1978_01.jpg",
+        question: "Minimalistic poster of which movie you see?",
         options: [
-          "Cruella de Vil",
-          "Anita Radcliffe",
-          "Dana Barrett",
-          "Morticia Addams"
+          "Superman (1978)",
+          "The Rocketeer (1991)",
+          "Interstellar (2014)",
+          "Rocketman (2019)"
         ],
         correctAnswer: 0
       },
       {
         id: 117,
-        imageUrl: "/images/cinema/the_phoenician_scheme_2025_01.jpg",
+        imageUrl: "/images/cinema/phoenician_scheme_2025_01.jpg",
         question: "What movie is this shot from?",
         options: [
           "The Phoenician Scheme (2025)",
@@ -1423,7 +1423,7 @@ export const quizData: QuizTheme[] = [
       },
       {
         id: 118,
-        imageUrl: "/images/cinema/the_big_lebowski_1998_01.jpg",
+        imageUrl: "/images/cinema/big_lebowski_1998_03.jpg",
         question: "What is the surname of the character played by John Goodman in The Coen Brothers movie 1998?",
         options: [
           "Sobchak",
@@ -1432,6 +1432,366 @@ export const quizData: QuizTheme[] = [
           "Kerabatsos"
         ],
         correctAnswer: 0
+      },
+      {
+        id: 119,
+        imageUrl: "/images/cinema/mystic_river_2003_01.jpg",
+        question: "What movie is this shot from?",
+        options: [
+          "Mystic River (2003)",
+          "The Shawshank Redemption (1994)",
+          "Arlington Road (1999)",
+          "The Secret Life of Words (2005)"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 120,
+        imageUrl: "/images/cinema/flight_of_the_navigator_1986_01.jpg",
+        question: "What movie is this shot from?",
+        options: [
+          "Flight of the Navigator (1986)",
+          "Honeymoon in Vegas (1992)",
+          "Mars Attacks! (1996)",
+          "Footloose (1984)"
+        ],
+        correctAnswer: 0
+      },
+      {
+        id: 121,
+        imageUrl: "/images/cinema/indiana_jones_raiders_of_the_lost_ark_1981_01.jpg",
+        question: "What part of Indiana Jones adventures is this shot from?",
+        options: [
+          "Indiana Jones and the Temple of Doom (1984)",
+          "Raiders of the Lost Ark (1981)",
+          "Indiana Jones and The Last Crusade (1989)",
+          "Indiana Jones and the Dial of Destiny (2023)"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 122,
+        imageUrl: "/images/cinema/blade_runner_1982_02.jpg",
+        question: "Who directed 'Blade Runner' (1982)?",
+        options: [
+          "Paul Verhoeven",
+          "Ridley Scott",
+          "David Lunch",
+          "George Lucas"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 123,
+        imageUrl: "/images/cinema/amelie_2001_01.jpg",
+        question: "Who played the title character in 'Amélie' (2001)?",
+        options: [
+          "Marion Cotillard",
+          "Audrey Tautou",
+          "Juliette Binoche",
+          "Léa Seydoux"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 124,
+        imageUrl: "/images/cinema/seven_samurai_1954_01.jpg",
+        question: "Who directed 'Seven Samurai' (1954)?",
+        options: [
+          "Yasujirō Ozu",
+          "Akira Kurosawa",
+          "Kenji Mizoguchi",
+          "Masaki Kobayashi"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 125,
+        imageUrl: "/images/cinema/spirited_away_2001_01.jpg",
+        question: "Who directed 'Spirited Away' (2001)?",
+        options: [
+          "Isao Takahata",
+          "Hayao Miyazaki",
+          "Satoshi Kon",
+          "Mamoru Hosoda"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 126,
+        imageUrl: "/images/cinema/clockwork_orange_1971_01.jpg",
+        question: "Who directed 'A Clockwork Orange' (1971)?",
+        options: [
+          "Alfred Hitchcook",
+          "Stanley Kubrick",
+          "Francis Ford Coppola",
+          "Roman Polanski"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 127,
+        imageUrl: "/images/cinema/eternal_sunshine_of_the_spotless_mind_2004_01.jpg",
+        question: "Who directed 'Eternal Sunshine of the Spotless Mind' (2004)?",
+        options: [
+          "Spike Jonze",
+          "Michel Gondry",
+          "Charlie Kaufman",
+          "Wes Anderson"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 128,
+        imageUrl: "/images/cinema/pans_labyrinth_2006_01.jpg",
+        question: "Who directed 'Pan's Labyrinth' (2006)?",
+        options: [
+          "Alfonso Cuarón",
+          "Guillermo del Toro",
+          "Alejandro González Iñárritu",
+          "Pedro Almodóvar"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 129,
+        imageUrl: "/images/cinema/oldboy_2003_01.jpg",
+        question: "Who directed the original 'Oldboy' (2003)?",
+        options: [
+          "Bong Joon Ho",
+          "Park Chan-wook",
+          "Kim Jee-woon",
+          "Lee Chang-dong"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 130,
+        imageUrl: "/images/cinema/city_of_god_2002_01.jpg",
+        question: "In what city is 'City of God' (2002) set?",
+        options: [
+          "São Paulo",
+          "Rio de Janeiro",
+          "Buenos Aires",
+          "Mexico City"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 131,
+        imageUrl: "/images/cinema/memento_2000_01.jpg",
+        question: "What is unique about the narrative structure of 'Memento' (2000)?",
+        options: [
+          "It's told entirely through flashbacks",
+          "It's told in reverse chronological order",
+          "It's told from multiple perspectives",
+          "It's told in real-time"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 132,
+        imageUrl: "/images/cinema/whiplash_2014_01.jpg",
+        question: "Who played the intimidating music teacher in 'Whiplash' (2014)?",
+        options: [
+          "Bryan Cranston",
+          "J.K. Simmons",
+          "Gary Oldman",
+          "Willem Dafoe"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 133,
+        imageUrl: "/images/cinema/bong_joon_ho_oscars.jpg",
+        question: "Who directed 'Parasite' (2019)?",
+        options: [
+          "Park Chan-wook",
+          "Bong Joon Ho",
+          "Lee Chang-dong",
+          "Kim Jee-woon"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 134,
+        imageUrl: "/images/cinema/la_la_land_2016_01.jpg",
+        question: "Who directed 'La La Land' (2016)?",
+        options: [
+          "David O. Russell",
+          "Damien Chazelle",
+          "Denis Villeneuve",
+          "Barry Jenkins"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 135,
+        imageUrl: "/images/cinema/moonlight_2016_01.jpg",
+        question: "Which film won Best Picture at the 2017 Academy Awards after an envelope mix-up?",
+        options: [
+          "La La Land (2016)",
+          "Moonlight (2016)",
+          "Manchester by the Sea (2016)",
+          "Arrival (2016)"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 136,
+        imageUrl: "/images/cinema/get_out_2017_01.jpg",
+        question: "Who directed 'Get Out' (2017)?",
+        options: [
+          "Spike Lee",
+          "Jordan Peele",
+          "Ava DuVernay",
+          "Ryan Coogler"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 137,
+        imageUrl: "/images/cinema/shape_of_water_2017_01.jpg",
+        question: "Who directed 'The Shape of Water' (2017)?",
+        options: [
+          "Alfonso Cuarón",
+          "Guillermo del Toro",
+          "Alejandro González Iñárritu",
+          "Pedro Almodóvar"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 138,
+        imageUrl: "/images/cinema/three_billboards_outside_ebbing_missouri_2017_01.jpg",
+        question: "Who played Mildred Hayes in 'Three Billboards Outside Ebbing, Missouri' (2017)?",
+        options: [
+          "Meryl Streep",
+          "Frances McDormand",
+          "Viola Davis",
+          "Cate Blanchett"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 139,
+        imageUrl: "/images/cinema/black_panther_2018_01.jpg",
+        question: "Who played T'Challa in 'Black Panther' (2018)?",
+        options: [
+          "Michael B. Jordan",
+          "Chadwick Boseman",
+          "Daniel Kaluuya",
+          "John Boyega"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 140,
+        imageUrl: "/images/cinema/roma_2018_01.jpg",
+        question: "Who directed 'Roma' (2018)?",
+        options: [
+          "Guillermo del Toro",
+          "Alfonso Cuarón",
+          "Alejandro González Iñárritu",
+          "Pedro Almodóvar"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 141,
+        imageUrl: "/images/cinema/joker_2019_01.jpg",
+        question: "Who played the Joker in the 2019 film 'Joker'?",
+        options: [
+          "Heath Ledger",
+          "Joaquin Phoenix",
+          "Jared Leto",
+          "Jack Nicholson"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 142,
+        imageUrl: "/images/cinema/1917_2019_01.jpg",
+        question: "What is unique about the cinematography of '1917' (2019)?",
+        options: [
+          "It was shot entirely at night",
+          "It appears to be filmed in one continuous shot",
+          "It was filmed entirely with handheld cameras",
+          "It was filmed entirely in black and white"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 143,
+        imageUrl: "/images/cinema/once_upon_a_time_in_hollywood_2019_01.jpg",
+        question: "Who directed 'Once Upon a Time in Hollywood' (2019)?",
+        options: [
+          "Barry Sonnenfeld",
+          "Quentin Tarantino",
+          "Robert Rodriguez",
+          "David Fincher"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 144,
+        imageUrl: "/images/cinema/marriage_story_2019_01.jpg",
+        question: "Who starred alongside Scarlett Johansson in 'Marriage Story' (2019)?",
+        options: [
+          "Ryan Gosling",
+          "Adam Driver",
+          "Bradley Cooper",
+          "Joaquin Phoenix"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 145,
+        imageUrl: "/images/cinema/nomadland_2020_01.jpg",
+        question: "Who directed 'Nomadland' (2020)?",
+        options: [
+          "Greta Gerwig",
+          "Chloé Zhao",
+          "Sofia Coppola",
+          "Kathryn Bigelow"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 146,
+        imageUrl: "/images/cinema/soul_2020_01.jpg",
+        question: "Who directed Pixar's 'Soul' (2020)?",
+        options: [
+          "Andrew Stanton",
+          "Pete Docter",
+          "Brad Bird",
+          "Lee Unkrich"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 147,
+        imageUrl: "/images/cinema/dune_2021_01.jpg",
+        question: "Who directed 'Dune' (2021)?",
+        options: [
+          "Christopher Nolan",
+          "Denis Villeneuve",
+          "Ridley Scott",
+          "James Cameron"
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 148,
+        imageUrl: "/images/cinema/power_of_the_dog_2021_01.jpg",
+        question: "Who directed 'The Power of the Dog' (2021)?",
+        options: [
+          "Sofia Coppola",
+          "Jane Campion",
+          "Greta Gerwig",
+          "Kathryn Bigelow"
+        ],
+        correctAnswer: 1
       },
       // Add more questions as needed
     ]
