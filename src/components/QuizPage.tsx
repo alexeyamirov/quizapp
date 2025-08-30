@@ -1,7 +1,9 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useContext } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { quizData, QuizQuestion } from '../data/quizData';
+import { QuizQuestion } from '../data/quizData';
+import { getLocalizedQuizData } from '../data/multilingualQuizData';
+import { LanguageContext } from '../contexts/LanguageContext';
 
 interface ShuffledOption {
   text: string;
@@ -10,6 +12,7 @@ interface ShuffledOption {
 
 const QuizPage: React.FC = () => {
   const { t } = useTranslation();
+  const { language } = useContext(LanguageContext);
   const { themeId } = useParams<{ themeId: string }>();
   const navigate = useNavigate();
 
@@ -40,7 +43,9 @@ const QuizPage: React.FC = () => {
 
   // Initialize quiz with random questions
   useEffect(() => {
-    const theme = quizData.find(theme => theme.id === themeId);
+    // Get localized quiz data based on current language
+    const localizedQuizData = getLocalizedQuizData(language);
+    const theme = localizedQuizData.find(theme => theme.id === themeId);
     
     if (!theme) {
       // If theme not found, redirect to welcome page
@@ -64,7 +69,7 @@ const QuizPage: React.FC = () => {
     if (shuffledQuestions.length > 0) {
       setShuffledOptions(shuffleOptions(shuffledQuestions[0]));
     }
-  }, [themeId, navigate, shuffleOptions]);
+  }, [themeId, navigate, shuffleOptions, language]);
 
   // Handle next question - using useCallback to memoize the function
   const handleNextQuestion = useCallback(() => {
@@ -186,19 +191,19 @@ const QuizPage: React.FC = () => {
         
         {/* Feedback message */}
         {answered && (
-          <div className={`mt-4 p-2 text-center rounded ${
+          <div className={`mt-4 p-3 text-center rounded ${
             isCorrect ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'
           }`}>
             {isCorrect 
-              ? 'Correct!' 
-              : 'Incorrect!'}
+              ? t('quiz.correct', 'Correct!') 
+              : t('quiz.incorrect', 'Incorrect!')}
           </div>
         )}
         
         {/* Loading indicator for next question */}
         {answered && (
           <div className="mt-4 text-center text-sm text-gray-500">
-            Next question in 2 seconds...
+            {t('quiz.nextQuestionIn', 'Next question in 2 seconds...')}
           </div>
         )}
       </div>

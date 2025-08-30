@@ -1,13 +1,18 @@
-  {
+{
   "welcome": {
-    "title": "Добро пожаловать в Квиз",
-    "chooseTheme": "Выбери тему",
-    "playButton": "Играть"
+    "title": "Добро пожаловать в Квиз!",
+    "chooseTopic": "Выберите тему",
+    "chooseLanguage": "Выберите язык",
+    "playButton": "Играть",
+    "languageSelector": "Выберите язык"
   },
   "quiz": {
     "question": "Вопрос",
     "of": "из",
-    "next": "Далее"
+    "next": "Далее",
+    "correct": "Правильно!",
+    "incorrect": "Неправильно!",
+    "nextQuestionIn": "Следующий вопрос через 2 секунды..."
   },
   "results": {
     "title": "Результаты",

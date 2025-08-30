@@ -4,7 +4,7 @@ import { initReactI18next } from 'react-i18next';
 // Import translations
 import englishTranslation from './locales/en_US.json';
 import belarusianTranslation from './locales/be_BY.json';
-import russianTranslation from './locales/be_BY.json';
+import russianTranslation from './locales/ru_RU.json';
 
 // Configure i18next
 i18n
