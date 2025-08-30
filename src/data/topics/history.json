@@ -1,0 +1,96 @@
+{
+  "id": "history",
+  "name": { "en": "History", "ru": "История", "be": "Гісторыя" },
+  "questions": [
+    {
+      "id": 1,
+      "imageUrl": "/images/history/napoleon_01.jpg",
+      "question": {
+        "en": "In which year did Napoleon Bonaparte become Emperor of France?",
+        "ru": "В каком году Наполеон Бонапарт стал императором Франции?",
+        "be": "У якім годзе Напалеон Банапарт стаў імператарам Францыі?"
+      },
+      "options": {
+        "en": ["1799", "1804", "1812", "1821"],
+        "ru": ["1799", "1804", "1812", "1821"],
+        "be": ["1799", "1804", "1812", "1821"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "imageUrl": "/images/history/world_war_2_01.jpg",
+      "question": {
+        "en": "When did World War II end?",
+        "ru": "Когда закончилась Вторая мировая война?",
+        "be": "Калі скончылася Другая сусветная вайна?"
+      },
+      "options": {
+        "en": ["1943", "1945", "1946", "1947", "1950"],
+        "ru": ["1943", "1945", "1946", "1947", "1950"],
+        "be": ["1943", "1945", "1946", "1947", "1950"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "imageUrl": "/images/history/great_wall_of_china_01.jpg",
+      "question": {
+        "en": "Which dynasty began the construction of the Great Wall of China?",
+        "ru": "При какой династии началось строительство Великой Китайской стены?",
+        "be": "Пры якой дынастыі пачалося будаўніцтва Вялікай Кітайскай сцяны?"
+      },
+      "options": {
+        "en": ["Han", "Qin", "Tang", "Ming", "Xia", "Shang", "Zhou", "Jin", "Liang", "Sui"],
+        "ru": ["Хань", "Цинь", "Тан", "Мин", "Ся", "Шан", "Чжоу", "Цзинь", "Лян", "Суй"],
+        "be": ["Хань", "Цынь", "Тан", "Мін", "Ся", "Шан", "Чжоу", "Цзінь", "Лян", "Суй"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "imageUrl": "/images/history/moon_landing_01.jpg",
+      "question": {
+        "en": "In which year did humans first land on the Moon?",
+        "ru": "В каком году люди впервые высадились на Луну?",
+        "be": "У якім годзе людзі ўпершыню высадзіліся на Месяц?"
+      },
+      "options": {
+        "en": ["1967", "1969", "1971", "1973", "1900", "1901", "1902", "1903"],
+        "ru": ["1967", "1969", "1971", "1973", "1900", "1901", "1902", "1903"],
+        "be": ["1967", "1969", "1971", "1973", "1900", "1901", "1902", "1903"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "imageUrl": "/images/history/octavian_augustus_01.jpg",
+      "question": {
+        "en": "Who was the first Emperor of Rome?",
+        "ru": "Кто был первым императором Рима?",
+        "be": "Хто быў першым імператарам Рыма?"
+      },
+      "options": {
+        "en": ["Julius Caesar", "Augustus", "Nero", "Constantine"],
+        "ru": ["Юлий Цезарь", "Август", "Нерон", "Константин"],
+        "be": ["Юлій Цэзар", "Аўгуст", "Нерон", "Канстанцін"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "imageUrl": "/images/history/french_revolution_01.jpg",
+      "question": {
+        "en": "When did the French Revolution begin?",
+        "ru": "Когда началась Французская революция?",
+        "be": "Калі пачалася Французская рэвалюцыя?"
+      },
+      "options": {
+        "en": ["1776", "1789", "1798", "1804"],
+        "ru": ["1776", "1789", "1798", "1804"],
+        "be": ["1776", "1789", "1798", "1804"]
+      },
+      "correctAnswer": 1
+    }
+  ]
+}

@@ -1,0 +1,2410 @@
+{
+  "id": "cinema",
+  "name": {
+    "en": "Cinema",
+    "ru": "Кино",
+    "be": "Кіно"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "imageUrl": "/images/cinema/robert_downey_jr_as_tony_stark.jpg",
+      "question": {
+        "en": "Which actor played the character Tony Stark in the Marvel Cinematic Universe?",
+        "ru": "Какой актер сыграл персонажа Тони Старка в киновселенной Marvel?",
+        "be": "Які акцер сыграў персанажа Тоні Старка ў кінасусвеце Marvel?"
+      },
+      "options": {
+        "en": ["Chris Evans", "Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo", "Jeremy Renner", "Tom Hiddlestone"],
+        "ru": ["Крис Эванс", "Роберт Дауни-младший", "Крис Хемсворт", "Марк Руффало", "Джереми Реннер", "Том Хиддлстон"],
+        "be": ["Крыс Эванс", "Роберт Даўні-малодшы", "Крыс Хемсварт", "Марк Руфала", "Джэрэмі Рэнер", "Том Хідлстан"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "imageUrl": "/images/cinema/oscars_2020.jpg",
+      "question": {
+        "en": "Which film won the Academy Award for Best Picture in 2020?",
+        "ru": "Какой фильм получил премию Оскар за лучший фильм в 2020 году?",
+        "be": "Які фільм атрымаў прэмію Оскар за лепшы фільм у 2020 годзе?"
+      },
+      "options": {
+        "en": ["1917", "Joker", "Parasite", "Once Upon a Time in Hollywood", "The Irishman", "Jojo Rabbit", "Little Women", "Marriage Story", "Ford v Ferrari"],
+        "ru": ["1917", "Джокер", "Паразиты", "Однажды в Голливуде", "Ирландец", "Кролик ДжоДжо", "Маленькие женщины", "Брачная история", "Форд против Феррари"],
+        "be": ["1917", "Джокер", "Паразіты", "Аднойчы ў Галівудзе", "Ірландзец", "Трусік Джоджа", "Маленькія жанчыны", "Гісторыя шлюбу", "Форд супраць Ферары"]
+      },
+      "correctAnswer": 2
+    },
+    {
+      "id": 3,
+      "imageUrl": "/images/cinema/inception_2010_01.jpg",
+      "question": {
+        "en": "Who directed the movie 'Inception' (2010)?",
+        "ru": "Кто режиссировал фильм 'Начало' (2010)?",
+        "be": "Хто рэжысіраваў фільм 'Уцягванне' (2010)?"
+      },
+      "options": {
+        "en": ["Christopher Nolan", "Darren Aronofsky", "James Cameron", "Denis Villeneuve"],
+        "ru": ["Кристофер Нолан", "Даррен Аронофски", "Джеймс Кэмерон", "Дени Вильнев"],
+        "be": ["Крыстафер Нолан", "Дарэн Аранофскі", "Джэймс Кэмеран", "Дэні Вільнеў"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "imageUrl": "/images/cinema/emma_watson_as_hermione_granger.jpg",
+      "question": {
+        "en": "Which actress played Hermione Granger in the Harry Potter films?",
+        "ru": "Какая актриса сыграла Гермиону Грейнджер в фильмах о Гарри Поттере?",
+        "be": "Якая актрыса сыграла Герміену Грэйнджэр у фільмах пра Гары Потэра?"
+      },
+      "options": {
+        "en": ["Jennifer Lawrence", "Emma Watson", "Bonnie Wright", "Emma Stone"],
+        "ru": ["Дженнифер Лоуренс", "Эмма Уотсон", "Бонни Райт", "Эмма Стоун"],
+        "be": ["Джэніфер Лоўрэнс", "Эма Уотсан", "Боні Райт", "Эма Стоўн"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "imageUrl": "/images/cinema/titanic_1997_01.jpg",
+      "question": {
+        "en": "Which movie features a character named Jack Dawson?",
+        "ru": "В каком фильме есть персонаж по имени Джек Доусон?",
+          "be": "У якім фільме есць персанаж па імені Джэк Доўсан?"
+      },
+      "options": {
+        "en": ["The Departed (2006)", "Catch Me If You Can (2002)", "Titanic (1997)", "Inception (2010)", "What's Eating Gilbert Grape (1993"],
+        "ru": ["Отступники (2006)", "Поймай меня, если сможешь (2002)", "Титаник (1997)", "Начало (2010)", "Что гложет Гилберта Грейпа (1993)"],
+        "be": ["Адступнікі (2006)", "Злаві мяне, калі зможаш (2002)", "Тытанік (1997)", "Уцягванне (2010)", "Што гнясе Гілберта Грэйпа (1993)"]
+      },
+      "correctAnswer": 2
+    },
+    {
+      "id": 6,
+      "imageUrl": "/images/cinema/dark_knight_2008_01.jpg",
+      "question": {
+        "en": "Who played the Joker in 'The Dark Knight' (2008)?",
+        "ru": "Кто сыграл Джокера в фильме 'Темный рыцарь' (2008)?",
+        "be": "Хто сыграў Джокера ў фільме 'Цемны рыцар' (2008)?"
+      },
+      "options": {
+        "en": ["Jared Leto", "Jack Nicholson", "Joaquin Phoenix", "Heath Ledger"],
+        "ru": ["Джаред Лето", "Джек Николсон", "Хоакин Феникс", "Хит Леджер"],
+        "be": ["Джарэд Лета", "Джэк Нікалсан", "Хаакін Фенікс", "Хіт Леджэр"]
+      },
+      "correctAnswer": 3
+    },
+    {
+      "id": 7,
+      "imageUrl": "/images/cinema/quentin_tarantino_01.jpg",
+      "question": {
+        "en": "Which of these films was NOT directed by Quentin Tarantino?",
+        "ru": "Какой из этих фильмов НЕ был снят Квентином Тарантино?",
+        "be": "Які з гэтых фільмаў НЕ быў зняты Квенцінам Тарантына?"
+      },
+      "options": {
+        "en": ["Pulp Fiction (1994)", "Reservoir Dogs (1992)", "From Dusk till Dawn (1996)", "Jackie Brown (1997)"],
+        "ru": ["Криминальное чтиво (1994)", "Бешеные псы (1992)", "От заката до рассвета (1996)", "Джеки Браун (1997)"],
+        "be": ["Крымінальнае чытво (1994)", "Шаленыя сабакі (1992)", "Ад заходу да світанку (1996)", "Джэкі Браўн (1997)"]
+      },
+      "correctAnswer": 2
+    },
+    {
+      "id": 8,
+      "imageUrl": "/images/cinema/gangs_of_new_york_2002_01.jpg",
+      "question": {
+        "en": "Which actor has won the most Academy Awards for Best Actor?",
+        "ru": "Какой актер получил больше всего премий Оскар за лучшую мужскую роль?",
+        "be": "Які акцер атрымаў больш за ўсе прэмій Оскар за лепшую мужчынскую ролю?"
+      },
+      "options": {
+        "en": ["Jack Nicholson", "Daniel Day-Lewis", "Tom Hanks", "Leonardo DiCaprio"],
+        "ru": ["Джек Николсон", "Дэниел Дэй-Льюис", "Том Хэнкс", "Леонардо Ди Каприо"],
+        "be": ["Джэк Нікалсан", "Дэніэл Дэй-Люіс", "Том Хэнкс", "Леанарда Дзі Капрыа"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 9,
+      "imageUrl": "/images/cinema/highest_box_office_francise_2024.jpg",
+      "question": {
+        "en": "Which film franchise has the highest box office revenue by the end of 2024?",
+        "ru": "Какая кинофраншиза имеет самые высокие кассовые сборы к концу 2024 года?",
+        "be": "Якая кінафраншыза мае самыя высокія касавыя зборы да канца 2024 года?"
+      },
+      "options": {
+        "en": ["Star Wars", "Marvel Cinematic Universe", "Harry Potter", "James Bond"],
+        "ru": ["Звездные войны", "Кинематографическая вселенная Marvel", "Гарри Поттер", "Джеймс Бонд"],
+        "be": ["Зорныя войны", "Кінематаграфічны сусвет Marvel", "Гары Потэр", "Джэймс Бонд"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "imageUrl": "/images/cinema/e_t_the_extra_terrestrial_1982_01.jpg",
+      "question": {
+        "en": "Who directed 'E.T. the Extra-Terrestrial' (1982)?",
+        "ru": "Кто режиссировал фильм 'Инопланетянин' (1982)?",
+        "be": "Хто рэжысіраваў фільм 'Іншапланецянін' (1982)?"
+      },
+      "options": {
+        "en": ["George Lucas", "James Cameron", "Steven Spielberg", "Ridley Scott"],
+        "ru": ["Джордж Лукас", "Джеймс Кэмерон", "Стивен Спилберг", "Ридли Скотт"],
+        "be": ["Джордж Лукас", "Джэймс Кэмеран", "Стывен Спілберг", "Рыдлі Скот"]
+      },
+      "correctAnswer": 2
+    },
+    {
+      "id": 11,
+      "imageUrl": "/images/cinema/oscars_2001.jpg",
+      "question": {
+        "en": "Which movie won the first Academy Award for Best Animated Feature?",
+        "ru": "Какой фильм получил первую премию Оскар за лучший анимационный полнометражный фильм?",
+        "be": "Які фільм атрымаў першую прэмію Оскар за лепшы анімацыйны поўнаметражны фільм?"
+      },
+      "options": {
+        "en": ["Toy Story (1995)", "Shrek (2001)", "Finding Nemo (2003)", "Monsters, Inc. (2001)"],
+        "ru": ["История игрушек (1995)", "Шрек (2001)", "В поисках Немо (2003)", "Корпорация монстров (2001)"],
+        "be": ["Гісторыя цацак (1995)", "Шрэк (2001)", "У пошуках Нэма (2003)", "Карпарацыя монстраў (2001)"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 12,
+      "imageUrl": "/images/cinema/matrix_1999_01.jpg",
+      "question": {
+        "en": "Who played Neo in 'The Matrix' (1999)?",
+        "ru": "Кто сыграл Нео в фильме 'Матрица' (1999)?",
+        "be": "Хто сыграў Нэа ў фільме 'Матрыца' (1999)?"
+      },
+      "options": {
+        "en": ["Keanu Reeves", "Laurence Fishburne", "Hugo Weaving", "Will Smith"],
+        "ru": ["Киану Ривз", "Лоуренс Фишберн", "Хьюго Уивинг", "Уилл Смит"],
+        "be": ["Кіану Рыўз", "Лоўрэнс Фішберн", "Х'юга Уівінг", "Уіл Сміт"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "imageUrl": "/images/cinema/desperado_1995_01.jpg",
+      "question": {
+        "en": "What movie is this shot from?",
+        "ru": "Из какого фильма этот кадр?",
+        "be": "З якога фільма гэты кадр?"
+      },
+      "options": {
+        "en": ["Desperado (1995)", "El Mariachi (1992)", "Once Upon a Time in Mexico (2003)", "From Dusk Till Dawn (1996)"],
+        "ru": ["Отчаянный (1995)", "Музыкант (1992)", "Однажды в Мексике (2003)", "От заката до рассвета (1996)"],
+        "be": ["Адчайны (1995)", "Эль-Марыячы (1992)", "Аднойчы ў Мексіцы (2003)", "Ад заходу да світанку (1996)"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "imageUrl": "/images/cinema/dune_1984_01.jpg",
+      "question": {
+        "en": "What movie is this shot from?",
+        "ru": "Из какого фильма этот кадр?",
+        "be": "З якога фільма гэты кадр?"
+      },
+      "options": {
+        "en": ["Dune (1984)", "Dune (2021)", "The Road Warrior (1981)", "Mad Max Beyond Thunderdome (1985)", "Mad Max (1979)", "Mad Max: Fury Road (2015)", "Furiosa: A Mad Max Saga (2024)", "Dune: Part Two (2024)", "Waterworld (1995)"],
+        "ru": ["Дюна (1984)", "Дюна (2021)", "Безумный Макс 2: Воин дороги (1981)", "Безумный Макс: Под куполом грома (1985)", "Безумный Макс (1979)", "Безумный Макс: Дорога ярости (2015)", "Фуриоса: Хроники Безумного Макса (2024)", "Дюна: Часть вторая", "Водный мир (1995)"],
+        "be": ["Дзюна (1984)", "Дзюна (2021)", "Воін дарогі (1981)", "Шалены Макс: За межамі громавага купалам (1985)", "Шалены Макс (1979)", "Шалены Макс: Дарога лютасці (2015)", "Фурыеза: Сага аб шаленым Максе (2024)", "Дзюна: Частка другая (2024)", "Водны свет (1995)"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "imageUrl": "/images/cinema/citizen_kane_1941_01.jpg",
+      "question": {
+        "en": "What movie is this shot from?",
+        "ru": "Из какого фильма этот кадр?",
+        "be": "З якога фільма гэты кадр?"
+      },
+      "options": {
+        "en": ["Citizen Kane (1941)", "It's a Wonderful Life (1946)", "The Grapes of Wrath (1940)", "Casablanca (1942)"],
+        "ru": ["Гражданин Кейн (1941)", "Эта прекрасная жизнь (1946)", "Гроздья гнева (1940)", "Касабланка (1942)"],
+        "be": ["Грамадзянін Кейн (1941)", "Гэта цудоўнае жыцце (1946)", "Гронкі гневу (1940)", "Касабланка (1942)"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "imageUrl": "/images/cinema/citizen_kane_1941_01.jpg",
+      "question": {
+        "en": "Who is the director of the movie this shot is from?",
+        "ru": "Кто режиссер фильма, из которого этот кадр?",
+        "be": "Хто рэжысер фільма, з якога гэты кадр?"
+      },
+      "options": {
+        "en": ["Orson Welles", "Frank Capra", "John Ford", "Michael Curtiz"],
+        "ru": ["Орсон Уэллс", "Фрэнк Капра", "Джон Форд", "Майкл Кертиц"],
+        "be": ["Орсан Уэлс", "Фрэнк Капра", "Джон Форд", "Майкл Керціц"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "imageUrl": "/images/cinema/philadelphia_1993_01.jpg",
+      "question": {
+        "en": "What city is the movie set in?",
+        "ru": "В каком городе происходит действие фильма?",
+        "be": "У якім горадзе адбываецца дзеянне фільма?"
+      },
+      "options": {
+        "en": ["Philadelphia", "New York", "Los Angeles", "Dallas"],
+        "ru": ["Филадельфия", "Нью-Йорк", "Лос-Анджелес", "Даллас"],
+        "be": ["Філадэльфія", "Нью-ерк", "Лос-Анджэлес", "Далас"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "imageUrl": "/images/cinema/philadelphia_1993_01.jpg",
+      "question": {
+        "en": "Who played Andrew Beckett in 'Philadelphia' (1993)?",
+        "ru": "Кто сыграл Эндру Беккета в фильме 'Филадельфия' (1993)?",
+        "be": "Хто сыграў Эндру Бэкета ў фільме 'Філадэльфія' (1993)?"
+      },
+      "options": {
+        "en": ["Tom Hanks", "Denzel Washington", "Antonio Banderas", "Morgan Freeman"],
+        "ru": ["Том Хэнкс", "Дензел Вашингтон", "Антонио Бандерас", "Морган Фриман"],
+        "be": ["Том Хэнкс", "Дэнзэл Вашынгтон", "Антоніа Бандэрас", "Морган Фрыман"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "imageUrl": "/images/cinema/talented_mr_ripley_1999_01.jpg",
+      "question": {
+        "en": "Who played Tom Ripley in 'The Talented Mr. Ripley' (1999)?",
+        "ru": "Кто сыграл Тома Рипли в фильме 'Талантливый мистер Рипли' (1999)?",
+        "be": "Хто сыграў Тома Рыплі ў фільме 'Таленавіты містар Рыплі' (1999)?"
+      },
+      "options": {
+        "en": ["Matt Damon", "Jude Law", "Gwyneth Paltrow", "Tom Hanks"],
+        "ru": ["Мэтт Деймон", "Джуд Лоу", "Гвинет Пэлтроу", "Том Хэнкс"],
+        "be": ["Мэт Дэйман", "Джуд Лоў", "Гвінэт Пэлтроў", "Том Хэнкс"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "imageUrl": "/images/cinema/toy_story_1995_01.jpg",
+      "question": {
+        "en": "Who directed 'Toy Story' (1995)?",
+        "ru": "Кто снял 'Историю игрушек' (1995)?",
+        "be": "Хто зняў 'Гісторыю цацак' (1995)?"
+      },
+      "options": {
+        "en": ["Woody Pride", "Buzz Lightyear", "Steve Jobs", "John Lasseter"],
+        "ru": ["Вуди", "Базз Лайтер", "Стив Джобс", "Джон Лассетер"],
+        "be": ["Вудзі", "Баз Лайт'ер", "Стыў Джобс", "Джон Ласетэр"]
+      },
+      "correctAnswer": 3
+    },
+    {
+      "id": 21,
+      "imageUrl": "/images/cinema/alien_1979_01.jpg",
+      "question": {
+        "en": "What movie is this shot from?",
+        "ru": "Из какого фильма этот кадр?",
+        "be": "З якога фільма гэты кадр?"
+      },
+      "options": {
+        "en": ["Prometheus (2012)", "Aliens (1986)", "Alien (1979)", "Alien: Romulus (2024)"],
+        "ru": ["Прометей (2012)", "Чужие (1986)", "Чужой (1979)", "Чужой: Ромул (2024)"],
+        "be": ["Праметэй (2012)", "Чужыя (1986)", "Чужы (1979)", "Чужы: Ромул (2024)"]
+      },
+      "correctAnswer": 2
+    },
+    {
+      "id": 22,
+      "imageUrl": "/images/cinema/some_like_it_hot_1959_01.jpg",
+      "question": {
+        "en": "What movie is this shot from?",
+        "ru": "Из какого фильма этот кадр?",
+        "be": "З якога фільма гэты кадр?"
+      },
+      "options": {
+        "en": ["Some Like It Hot (1959)", "Sunset Boulevard (1950)", "Gentlemen Prefer Blondes (1953)", "Breakfast at Tiffany's (1961)"],
+        "ru": ["В джазе только девушки (1959)", "Бульвар Сансет (1950)", "Джентльмены предпочитают блондинок (1953)", "Завтрак у Тиффани (1961)"],
+        "be": ["У джазе толькі дзяўчыны (1959)", "Бульвар Сансет (1950)", "Джэнтльмены аддаюць перавагу бландынкам (1953)", "Сняданак у Ціфані (1961)"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "imageUrl": "/images/cinema/julia_roberts_childhood_photo.jpg",
+      "question": {
+        "en": "Who is this?",
+        "ru": "Кто это?",
+        "be": "Хто гэта?"
+      },
+      "options": {
+        "en": ["Anne Hathaway", "Julia Roberts", "Sarah Jessica Parker", "Sean Young"],
+        "ru": ["Энн Хэтэуэй", "Джулия Робертс", "Сара Джессика Паркер", "Шон Янг"],
+        "be": ["Эн Хэтэуэй", "Джулія Робертс", "Сара Джэсіка Паркер", "Шон Янг"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "imageUrl": "/images/cinema/blade_runner_1982_01.jpg",
+      "question": {
+        "en": "Who played Rachael in 'Blade Runner' (1982)?",
+        "ru": "Кто сыграл Рейчел в фильме 'Бегущий по лезвию' (1982)?",
+        "be": "Хто сыграў Рэйчэл у фільме 'Бягун па лязе' (1982)?"
+      },
+      "options": {
+        "en": ["Daryl Hannah", "Sean Young", "Lara Flynn Boyle", "Laura Dern"],
+        "ru": ["Дарил Ханна", "Шон Янг", "Лара Флинн Бойл", "Лора Дерн"],
+        "be": ["Дарыл Хана", "Шон Янг", "Лара Флін Бойл", "Лора Дэрн"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 25,
+      "imageUrl": "/images/cinema/godfather_1972_01.jpg",
+      "question": {
+        "en": "Who directed 'The Godfather' (1972)?",
+        "ru": "Кто снял фильм 'Крестный отец' (1972)?",
+        "be": "Хто зняў фільм 'Хросны бацька' (1972)?"
+      },
+      "options": {
+        "en": ["Martin Scorsese", "Francis Ford Coppola", "Marlon Brando", "Brian De Palma"],
+        "ru": ["Мартин Скорсезе", "Фрэнсис Форд Коппола", "Марлон Брандо", "Брайан Де Пальма"],
+        "be": ["Марцін Скарсэзэ", "Фрэнсіс Форд Капала", "Марлон Бранда", "Браян Дэ Пальма"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 26,
+      "imageUrl": "/images/cinema/star_wars_episode_4_a_new_hope_1977_01.jpg",
+      "question": {
+        "en": "In what year was the first Star Wars film released?",
+        "ru": "В каком году вышел первый фильм 'Звездные войны'?",
+        "be": "У якім годзе выйшаў першы фільм 'Зорныя войны'?"
+      },
+      "options": {
+        "en": ["1975", "1977", "1980", "1983"],
+        "ru": ["1975", "1977", "1980", "1983"],
+        "be": ["1975", "1977", "1980", "1983"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 27,
+      "imageUrl": "/images/cinema/jaws_1975_01.jpg",
+      "question": {
+        "en": "Which Steven Spielberg film features a mechanical shark?",
+        "ru": "В каком фильме Стивена Спилберга присутствует механическая акула?",
+        "be": "У якім фільме Стывена Спілберга есць механічная акула?"
+      },
+      "options": {
+        "en": ["E.T. the Extra-Terrestrial (1982)", "Close Encounters of the Third Kind (1977)", "Jaws (1975)", "Jurassic Park (1993)"],
+        "ru": ["Инопланетянин (1982)", "Близкие контакты третьей степени (1977)", "Челюсти (1975)", "Парк Юрского периода (1993)"],
+        "be": ["Іншапланецянін (1982)", "Блізкія кантакты трэцяй ступені (1977)", "Сківіцы (1975)", "Парк Юрскага перыяду (1993)"]
+      },
+      "correctAnswer": 2
+    },
+    {
+      "id": 28,
+      "imageUrl": "/images/cinema/james_cameron_avatar_2009.jpg",
+      "question": {
+        "en": "Which James Cameron film became the highest-grossing movie of all time in 2009?",
+        "ru": "Какой фильм Джеймса Кэмерона стал самым кассовым фильмом всех времен в 2009 году?",
+        "be": "Які фільм Джэймса Кэмерона стаў самым касавым фільмам усіх часоў у 2009 годзе?"
+      },
+      "options": {
+        "en": ["Titanic (1997)", "Avatar (2009)", "Terminator 2: Judgment Day (1991)", "Aliens (1986)"],
+        "ru": ["Титаник (1997)", "Аватар (2009)", "Терминатор 2: Судный день (1991)", "Чужие (1986)"],
+        "be": ["Тытанік (1997)", "Аватар (2009)", "Тэрмінатар 2: Судны дзень (1991)", "Чужыя (1986)"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 29,
+      "imageUrl": "/images/cinema/psycho_1960_01.jpg",
+      "question": {
+        "en": "Which Alfred Hitchcock film features the famous shower scene?",
+        "ru": "В каком фильме Альфреда Хичкока есть знаменитая сцена в душе?",
+        "be": "У якім фільме Альфрэда Хічкока есць знакамітая сцэна ў душы?"
+      },
+      "options": {
+        "en": ["Vertigo (1958)", "Rear Window (1954)", "The Birds (1963)", "Psycho (1960)"],
+        "ru": ["Головокружение (1958)", "Окно во двор (1954)", "Птицы (1963)", "Психо (1960)"],
+        "be": ["Галавакружэнне (1958)", "Акно ў двор (1954)", "Птушкі (1963)", "Псіха (1960)"]
+      },
+      "correctAnswer": 3
+    },
+    {
+      "id": 30,
+      "imageUrl": "/images/cinema/silence_of_the_lambs_1991_01.jpg",
+      "question": {
+        "en": "Who played Hannibal Lecter in 'The Silence of the Lambs' (1991)?",
+        "ru": "Кто сыграл Ганнибала Лектера в фильме 'Молчание ягнят' (1991)?",
+        "be": "Хто сыграў Ганібала Лектэра ў фільме 'Маўчанне ягнят' (1991)?"
+      },
+      "options": {
+        "en": ["Anthony Hopkins", "Jack Nicholson", "Robert De Niro", "Al Pacino"],
+        "ru": ["Энтони Хопкинс", "Джек Николсон", "Роберт Де Ниро", "Аль Пачино"],
+        "be": ["Энтані Хопкінс", "Джэк Нікалсан", "Роберт Дэ Ніра", "Аль Пачына"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "imageUrl": "/images/cinema/forrest_gump_1994_01.jpg",
+      "question": {
+        "en": "What famous quote is from the movie 'Forrest Gump' (1994)?",
+        "ru": "Какая знаменитая цитата из фильма 'Форрест Гамп' (1994)?",
+        "be": "Якая знакамітая цытата з фільма 'Форэст Гамп' (1994)?"
+      },
+      "options": {
+        "en": ["Here's looking at you, kid", "I'll be back", "Life is like a box of chocolates", "May the Force be with you"],
+        "ru": ["Вот смотрю на тебя, малыш", "Я вернусь", "Жизнь как коробка конфет", "Да пребудет с тобой Сила"],
+        "be": ["Вось гляджу на цябе, малая", "Я вярнуся", "Жыцце як скрынка цукерак", "Хай будзе з табой Сіла"]
+      },
+      "correctAnswer": 2
+    },
+    {
+      "id": 32,
+      "imageUrl": "/images/cinema/gone_with_the_wind_1939_01.jpg",
+      "question": {
+        "en": "Which 1939 film is considered the highest-grossing film of all time when adjusted for inflation?",
+        "ru": "Какой фильм 1939 года считается самым кассовым фильмом всех времен с учетом инфляции?",
+        "be": "Які фільм 1939 года лічыцца самым касавым фільмам усіх часоў з улікам інфляцыі?"
+      },
+      "options": {
+        "en": ["The Wizard of Oz (1939)", "Gone with the Wind (1939)", "Casablanca (1942)", "Citizen Kane (1941)"],
+        "ru": ["Волшебник страны Оз (1939)", "Унесенные ветром (1939)", "Касабланка (1942)", "Гражданин Кейн (1941)"],
+        "be": ["Чараўнік краіны Оз (1939)", "Знесеныя ветрам (1939)", "Касабланка (1942)", "Грамадзянін Кейн (1941)"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 33,
+      "imageUrl": "/images/cinema/2001_a_space_odyssey_1968_01.jpg",
+      "question": {
+        "en": "Who directed '2001: A Space Odyssey' (1968)?",
+        "ru": "Кто режиссировал '2001 год: Космическая одиссея' (1968)?",
+        "be": "Хто рэжысіраваў '2001 год: Касмічная адысея' (1968)?"
+      },
+      "options": {
+        "en": ["Alfred Hitchcock", "George Lucas", "Stanley Kubrick", "Ridley Scott"],
+        "ru": ["Альфред Хичкок", "Джордж Лукас", "Стэнли Кубрик", "Ридли Скотт"],
+        "be": ["Альфрэд Хічкок", "Джордж Лукас", "Стэнлі Кубрык", "Рыдлі Скот"]
+      },
+      "correctAnswer": 2
+    },
+    {
+      "id": 34,
+      "imageUrl": "/images/cinema/steven_spielberg_oscars.jpg",
+      "question": {
+        "en": "Which Spielberg film won the Academy Award for Best Picture in 1994?",
+        "ru": "Какой фильм Спилберга получил премию Оскар за лучший фильм в 1994 году?",
+        "be": "Які фільм Спілберга атрымаў прэмію Оскар за лепшы фільм у 1994 годзе?"
+      },
+      "options": {
+        "en": ["Jurassic Park (1993)", "Saving Private Ryan (1998)", "E.T. the Extra-Terrestrial (1982)", "Schindler's List (1993)"],
+        "ru": ["Парк Юрского периода (1993)", "Спасти рядового Райана (1998)", "Инопланетянин (1982)", "Список Шиндлера (1993)"],
+        "be": ["Парк Юрскага перыяду (1993)", "Выратаваць радавога Раяна (1998)", "Іншапланецянін (1982)", "Спіс Шындлера (1993)"]
+      },
+      "correctAnswer": 3
+    },
+    {
+      "id": 35,
+      "imageUrl": "/images/cinema/shining_1980_01.jpg",
+      "question": {
+        "en": "Which Stephen King novel was adapted into a film by Stanley Kubrick?",
+        "ru": "Какой роман Стивена Кинга был экранизирован Стэнли Кубриком?",
+        "be": "Які раман Стывена Кінга быў экранізаваны Стэнлі Кубрыкам?"
+      },
+      "options": {
+        "en": ["Carrie (1976)", "The Shining (1980)", "Misery (1990)", "It (1990)"],
+        "ru": ["Кэрри (1976)", "Сияние (1980)", "Мизери (1990)", "Оно (1990)"],
+        "be": ["Кэры (1976)", "Ззянне (1980)", "Мізэры (1990)", "Яно (1990)"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 36,
+      "imageUrl": "/images/cinema/pulp_fiction_1994_01.jpg",
+      "question": {
+        "en": "Which actor played Vincent Vega in 'Pulp Fiction' (1994)?",
+        "ru": "Какой актер сыграл Винсента Вегу в 'Криминальном чтиве' (1994)?",
+        "be": "Які акцер сыграў Вінсента Вегу ў 'Крымінальным чытве' (1994)?"
+      },
+      "options": {
+        "en": ["Samuel L. Jackson", "Bruce Willis", "John Travolta", "Harvey Keitel"],
+        "ru": ["Сэмюэл Л. Джексон", "Брюс Уиллис", "Джон Траволта", "Харви Кейтель"],
+        "be": ["Сэм'юэл Л. Джэксан", "Брус Уіліс", "Джон Траволта", "Харві Кейтэль"]
+      },
+      "correctAnswer": 2
+    },
+    {
+      "id": 37,
+      "imageUrl": "/images/cinema/lord_of_the_rings_2001_01.jpg",
+      "question": {
+        "en": "Who directed 'The Lord of the Rings' trilogy?",
+        "ru": "Кто режиссировал трилогию 'Властелин колец'?",
+        "be": "Хто рэжысіраваў трылогію 'Уладар пярсценкаў'?"
+      },
+      "options": {
+        "en": ["James Cameron", "Peter Jackson", "Christopher Nolan", "Guillermo del Toro"],
+        "ru": ["Джеймс Кэмерон", "Питер Джексон", "Кристофер Нолан", "Гильермо дель Торо"],
+        "be": ["Джэймс Кэмеран", "Пітэр Джэксан", "Крыстафер Нолан", "Гільерма дэль Тора"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 38,
+      "imageUrl": "/images/cinema/back_to_the_future_1985_01.jpg",
+      "question": {
+        "en": "What year does Marty McFly travel to in 'Back to the Future' (1985)?",
+        "ru": "В какой год путешествует Марти МакФлай в фильме 'Назад в будущее' (1985)?",
+        "be": "У які год падарожнічае Марці МакФлай у фільме 'Назад у будучыню' (1985)?"
+      },
+      "options": {
+        "en": ["1945", "1955", "1965", "1975"],
+        "ru": ["1945", "1955", "1965", "1975"],
+        "be": ["1945", "1955", "1965", "1975"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 39,
+      "imageUrl": "/images/cinema/fight_club_1999_01.jpg",
+      "question": {
+        "en": "Who directed 'Fight Club' (1999)?",
+        "ru": "Кто режиссировал 'Бойцовский клуб' (1999)?",
+        "be": "Хто рэжысіраваў 'Бойцоўскі клуб' (1999)?"
+      },
+      "options": {
+        "en": ["Frank Darabont", "David Fincher", "Guy Ritchie", "Edgar Wright"],
+        "ru": ["Фрэнк Дарабонт", "Дэвид Финчер", "Гай Ричи", "Эдгар Райт"],
+        "be": ["Фрэнк Дарабонт", "Дэвід Фінчэр", "Гай Рычы", "Эдгар Райт"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 40,
+      "imageUrl": "/images/cinema/jurassic_park_1993_01.jpg",
+      "question": {
+        "en": "In which year was 'Jurassic Park' released?",
+        "ru": "В каком году вышел фильм 'Парк Юрского периода'?",
+        "be": "У якім годзе выйшаў фільм 'Парк Юрскага перыяду'?"
+      },
+      "options": {
+        "en": ["1992", "1993", "1994", "1995"],
+        "ru": ["1992", "1993", "1994", "1995"],
+        "be": ["1992", "1993", "1994", "1995"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 41,
+      "imageUrl": "/images/cinema/goodfellas_1990_01.jpg",
+      "question": {
+        "en": "Who directed 'Goodfellas' (1990)?",
+        "ru": "Кто снял фильм 'Славные парни' (1990)?",
+        "be": "Хто зняў фільм 'Слаўныя хлопцы' (1990)?"
+      },
+      "options": {
+        "en": ["Francis Ford Coppola", "Martin Scorsese", "Brian De Palma", "John McTiernan"],
+        "ru": ["Фрэнсис Форд Коппола", "Мартин Скорсезе", "Брайан Де Пальма", "Джон МакТирнан"],
+        "be": ["Фрэнсіс Форд Копала", "Марцін Скарсэзэ", "Браян Дэ Пальма", "Джон МакЦірнан"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 42,
+      "imageUrl": "/images/cinema/dark_knight_2008_01.jpg",
+      "question": {
+        "en": "Which actor played Batman in 'The Dark Knight' trilogy?",
+        "ru": "Какой актер сыграл Бэтмена в трилогии 'Темный рыцарь'?",
+        "be": "Які акцер сыграў Бэтмена ў трылогіі 'Цемны рыцар'?"
+      },
+      "options": {
+        "en": ["Christian Bale", "Robert Pattinson", "Ben Affleck", "Val Kilmer"],
+        "ru": ["Кристиан Бэйл", "Роберт Паттинсон", "Бен Аффлек", "Вэл Кілмер"],
+        "be": ["Крысціян Бэйл", "Роберт Патынсан", "Бэн Аффлек", "Вэл Кілмер"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "imageUrl": "/images/cinema/truman_show_1998_01.jpg",
+      "question": {
+        "en": "Who starred as Truman Burbank in 'The Truman Show' (1998)?",
+        "ru": "Кто сыграл Трумана Бербанка в 'Шоу Трумана' (1998)?",
+        "be": "Хто сыграў Трумана Бэрбанка ў 'Шоў Трумана' (1998)?"
+      },
+      "options": {
+        "en": ["Tom Hanks", "Jim Carrey", "Robin Williams", "Nicolas Cage"],
+        "ru": ["Том Хэнкс", "Джим Керри", "Робин Уильямс", "Николас Кейдж"],
+        "be": ["Том Хэнкс", "Джым Кэры", "Робін Уільямс", "Нікалас Кейдж"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 44,
+      "imageUrl": "/images/cinema/shawshank_redemption_1994_01.jpg",
+      "question": {
+        "en": "Which Stephen King novella was adapted into 'The Shawshank Redemption' (1994)?",
+        "ru": "Какая повесть Стивена Кинга была экранизирована как 'Побег из Шоушенка' (1994)?",
+        "be": "Якая аповесць Стывэна Кінга была экранізавана як 'Уцекі з Шоўшэнка' (1994)?"
+      },
+      "options": {
+        "en": ["The Green Mile", "Rita Hayworth and Shawshank Redemption", "Pet Sematary", "The Long Walk"],
+        "ru": ["Зеленая миля", "Рита Хейворт и спасение из Шоушенка", "Кладбище домашних животных", "Долгая прогулка"],
+        "be": ["Зяленая міля", "Рыта Хэйўорт і выратаванне з Шоўшэнка", "Кладбішча дамашніх жывел", "Доўгая прагулянка"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 45,
+      "imageUrl": "/images/cinema/wizard_of_oz_1939_01.jpg",
+      "question": {
+        "en": "What color are Dorothy's slippers in the 1939 film 'The Wizard of Oz'?",
+        "ru": "Какого цвета туфельки Дороти в фильме 'Волшебник страны Оз' (1939)?",
+        "be": "Якага колеру чаравікі Дорці ў фільме 'Чараўнік краіны Оз' (1939)?"
+      },
+      "options": {
+        "en": ["Silver", "Gold", "Ruby Red", "Emerald Green"],
+        "ru": ["Серебряные", "Золотые", "Рубиново-красные", "Изумрудно-зеленые"],
+        "be": ["Срэбраныя", "Залатыя", "Рубінава-чырвоныя", "Смарагдава-зяленыя"]
+      },
+      "correctAnswer": 2
+    },
+    {
+      "id": 46,
+      "imageUrl": "/images/cinema/casablanca_1942_01.jpg",
+      "question": {
+        "en": "Who played Rick Blaine in 'Casablanca' (1942)?",
+        "ru": "Кто сыграл Рика Блейна в 'Касабланке' (1942)?",
+        "be": "Хто сыграў Рыка Блэйна ў 'Касабланцы' (1942)?"
+      },
+      "options": {
+        "en": ["Clark Gable", "Humphrey Bogart", "Cary Grant", "James Stewart"],
+        "ru": ["Кларк Гейбл", "Хамфри Богарт", "Кэри Грант", "Джеймс Стюарт"],
+        "be": ["Кларк Гэйбл", "Хамфры Богарт", "Кэры Грант", "Джэймс Сцюарт"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 47,
+      "imageUrl": "/images/cinema/gladiator_2000_01.jpg",
+      "question": {
+        "en": "Which actor played Maximus in 'Gladiator' (2000)?",
+        "ru": "Какой актер сыграл Максимуса в 'Гладиаторе' (2000)?",
+        "be": "Які акцер сыграў Максімуса ў 'Гладыятары' (2000)?"
+      },
+      "options": {
+        "en": ["Russell Crowe", "Joaquin Phoenix", "Gerard Butler", "Richard Harris"],
+        "ru": ["Рассел Кроу", "Хоакин Феникс", "Джерард Батлер", "Ричард Харрис"],
+        "be": ["Расэл Кроў", "Хаакін Фенікс", "Джэрард Батлер", "Рычард Харыс"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "imageUrl": "/images/cinema/green_mile_1999_01.jpg",
+      "question": {
+        "en": "Who played John Coffey in 'The Green Mile' (1999)?",
+        "ru": "Кто сыграл Джона Коффи в 'Зеленой миле' (1999)?",
+        "be": "Хто сыграў Джона Коффі ў 'Зяленай міле' (1999)?"
+      },
+      "options": {
+        "en": ["Morgan Freeman", "Denzel Washington", "Michael Clarke Duncan", "Samuel L. Jackson"],
+        "ru": ["Морган Фриман", "Дензел Вашингтон", "Майкл Кларк Данкан", "Сэмюэл Л. Джексон"],
+        "be": ["Морган Фрыман", "Дэнзэл Вашынгтан", "Майкл Кларк Данкан", "Сэмюэл Л. Джэксан"]
+      },
+      "correctAnswer": 2
+    },
+    {
+      "id": 49,
+      "imageUrl": "/images/cinema/sixth_sense_1999_01.jpg",
+      "question": {
+        "en": "Who directed 'The Sixth Sense' (1999)?",
+        "ru": "Кто снял фильм 'Шестое чувство' (1999)?",
+        "be": "Хто зняў фільм 'Шостае пачуцце' (1999)?"
+      },
+      "options": {
+        "en": ["James Wan", "M. Night Shyamalan", "David Fincher", "John Carpenter"],
+        "ru": ["Джеймс Ван", "М. Найт Шьямалан", "Дэвид Финчер", "Джон Карпентер"],
+        "be": ["Джэймс Ван", "М. Найт Шьямалан", "Дэвід Фінчэр", "Джон Карпэнтар"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 50,
+      "imageUrl": "/images/cinema/terminator_1984_02.jpg",
+      "question": {
+        "en": "Who played the Terminator in the 1984 film?",
+        "ru": "Кто сыграл Терминатора в фильме 1984 года?",
+        "be": "Хто сыграў Тэрмінатара ў фільме 1984 года?"
+      },
+      "options": {
+        "en": ["Michael Biehn", "Robert Patrick", "Arnold Schwarzenegger", "Lance Henriksen"],
+        "ru": ["Майкл Бин", "Роберт Патрик", "Арнольд Шварценеггер", "Лэнс Хенриксен"],
+        "be": ["Майкл Бін", "Роберт Патрык", "Арнольд Шварцэнегер", "Лэнс Хенрыксен"]
+      },
+      "correctAnswer": 2
+    },
+    {
+      "id": 51,
+      "imageUrl": "/images/cinema/princess_bride_1987_01.jpg",
+      "question": {
+        "en": "Which actor played Westley in 'The Princess Bride' (1987)?",
+        "ru": "Какой актер сыграл Уэстли в 'Принцессе-невесте' (1987)?",
+        "be": "Які акцер сыграў Уэстлі ў 'Прынцэсе-нявесце' (1987)?"
+      },
+      "options": {
+        "en": ["Cary Elwes", "Mandy Patinkin", "Chris Sarandon", "Christopher Guest"],
+        "ru": ["Кэри Элвес", "Мэнди Пэтинкин", "Крис Сарандон", "Кристофер Гест"],
+        "be": ["Кэры Элвэс", "Менды Пэцінкін", "Крыс Сарандон", "Крыстафер Гэст"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 52,
+      "imageUrl": "/images/cinema/breakfast_club_1985_01.jpg",
+      "question": {
+        "en": "Who directed 'The Breakfast Club' (1985)?",
+        "ru": "Кто снял фильм 'Клуб Завтрак' (1985)?",
+        "be": "Хто зняў фільм 'Клуб Сняданак' (1985)?"
+      },
+      "options": {
+        "en": ["Martin Sheen", "John Hughes", "Jon Voight", "Robert Zemeckis"],
+        "ru": ["Мартин Шин", "Джон Хьюз", "Джон Войт", "Роберт Земекис"],
+        "be": ["Марцін Шын", "Джон Х'юз", "Джон Войт", "Роберт Земекіс"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 53,
+      "imageUrl": "/images/cinema/die_hard_1988_01.jpg",
+      "question": {
+        "en": "Which actor played John McClane in the 'Die Hard' series?",
+        "ru": "Какой актер сыграл Джона Маклейна в серии 'Крепкий орешек'?",
+        "be": "Які акцер сыграў Джона МакЛэйна ў серыі 'Цяжка памерці'?"
+      },
+      "options": {
+        "en": ["Alan Rickman", "Samuel L. Jackson", "Bruce Willis", "Jeremy Irons"],
+        "ru": ["Алан Рикман", "Сэмюэл Л. Джексон", "Брюс Уиллис", "Джереми Айронс"],
+        "be": ["Алан Рыкман", "Сэмюэл Л. Джэксан", "Брус Уіліс", "Джэрэмі Айранс"]
+      },
+      "correctAnswer": 2
+    },
+    {
+      "id": 54,
+      "imageUrl": "/images/cinema/exorcist_1973_01.jpg",
+      "question": {
+        "en": "In what year was 'The Exorcist' released?",
+        "ru": "В каком году вышел фильм 'Изгоняющий дьявола'?",
+        "be": "У якім годзе выйшаў фільм 'Экзарцыст'?"
+      },
+      "options": {
+        "en": ["1970", "1971", "1972", "1973", "1974", "1975", "1976", "1977", "1978", "1979"],
+        "ru": ["1970", "1971", "1972", "1973", "1974", "1975", "1976", "1977", "1978", "1979"],
+        "be": ["1970", "1971", "1972", "1973", "1974", "1975", "1976", "1977", "1978", "1979"]
+      },
+      "correctAnswer": 3
+    },
+    {
+      "id": 55,
+      "imageUrl": "/images/cinema/sound_of_music_1965_01.jpg",
+      "question": {
+        "en": "Who played Maria von Trapp in 'The Sound of Music' (1965)?",
+        "ru": "Кто сыграл Марию фон Трапп в 'Звуках музыки' (1965)?",
+        "be": "Хто сыграў Марыю фон Трап у 'Гуках музыкі' (1965)?"
+      },
+      "options": {
+        "en": ["Audrey Hepburn", "Julie Andrews", "Debbie Reynolds", "Doris Day"],
+        "ru": ["Одри Хепберн", "Джули Эндрюс", "Дебби Рейнольдс", "Дорис Дэй"],
+        "be": ["Одры Хепберн", "Джулі Эндрус", "Дэбі Рэйналдс", "Дорыс Дэй"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 56,
+      "imageUrl": "/images/cinema/rocky_1976_01.jpg",
+      "question": {
+        "en": "Who played Rocky Balboa in the 'Rocky' film series?",
+        "ru": "Кто сыграл Рокки Бальбоа в серии фильмов 'Рокки'?",
+        "be": "Хто сыграў Рокі Бальбоа ў серыі фільмаў 'Рокі'?"
+      },
+      "options": {
+        "en": ["Carl Weathers", "Sylvester Stallone", "Dolph Lundgren", "Talia Shire"],
+        "ru": ["Карл Уэзерс", "Сильвестр Сталлоне", "Дольф Лундгрен", "Талия Шайр"],
+        "be": ["Карл Уэзерс", "Сільвестр Сталоне", "Дольф Лундгрэн", "Талія Шайр"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 57,
+      "imageUrl": "/images/cinema/lion_king_1994_01.jpg",
+      "question": {
+        "en": "Who directed the original animated 'The Lion King' (1994)?",
+        "ru": "Кто поставил оригинальный анимационный фильм 'Король Лев' (1994)?",
+        "be": "Хто паставіў арыгінальны анімацыйны фільм 'Кароль Леў' (1994)?"
+      },
+      "options": {
+        "en": ["John Musker and Ron Clements", "Roger Allers and Rob Minkoff", "William Hanna and Joseph Barbera", "Walt Disney and Buena Vista"],
+        "ru": ["Джон Маскер и Рон Клементс", "Роджер Аллерс и Роб Минкофф", "Уильям Ханна и Джозеф Барбера", "Уолт Дисней и Буэна Виста"],
+        "be": ["Джон Маскер і Рон Клементс", "Роджэр Алерс і Роб Мінкоф", "Уільям Ханна і Джозэф Барбера", "Уолт Дысней і Буэна Віста"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 58,
+      "imageUrl": "/images/cinema/scarface_1983_01.jpg",
+      "question": {
+        "en": "Who played Tony Montana in 'Scarface' (1983)?",
+        "ru": "Кто сыграл Тони Монтана в 'Лице со шрамом' (1983)?",
+        "be": "Хто сыграў Тоні Мантану ў 'Твар са шнаром' (1983)?"
+      },
+      "options": {
+        "en": ["Robert De Niro", "Al Pacino", "Joe Pesci", "Ray Liotta"],
+        "ru": ["Роберт Де Ниро", "Аль Пачино", "Джо Пеши", "Рэй Лиотта"],
+        "be": ["Роберт Дэ Ніра", "Аль Пачына", "Джо Пешы", "Рэй Ліота"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 59,
+      "imageUrl": "/images/cinema/braveheart_1995_01.jpg",
+      "question": {
+        "en": "Who directed and starred in 'Braveheart' (1995)?",
+        "ru": "Кто снял и сыграл главную роль в 'Храбром сердце' (1995)?",
+        "be": "Хто зняў і сыграў галоўную ролю ў 'Храбрым сэрцы' (1995)?"
+      },
+      "options": {
+        "en": ["Mel Gibson", "Kevin Costner", "Clint Eastwood", "Robert Redford"],
+        "ru": ["Мэл Гибсон", "Кевин Костнер", "Клинт Иствуд", "Роберт Редфорд"],
+        "be": ["Мэл Гібсан", "Кевін Костнер", "Клінт Іствуд", "Роберт Рэдфард"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 60,
+      "imageUrl": "/images/cinema/big_lebowski_1998_01.jpg",
+      "question": {
+        "en": "Who directed 'The Big Lebowski' (1998)?",
+        "ru": "Кто снял 'Большого Лебовски' (1998)?",
+        "be": "Хто зняў 'Вялікага Лебоўскі' (1998)?"
+      },
+      "options": {
+        "en": ["Lloyd Bridges", "The Coen Brothers", "Paul Thomas Anderson", "Wes Anderson"],
+        "ru": ["Ллойд Бриджес", "Братья Коэн", "Пол Томас Андерсон", "Уэс Андерсон"],
+        "be": ["Ллойд Брыджэс", "Браты Коэны", "Пол Томас Андэрсан", "Уэс Андэрсан"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 61,
+      "imageUrl": "/images/cinema/departed_2006_01.jpg",
+      "question": {
+        "en": "Which Martin Scorsese film won him his first Academy Award for Best Director?",
+        "ru": "Какой фильм Мартина Скорсезе принес ему первый 'Оскар' за режиссуру?",
+        "be": "Які фільм Марціна Скарсэзэ прынес яму першы 'Оскар' за рэжысуру?"
+      },
+      "options": {
+        "en": ["Goodfellas (1990)", "The Departed (2006)", "Raging Bull (1980)", "The Wolf of Wall Street (2013)"],
+        "ru": ["Славные парни (1990)", "Отступники (2006)", "Бешеный бык (1980)", "Волк с Уолл-стрит (2013)"],
+        "be": ["Слаўныя хлопцы (1990)", "Адступнікі (2006)", "Шалены бык (1980)", "Воўк з Уол-стрыт (2013)"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 62,
+      "imageUrl": "/images/cinema/social_network_2010_01.jpg",
+      "question": {
+        "en": "Who directed 'The Social Network' (2010)?",
+        "ru": "Кто снял 'Социальную сеть' (2010)?",
+        "be": "Хто зняў 'Сацыяльную сетку' (2010)?"
+      },
+      "options": {
+        "en": ["Ari Aster", "Christopher Nolan", "David Fincher", "Aaron Sorkin"],
+        "ru": ["Ари Астер", "Кристофер Нолан", "Дэвид Финчер", "Аарон Соркин"],
+        "be": ["Ары Астэр", "Крыстафер Нолан", "Дэвід Фінчер", "Аарон Соркін"]
+      },
+      "correctAnswer": 2
+    },
+    {
+      "id": 63,
+      "imageUrl": "/images/cinema/saving_private_ryan_1998_01.jpg",
+      "question": {
+        "en": "Which actor played Captain John Miller in 'Saving Private Ryan' (1998)?",
+        "ru": "Какой актер сыграл капитана Джона Миллера в 'Спасти рядового Райана' (1998)?",
+        "be": "Які акцер сыграў капітана Джона Мілера ў 'Выратаваць радавога Раена' (1998)?"
+      },
+      "options": {
+        "en": ["Matt Damon", "Tom Hanks", "Edward Burns", "Tom Sizemore"],
+        "ru": ["Мэтт Деймон", "Том Хэнкс", "Эдвард Бернс", "Том Сайзмор"],
+        "be": ["Мэт Дэйман", "Том Хэнкс", "Эдвард Бернс", "Том Сайзмор"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 64,
+      "imageUrl": "/images/cinema/notebook_2004_01.jpg",
+      "question": {
+        "en": "Who played Noah Calhoun in 'The Notebook' (2004)?",
+        "ru": "Кто сыграл Ноя Кэлхуна в 'Дневнике памяти' (2004)?",
+        "be": "Хто сыграў Ноа Кэлхуна ў 'Дзенніку памяці' (2004)?"
+      },
+      "options": {
+        "en": ["Ryan Wilson", "Ryan Gosling", "Ryan Reynolds", "Ryan Guzman"],
+        "ru": ["Райан Уилсон", "Райан Гослинг", "Райан Рейнольдс", "Райан Гусман"],
+        "be": ["Раян Уілсан", "Раян Гослінг", "Раян Рэйналдс", "Раян Гусман"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 65,
+      "imageUrl": "/images/cinema/hunger_games_2012_01.jpg",
+      "question": {
+        "en": "Who played Katniss Everdeen in 'The Hunger Games' film series?",
+        "ru": "Кто сыграл Китнисс Эвердин в серии фильмов 'Голодные игры'?",
+        "be": "Хто сыграў Кэтніс Эвердзін у серыі фільмаў 'Галодныя гульні'?"
+      },
+      "options": {
+        "en": ["Jennifer Jason Leigh", "Jennifer Lawrence", "Jennifer Lopez", "Jennifer Garner"],
+        "ru": ["Дженнифер Джейсон Ли", "Дженнифер Лоуренс", "Дженнифер Лопес", "Дженнифер Гарнер"],
+        "be": ["Джэніфер Джэйсан Лі", "Джэніфер Лоўрэнс", "Джэніфер Лопес", "Джэніфер Гарнер"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 66,
+      "imageUrl": "/images/cinema/leonardo_dicaprio_oscars_2016.jpg",
+      "question": {
+        "en": "For which film did Leonardo DiCaprio win his first Academy Award for Best Actor?",
+        "ru": "За какой фильм Леонардо Ди Каприо получил свой первый 'Оскар' за лучшую мужскую роль?",
+        "be": "За які фільм Леанарда Дзі Капрыа атрымаў свой першы 'Оскар' за лепшую мужчынскую ролю?"
+      },
+      "options": {
+        "en": ["The Wolf of Wall Street (2013)", "The Revenant (2015)", "What's Eating Gilbert Grape (1993)", "Once Upon a Time in Hollywood (2019)"],
+        "ru": ["Волк с Уолл-стрит (2013)", "Выживший (2015)", "Что гложет Гилберта Грейпа (1993)", "Однажды в Голливуде (2019)"],
+        "be": ["Воўк з Уол-стрыт (2013)", "Выжыўшы (2015)", "Што гнясе Гілберта Грэйпа (1993)", "Аднойчы ў Галівудзе (2019)"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 67,
+      "imageUrl": "/images/cinema/no_country_for_old_men_2007_01.jpg",
+      "question": {
+        "en": "Who played Anton Chigurh in 'No Country for Old Men' (2007)?",
+        "ru": "Кто сыграл Антона Чигура в 'Старикам тут не место' (2007)?",
+        "be": "Хто сыграў Антона Чыгуру ў 'Старыкам тут не месца' (2007)?"
+      },
+      "options": {
+        "en": ["Woody Harrelson", "Javier Bardem", "Josh Brolin", "Tommy Lee Jones"],
+        "ru": ["Вуди Харрельсон", "Хавьер Бардем", "Джош Бролин", "Томми Ли Джонс"],
+        "be": ["Вуды Харэльсан", "Хав'ер Бардэм", "Джош Бролін", "Томі Лі Джонс"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 68,
+      "imageUrl": "/images/cinema/grand_budapest_hotel_2014_01.jpg",
+      "question": {
+        "en": "Who directed 'The Grand Budapest Hotel' (2014)?",
+        "ru": "Кто снял 'Отель Гранд Будапешт' (2014)?",
+        "be": "Хто зняў 'Гатэль Гранд Будапешт' (2014)?"
+      },
+      "options": {
+        "en": ["Paul William Scott Anderson", "Wes Anderson", "Brad Anderson", "Paul Thomas Anderson"],
+        "ru": ["Пол Уильям Скотт Андерсон", "Уэс Андерсон", "Брэд Андерсон", "Пол Томас Андерсон"],
+        "be": ["Пол Уільям Скот Андэрсан", "Уэс Андэрсан", "Брэд Андэрсан", "Пол Томас Андэрсан"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 69,
+      "imageUrl": "/images/cinema/godfather_part_ii_1974_01.jpg",
+      "question": {
+        "en": "Who played the young Vito Corleone in 'The Godfather Part II' (1974)?",
+        "ru": "Кто сыграл молодого Вито Корлеоне в 'Крестном отце 2' (1974)?",
+        "be": "Хто сыграў маладога Віта Карлеоне ў 'Хросным бацьку 2' (1974)?"
+      },
+      "options": {
+        "en": ["Al Pacino", "Robert De Niro", "James Caan", "Marlon Brando"],
+        "ru": ["Аль Пачино", "Роберт Де Ниро", "Джеймс Каан", "Марлон Брандо"],
+        "be": ["Аль Пачына", "Роберт Дэ Ніра", "Джэймс Каан", "Марлон Бранда"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 70,
+      "imageUrl": "/images/cinema/matrix_reloaded_2003_01.jpg",
+      "question": {
+        "en": "In which year was 'The Matrix Reloaded' released?",
+        "ru": "В каком году вышла 'Матрица: Перезагрузка'?",
+        "be": "У якім годзе выйшла 'Матрыца: Перазагрузка'?"
+      },
+      "options": {
+        "en": ["2001", "2003", "2005", "2007"],
+        "ru": ["2001", "2003", "2005", "2007"],
+        "be": ["2001", "2003", "2005", "2007"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 71,
+      "imageUrl": "/images/cinema/interstellar_2014_01.jpg",
+      "question": {
+        "en": "Who composed the soundtrack for 'Interstellar' (2014)?",
+        "ru": "Кто написал саундтрек к 'Интерстеллар' (2014)?",
+        "be": "Хто напісаў саўндтрэк да 'Інтэрстэларам' (2014)?"
+      },
+      "options": {
+        "en": ["John Williams", "Hans Zimmer", "Howard Shore", "Alexandre Desplat", "Alan Silvestri"],
+        "ru": ["Джон Уильямс", "Ханс Циммер", "Говард Шор", "Александр Деспла", "Алан Сильвестри"],
+        "be": ["Джон Вільямс", "Ханс Цымер", "Говард Шор", "Аляксандр Дэспла", "Алан Сільвестры"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 72,
+      "imageUrl": "/images/cinema/dark_knight_rises_2012_01.jpg",
+      "question": {
+        "en": "Who played Bane in 'The Dark Knight Rises' (2012)?",
+        "ru": "Кто сыграл Бэйна в 'Темный рыцарь: Возрождение легенды' (2012)?",
+        "be": "Хто сыграў Бэйна ў 'Цемны рыцар: Узнясенне легенды' (2012)?"
+      },
+      "options": {
+        "en": ["Tom Hardy", "Michael Fassbender", "James McAvoy", "Cillian Murphy"],
+        "ru": ["Том Харди", "Майкл Фассбендер", "Джеймс МакЭвой", "Киллиан Мерфи"],
+        "be": ["Том Хардзі", "Майкл Фасбэндэр", "Джэймс МакЭвой", "Кіліян Мерфі"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 73,
+      "imageUrl": "/images/cinema/joss_whedon_01.jpg",
+      "question": {
+        "en": "Who directed 'The Avengers' (2012)?",
+        "ru": "Кто снял 'Мстителей' (2012)?",
+        "be": "Хто зняў 'Мсціўцаў' (2012)?"
+      },
+      "options": {
+        "en": ["Taika Waititi", "Joss Whedon", "James Gunn", "The Russo Brothers"],
+        "ru": ["Тайка Вайтити", "Джосс Уидон", "Джеймс Ганн", "Братья Руссо"],
+        "be": ["Тайка Вайтiці", "Джос Уідон", "Джэймс Ган", "Браты Руса"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 74,
+      "imageUrl": "/images/cinema/silence_of_the_lambs_1991_02.jpg",
+      "question": {
+        "en": "Who played Clarice Starling in 'The Silence of the Lambs' (1991)?",
+        "ru": "Кто сыграл Клариссу Старлинг в 'Молчании ягнят' (1991)?",
+        "be": "Хто сыграў Кларысу Старлінг у 'Маўчанні ягнят' (1991)?"
+      },
+      "options": {
+        "en": ["Meryl Streep", "Jodie Foster", "Glenn Close", "Susan Sarandon"],
+        "ru": ["Мерил Стрип", "Джоди Фостер", "Гленн Клоуз", "Сьюзан Сарандон"],
+        "be": ["Мэрыл Стрып", "Джодзі Фостэр", "Глен Клоўз", "Сьюзан Сарандон"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 75,
+      "imageUrl": "/images/cinema/pianist_2002_01.jpg",
+      "question": {
+        "en": "Who directed 'The Pianist' (2002)?",
+        "ru": "Кто снял фильм 'Пианист' (2002)?",
+        "be": "Хто зняў фільм 'Піяніст' (2002)?"
+      },
+      "options": {
+        "en": ["Brady Corbet", "Roman Polanski", "Nicolas Winding Refn", "Luc Besson"],
+        "ru": ["Брэйди Корбет", "Роман Полански", "Николас Виндинг Рефн", "Люк Бессон"],
+        "be": ["Брэйды Корбэт", "Раман Поланскі", "Нікалас Віндынг Рэфн", "Люк Бесон"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 76,
+      "imageUrl": "/images/cinema/shining_1980_02.jpg",
+      "question": {
+        "en": "Who played Jack Torrance in 'The Shining' (1980)?",
+        "ru": "Кто сыграл Джека Торранса в 'Сиянии' (1980)?",
+        "be": "Хто сыграў Джека Торранса ў 'Ззянні' (1980)?"
+      },
+      "options": {
+        "en": ["Robert De Niro", "Jack Nicholson", "Dennis Hopper", "Christopher Walken"],
+        "ru": ["Роберт Де Ниро", "Джек Николсон", "Деннис Хоппер", "Кристофер Уокен"],
+        "be": ["Роберт Дэ Ніра", "Джэк Нікалсан", "Дзэнiс Хопер", "Крыстофер Уокен"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 77,
+      "imageUrl": "/images/cinema/princess_diaries_2001_01.jpg",
+      "question": {
+        "en": "Who played Mia Thermopolis in 'The Princess Diaries' (2001)?",
+        "ru": "Кто сыграл Мию Термополис в 'Дневниках принцессы' (2001)?",
+        "be": "Хто сыграў Мію Тэрмаполіс у 'Дзенніках прынцэсы' (2001)?"
+      },
+      "options": {
+        "en": ["Anne Hathaway", "Lindsay Lohan", "Amanda Bynes", "Hilary Duff"],
+        "ru": ["Энн Хэтуэй", "Линдси Лохан", "Аманда Байнс", "Хилари Дафф"],
+        "be": ["Эн Хэтаўэй", "Ліндсі Лохан", "Аманда Байнс", "Хілары Даф"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 78,
+      "imageUrl": "/images/cinema/martian_2015_01.jpg",
+      "question": {
+        "en": "Who played Mark Watney in 'The Martian' (2015)?",
+        "ru": "Кто сыграл Марка Уотни в 'Марсианине' (2015)?",
+        "be": "Хто сыграў Марка Уотні ў 'Марсіяніну' (2015)?"
+      },
+      "options": {
+        "en": ["Brad Pitt", "Matt Damon", "Leonardo DiCaprio", "Chris Pratt"],
+        "ru": ["Брэд Питт", "Мэтт Деймон", "Леонардо Ди Каприо", "Крис Пратт"],
+        "be": ["Брэд Піт", "Мэт Дэйман", "Леанарда Дзі Капрыа", "Крыс Прат"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 79,
+      "imageUrl": "/images/cinema/devil_wears_prada_2006_01.jpg",
+      "question": {
+        "en": "Who played Miranda Priestly in 'The Devil Wears Prada' (2006)?",
+        "ru": "Кто сыграл Миранду Пристли в 'Дьявол носит Prada' (2006)?",
+        "be": "Хто сыграў Міранду Прыстлі ў 'Д'ябал носіць Prada' (2006)?"
+      },
+      "options": {
+        "en": ["Glenn Close", "Meryl Streep", "Helen Mirren", "Emily Blunt"],
+        "ru": ["Гленн Клоуз", "Мерил Стрип", "Хелен Миррен", "Эмили Блант"],
+        "be": ["Глен Клоўз", "Мэрыл Стрып", "Хелен Мірэн", "Эмiлі Блант"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 80,
+      "imageUrl": "/images/cinema/kings_speech_2010_01.jpg",
+      "question": {
+        "en": "Who played King George VI in 'The King's Speech' (2010)?",
+        "ru": "Кто сыграл короля Георга VI в 'Король говорит!' (2010)?",
+        "be": "Хто сыграў караля Георга VI у 'Кароль гаворыць!' (2010)?"
+      },
+      "options": {
+        "en": ["Benedict Cumberbatch", "Colin Firth", "Ralph Fiennes", "Hugh Grant"],
+        "ru": ["Бенедикт Камбербэтч", "Колин Ферт", "Рэйф Файнс", "Хью Грант"],
+        "be": ["Бэнэдыкт Камбербэтч", "Колін Ферт", "Рэйф Файнс", "Х'ю Грант"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 81,
+      "imageUrl": "/images/cinema/bourne_identity_2002_01.jpg",
+      "question": {
+        "en": "Who played Jason Bourne in 'The Bourne Identity' (2002)?",
+        "ru": "Кто сыграл Джейсона Борна в 'Идентификации Борна' (2002)?",
+        "be": "Хто сыграў Джэйсана Борна ў 'Ідэнтыфікацыі Борна' (2002)?"
+      },
+      "options": {
+        "en": ["Brad Pitt", "Matt Damon", "Leonardo DiCaprio", "Tom Cruise"],
+        "ru": ["Брэд Питт", "Мэтт Деймон", "Леонардо Ди Каприо", "Том Круз"],
+        "be": ["Брэд Піт", "Мэт Дэйман", "Леанарда Дзі Капрыа", "Том Круз"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 82,
+      "imageUrl": "/images/cinema/prestige_2006_01.jpg",
+      "question": {
+        "en": "Who directed 'The Prestige' (2006)?",
+        "ru": "Кто снял 'Престиж' (2006)?",
+        "be": "Хто зняў 'Прэстыж' (2006)?"
+      },
+      "options": {
+        "en": ["David Fincher", "Christopher Nolan", "Darren Aronofsky", "Denis Villeneuve"],
+        "ru": ["Дэвид Финчер", "Кристофер Нолан", "Даррен Аронофски", "Дени Вильнев"],
+        "be": ["Дэвід Фінчер", "Крыстафер Нолан", "Дарэн Аронофскі", "Дэні Вільнеў"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 83,
+      "imageUrl": "/images/cinema/incredibles_2004_01.jpg",
+      "question": {
+        "en": "Who directed 'The Incredibles' (2004)?",
+        "ru": "Кто снял 'Суперсемейку' (2004)?",
+        "be": "Хто зняў 'Неверагодных' (2004)?"
+      },
+      "options": {
+        "en": ["John Lasseter", "Brad Bird", "Andrew Stanton", "Pete Docter"],
+        "ru": ["Джон Лассетер", "Брэд Берд", "Эндрю Стэнтон", "Пит Доктер"],
+        "be": ["Джон Ласэтар", "Брэд Берд", "Эндру Стантан", "Піт Доктар"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 84,
+      "imageUrl": "/images/cinema/wolf_of_wall_street_2013_01.jpg",
+      "question": {
+        "en": "Who played Jordan Belfort in 'The Wolf of Wall Street' (2013)?",
+        "ru": "Кто сыграл Джордана Белфорта в 'Волк с Уолл-стрит' (2013)?",
+        "be": "Хто сыграў Джордана Белфорта ў 'Воўку з Уол-стрыт' (2013)?"
+      },
+      "options": {
+        "en": ["Bradley Cooper", "Leonardo DiCaprio", "Jonah Hill", "Christian Bale"],
+        "ru": ["Брэдли Купер", "Леонардо Ди Каприо", "Джона Хилл", "Кристиан Бэйл"],
+        "be": ["Брэдлі Купер", "Леанарда Дзі Капрыа", "Джона Хіл", "Крысціян Бэйл"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 85,
+      "imageUrl": "/images/cinema/matrix_1999_02.jpg",
+      "question": {
+        "en": "Who played Morpheus in 'The Matrix' (1999)?",
+        "ru": "Кто сыграл Морфиуса в 'Матрице' (1999)?",
+        "be": "Хто сыграў Морфіуса ў 'Матрыцы' (1999)?"
+      },
+      "options": {
+        "en": ["Samuel L. Jackson", "Laurence Fishburne", "Morgan Freeman", "Denzel Washington"],
+        "ru": ["Сэмюэл Л. Джексон", "Лоренс Фишберн", "Морган Фриман", "Дензел Вашингтон"],
+        "be": ["Сэмюэл Л. Джэксан", "Лорэнс Фішберн", "Морган Фрыман", "Дэнзэл Вашынгтан"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 86,
+      "imageUrl": "/images/cinema/dark_knight_2008_02.jpg",
+      "question": {
+        "en": "Which Batman film features the line 'Why so serious?'",
+        "ru": "В каком фильме о Бэтмене звучит фраза 'Why so serious?'?",
+        "be": "У якім фільме пра Бэтмена гучыць фраза 'Why so serious?'?"
+      },
+      "options": {
+        "en": ["Batman Begins", "The Dark Knight", "The Dark Knight Rises", "Batman vs. Superman"],
+        "ru": ["Бэтмен: Начало", "Темный рыцарь", "Темный рыцарь: Возрождение легенды", "Бэтмен против Супермена"],
+        "be": ["Бэтмен: Пачатак", "Цемны рыцар", "Цемны рыцар: Узнясенне легенды", "Бэтмен супраць Супэрмэна"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 87,
+      "imageUrl": "/images/cinema/godfather_1972_02.jpg",
+      "question": {
+        "en": "Who played Vito Corleone in 'The Godfather' (1972)?",
+        "ru": "Кто сыграл Вито Корлеоне в 'Крестном отце' (1972)?",
+        "be": "Хто сыграў Віта Карлеоне ў 'Хросным бацьку' (1972)?"
+      },
+      "options": {
+        "en": ["Al Pacino", "Marlon Brando", "Robert De Niro", "James Caan"],
+        "ru": ["Аль Пачино", "Марлон Брандо", "Роберт Де Ниро", "Джеймс Каан"],
+        "be": ["Аль Пачына", "Марлон Бранда", "Роберт Дэ Ніра", "Джэймс Каан"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 88,
+      "imageUrl": "/images/cinema/truman_show_1998_02.jpg",
+      "question": {
+        "en": "What is the name of the fictional town in 'The Truman Show' (1998)?",
+        "ru": "Как называется вымышленный город в 'Шоу Трумана' (1998)?",
+        "be": "Як называецца выдуманы горад у 'Шоў Трумана' (1998)?"
+      },
+      "options": {
+        "en": ["Seahaven", "Paradise Cove", "Port Haven", "New Eden"],
+        "ru": ["Сихейвен", "Парадайз Коув", "Порт Хейвен", "Новый Эдем"],
+        "be": ["Сіхэйвен", "Парадайз Коў", "Порт Хэйвен", "Новы Эдэм"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 89,
+      "imageUrl": "/images/cinema/shawshank_redemption_1994_02.jpg",
+      "question": {
+        "en": "Who directed 'The Shawshank Redemption' (1994)?",
+        "ru": "Кто снял 'Побег из Шоушенка' (1994)?",
+        "be": "Хто зняў 'Уцекі з Шоўшэнка' (1994)?"
+      },
+      "options": {
+        "en": ["Clint Eastwood", "Frank Darabont", "Rob Reiner", "Brian De Palma"],
+        "ru": ["Клинт Иствуд", "Фрэнк Дарабонт", "Роб Райнер", "Брайан Де Пальма"],
+        "be": ["Клінт Іствуд", "Фрэнк Дарабонт", "Роб Райнер", "Браян Дэ Пальма"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 90,
+      "imageUrl": "/images/cinema/princess_bride_1987_02.jpg",
+      "question": {
+        "en": "What is the name of the six-fingered man in 'The Princess Bride' (1987)?",
+        "ru": "Как зовут шестипалого человека в 'Принцессе-невесте' (1987)?",
+        "be": "Як завуць шасьціпалога мужчыну ў 'Прынцэсе-нявесце' (1987)?"
+      },
+      "options": {
+        "en": ["Count Rugen", "Prince Humperdinck", "Vizzini", "Fezzik"],
+        "ru": ["Граф Рюген", "Принц Хампердинк", "Виццини", "Феззик"],
+        "be": ["Граф Рюген", "Прынц Хампердынк", "Віцціні", "Фезік"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 91,
+      "imageUrl": "/images/cinema/breakfast_club_1985_02.jpg",
+      "question": {
+        "en": "How many students are in detention in 'The Breakfast Club' (1985)?",
+        "ru": "Сколько учеников на наказании (detention) в 'Клубе 'Завтрак'' (1985)?",
+        "be": "Колькі вучняў на пакаранні (detention) у 'Клубе 'Сняданак'' (1985)?"
+      },
+      "options": {
+        "en": ["3", "4", "5", "6", "7", "8", "9"],
+        "ru": ["3", "4", "5", "6", "7", "8", "9"],
+        "be": ["3", "4", "5", "6", "7", "8", "9"]
+      },
+      "correctAnswer": 2
+    },
+    {
+      "id": 92,
+      "imageUrl": "/images/cinema/lion_king_1994_02.jpg",
+      "question": {
+        "en": "Who voiced adult Simba in the original 'The Lion King' (1994)?",
+        "ru": "Кто озвучил взрослого Симбу в оригинальном 'Короле Льве' (1994)?",
+        "be": "Хто агучыў дарослага Сімбу ў арыгінальным 'Каралі Льве' (1994)?"
+      },
+      "options": {
+        "en": ["James Earl Jones", "Matthew Broderick", "Jeremy Irons", "Nathan Lane"],
+        "ru": ["Джеймс Эрл Джонс", "Мэттью Бродерик", "Джереми Айронс", "Нэйтан Лейн"],
+        "be": ["Джэймс Эрл Джонс", "Мэцю Бродэрык", "Джэрэмі Айранс", "Нэйтан Лейн"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 93,
+      "imageUrl": "/images/cinema/matrix_1999_03.jpg",
+      "question": {
+        "en": "What color pill does Neo take in 'The Matrix' (1999)?",
+        "ru": "Таблетку какого цвета принимает Нео в 'Матрице' (1999)?",
+        "be": "Таблетку якога колеру прымае Неа ў 'Матрыцы' (1999)?"
+      },
+      "options": {
+        "en": ["Blue", "Red", "Green", "Both"],
+        "ru": ["Синюю", "Красную", "Зеленую", "Обe"],
+        "be": ["Сінюю", "Чырвоную", "Зяленую", "Абедзве"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 94,
+      "imageUrl": "/images/cinema/silence_of_the_lambs_1991_03.jpg",
+      "question": {
+        "en": "What is the name of the serial killer Clarice Starling is hunting in 'The Silence of the Lambs' (1991)?",
+        "ru": "Как зовут серийного убийцу, за которым охотится Кларисса Старлинг в 'Молчании ягнят' (1991)?",
+        "be": "Як завуць серыйнага забойцу, за якім палюе Кларыса Старлінг у 'Маўчанні ягнят' (1991)?"
+      },
+      "options": {
+        "en": ["Hannibal Lecter", "Buffalo Bill", "Norman Bates", "John Doe"],
+        "ru": ["Ганнибал Лектер", "Буффало Билл", "Норман Бейтс", "Джон До"],
+        "be": ["Ганнібал Лектер", "Буфала Біл", "Норман Бэйц", "Джон До"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 95,
+      "imageUrl": "/images/cinema/godfather_1972_03.jpg",
+      "question": {
+        "en": "What object is used as a threat in the famous 'offer he can't refuse' scene in 'The Godfather'?",
+        "ru": "Какой объект используется как угроза в знаменитой сцене 'предложения, от которого он не сможет отказаться' в 'Крестном отце'?",
+        "be": "Які аб'ект выкарыстоўваецца як пагроза ў знакамітай сцэне 'прапановы, ад якой ен не зможа адмовіцца' ў 'Хросным бацьку'?"
+      },
+      "options": {
+        "en": ["A gun", "A knife", "A horse's head", "A garrote"],
+        "ru": ["Пистолет", "Нож", "Лошадиная голова", "Гаррота"],
+        "be": ["Пісталет", "Нож", "Конская галава", "Гарота"]
+      },
+      "correctAnswer": 2
+    },
+    {
+      "id": 96,
+      "imageUrl": "/images/cinema/wizard_of_oz_1939_02.jpg",
+      "question": {
+        "en": "What does the Scarecrow want from the Wizard in 'The Wizard of Oz' (1939)?",
+        "ru": "Чего хочет Страшила от Волшебника в 'Волшебнике страны Оз' (1939)?",
+        "be": "Чаго хоча Страшыла ад Чараўніка ў 'Чараўніку краіны Оз' (1939)?"
+      },
+      "options": {
+        "en": ["Courage", "A heart", "A brain", "To go home"],
+        "ru": ["Храбрости", "Сердце", "Мозг", "Вернуться домой"],
+        "be": ["Адвагі", "Сэрца", "Мозг", "Вярнуцца дадому"]
+      },
+      "correctAnswer": 2
+    },
+    {
+      "id": 97,
+      "imageUrl": "/images/cinema/sound_of_music_1965_02.jpg",
+      "question": {
+        "en": "In 'The Sound of Music' (1965), what country does the von Trapp family escape from?",
+        "ru": "Из какой страны сбегает семья фон Трапп в 'Звуках музыки' (1965)?",
+        "be": "З якой краіны ўцякае сям'я фон Трап у 'Гучанні музыкі' (1965)?"
+      },
+      "options": {
+        "en": ["Germany", "Austria", "Switzerland", "Italy"],
+        "ru": ["Германия", "Австрия", "Швейцария", "Италия"],
+        "be": ["Германія", "Аўстрыя", "Швейцарыя", "Італія"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 98,
+      "imageUrl": "/images/cinema/sixth_sense_1999_02.jpg",
+      "question": {
+        "en": "What is the famous twist in 'The Sixth Sense' (1999)?",
+        "ru": "В чем знаменитый твист фильма 'Шестое чувство' (1999)?",
+        "be": "У чым знакаміты паўвораты фільма 'Шостае пачуцце' (1999)?"
+      },
+      "options": {
+        "en": ["The boy is imaginary", "The doctor is dead", "The mother is the killer", "It was all a dream"],
+        "ru": ["Мальчик вымышлен", "Доктор мертв", "Мать — убийца", "Это был всего лишь сон"],
+        "be": ["Хлопчык выдуманы", "Доктар мертвы", "Маці — забойца", "Гэта быў проста сон"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 99,
+      "imageUrl": "/images/cinema/departed_2006_02.jpg",
+      "question": {
+        "en": "In which city is 'The Departed' (2006) set?",
+        "ru": "В каком городе происходит действие 'Отступников' (2006)?",
+        "be": "У якім горадзе адбываюцца падзеі 'Адступнікаў' (2006)?"
+      },
+      "options": {
+        "en": ["New York", "Boston", "Chicago", "Philadelphia"],
+        "ru": ["Нью-Йорк", "Бостон", "Чикаго", "Филадельфия"],
+        "be": ["Нью-ерк", "Бостан", "Чыкага", "Філадэльфія"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 100,
+      "imageUrl": "/images/cinema/lord_of_the_rings_2001_02.jpg",
+      "question": {
+        "en": "Who played Gandalf in 'The Lord of the Rings' trilogy?",
+        "ru": "Кто сыграл Гэндальфа в трилогии 'Властелин колец'?",
+        "be": "Хто сыграў Гэндальфа ў трылогіі 'Уладар пярсценкаў'?"
+      },
+      "options": {
+        "en": ["Patrick Stewart", "Ian McKellen", "Christopher Lee", "Michael Gambon"],
+        "ru": ["Патрик Стюарт", "Иэн МакКеллен", "Кристофер Ли", "Майкл Гэмбон"],
+        "be": ["Патрык Стюарт", "Іэн МакКеллен", "Крыстофер Лі", "Майкл Гэмбан"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 101,
+      "imageUrl": "/images/cinema/green_mile_1999_02.jpg",
+      "question": {
+        "en": "What is John Coffey's special ability in 'The Green Mile' (1999)?",
+        "ru": "Какой особой способностью обладает Джон Коффи в 'Зеленой миле' (1999)?",
+        "be": "Якой асаблівай здольнасцю валодае Джон Коффі ў 'Зяленай міле' (1999)?"
+      },
+      "options": {
+        "en": ["Super strength", "Mind reading", "Healing", "Invisibility"],
+        "ru": ["Сверхсила", "Чтение мыслей", "Исцеление", "Невидимость"],
+        "be": ["Звышсіла", "Чытанне думак", "Галенне", "Нябачнасць"]
+      },
+      "correctAnswer": 2
+    },
+    {
+      "id": 102,
+      "imageUrl": "/images/cinema/shining_1980_03.jpg",
+      "question": {
+        "en": "What is the name of the hotel in 'The Shining' (1980)?",
+        "ru": "Как называется отель в 'Сиянии' (1980)?",
+        "be": "Як называецца гатэль у 'Ззянні' (1980)?"
+      },
+      "options": {
+        "en": ["The Stanley Hotel", "The Overlook Hotel", "The Bates Motel", "The Dolphin Hotel"],
+        "ru": ["Стэнли", "Оверлук", "Бейтс", "Дельфин"],
+        "be": ["Стэнлі", "Оверлук", "Бэйтс", "Дэльфін"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 103,
+      "imageUrl": "/images/cinema/terminator_1984_02.jpg",
+      "question": {
+        "en": "What famous line does the Terminator say in the 1984 film?",
+        "ru": "Какую знаменитую фразу произносит Терминатор в фильме 1984 года?",
+        "be": "Якую знакамітую фразу гаворыць Тэрмінатар у фільме 1984 года?"
+      },
+      "options": {
+        "en": [
+          "Hasta la vista, baby",
+          "I'll be back",
+          "Come with me if you want to live",
+          "I need your clothes, your boots, and your motorcycle"
+        ],
+        "ru": [
+          "Hasta la vista, baby",
+          "Я вернусь",
+          "Пойдем со мной, если хочешь жить",
+          "Мне нужна твоя одежда, твои ботинки и твой мотоцикл"
+        ],
+        "be": [
+          "Hasta la vista, baby",
+          "Я вярнуся",
+          "Пайшлі са мной, калі хочаш жыць",
+          "Мне патрэбна твая вопратка, твае боты і твой матацыкл"
+        ]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 104,
+      "imageUrl": "/images/cinema/big_lebowski_1998_02.jpg",
+      "question": {
+        "en": "What is the main character's nickname in 'The Big Lebowski' (1998)?",
+        "ru": "Какое прозвище у главного героя в 'Большом Лебовски' (1998)?",
+        "be": "Якое мянушка ў галоўнага героя ў 'Вялікім Лебоўскі' (1998)?"
+      },
+      "options": {
+        "en": ["The Dude", "The Guy", "The Man", "The Boss"],
+          "ru": ["Чувак", "Парень", "Мужчина", "Босс"],
+          "be": ["Чувак", "Хлопец", "Мужчына", "Бос"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 105,
+      "imageUrl": "/images/cinema/notebook_2004_02.jpg",
+      "question": {
+        "en": "In 'The Notebook' (2004), what does Noah build for Allie?",
+        "ru": "Что Ной строит для Элли в 'Дневнике памяти' (2004)?",
+        "be": "Што Ной будуе для Элі ў 'Дзенніку памяці' (2004)?"
+      },
+      "options": {
+        "en": ["A boat", "A house", "A garden", "A library"],
+        "ru": ["Лодку", "Дом", "Сад", "Библиотеку"],
+        "be": ["Лодку", "Дом", "Сад", "Бібліятэку"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 106,
+      "imageUrl": "/images/cinema/avengers_2012_01.jpg",
+      "question": {
+        "en": "Which city is attacked by Loki and the Chitauri in 'The Avengers' (2012)?",
+        "ru": "Какой город атакуют Локи и читаури в 'Мстителях' (2012)?",
+        "be": "Які горад атакуюць Локі і чытаўры ў 'Мсціўцах' (2012)?"
+      },
+      "options": {
+        "en": ["Los Angeles", "New York", "Chicago", "Washington D.C."],
+        "ru": ["Лос-Анджелес", "Нью-Йорк", "Чикаго", "Вашингтон"],
+        "be": ["Лос-Анджэлес", "Нью-ерк", "Чыкага", "Вашынгтон"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 107,
+      "imageUrl": "/images/cinema/social_network_2010_02.jpg",
+      "question": {
+        "en": "Which university is featured in 'The Social Network' (2010)?",
+        "ru": "Какой университет показан в 'Социальной сети' (2010)?",
+        "be": "Які ўніверсітэт паказаны ў 'Сацыяльнай сетцы' (2010)?"
+      },
+      "options": {
+        "en": ["Stanford", "Harvard", "Yale", "MIT"],
+        "ru": ["Стэнфорд", "Гарвард", "Йель", "MIT"],
+        "be": ["Стэнфард", "Гарвард", "Ель", "MIT"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 108,
+      "imageUrl": "/images/cinema/hunger_games_2012_02.jpg",
+      "question": {
+        "en": "What is the name of Katniss Everdeen's sister in 'The Hunger Games' (2012)?",
+        "ru": "Как зовут сестру Китнисс Эвердин в 'Голодных играх' (2012)?",
+        "be": "Як завуць сястру Кэтніс Эвердэн у 'Галодных гульнях' (2012)?"
+      },
+      "options": {
+        "en": ["Rue", "Primrose", "Effie", "Clove"],
+        "ru": ["Ру", "Примроуз", "Эффи", "Клов"],
+        "be": ["Ру", "Прімроуз", "Эфі", "Клоў"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 109,
+      "imageUrl": "/images/cinema/revenant_2015_01.jpg",
+      "question": {
+        "en": "What animal attacks Hugh Glass in 'The Revenant' (2015)?",
+        "ru": "Какое животное нападает на Хью Гласса в 'Выжившем' (2015)?",
+        "be": "Якая жывела нападае на Х'ю Гласа ў 'Выжыўшым' (2015)?"
+      },
+      "options": {
+        "en": ["Wolf", "Bear", "Mountain Lion (Puma)", "Wolverine"],
+        "ru": ["Волк", "Медведь", "Пума", "Росомаха"],
+        "be": ["Воўк", "Мядзведзь", "Пума", "Расамаха"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 110,
+      "imageUrl": "/images/cinema/grand_budapest_hotel_2014_02.jpg",
+      "question": {
+        "en": "What is the profession of the main character Gustave H. in 'The Grand Budapest Hotel' (2014)?",
+        "ru": "Какова профессия главного героя Густава Х. в 'Отеле 'Гранд Будапешт'' (2014)?",
+        "be": "Якая прафесія галоўнага героя Густава Х. у 'Гранд Будапешт гатэлі' (2014)?"
+      },
+      "options": {
+        "en": ["Chef", "Concierge", "Detective", "Architect"],
+        "ru": ["Шеф-повар", "Консьерж", "Детектив", "Архитектор"],
+        "be": ["Шэф-кухар", "Канс'ерж", "Дэтэктыў", "Архітэктар"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 111,
+      "imageUrl": "/images/cinema/martian_2015_01.jpg",
+      "question": {
+        "en": "What crop does Mark Watney grow on Mars in 'The Martian' (2015)?",
+        "ru": "Какую культуру выращивает Марк Уотни на Марсе в 'Марсианине' (2015)?",
+        "be": "Якую культуру вырошчвае Марк Уотні на Марсе ў 'Марсіяніне' (2015)?"
+      },
+      "options": {
+        "en": ["Sweetpotatoes", "Potatoes", "Carrots", "Tomatoes"],
+        "ru": ["Батат", "Картофель", "Морковь", "Помидоры"],
+        "be": ["Батат", "Бульба", "Морква", "Памідоры"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 112,
+      "imageUrl": "/images/cinema/bridesmaids_2011_01.jpg",
+      "question": {
+        "en": "What is the name of the movie featuring Kristen Wiig as Annie Walker?",
+        "ru": "Как называется фильм с Кристен Уиг в роли Энні Уокер?",
+        "be": "Як называецца фільм з Крысцэн Ўіґ у ролі Эні Уокер?"
+      },
+      "options": {
+        "en": ["Date Night (2010)", "American Pie (1999)", "Bridesmaids (2011)", "The Secret Life of Walter Mitty (2013)"],
+        "ru": ["Ночь в стиле буги (2010)", "Американский пирог (1999)", "Девичник в Вегасе (2011)", "Невероятная жизнь Уолтера Митти (2013)"],
+        "be": ["Спаткальная ноч (2010)", "Амерыканскі пірог (1999)", "Дзявочнік у Вегасе (2011)", "Неверагоднае жыцце Уолтэра Міці (2013)"]
+      },
+      "correctAnswer": 2
+    },
+    {
+      "id": 113,
+      "imageUrl": "/images/cinema/alan_smithee_hollywood_star.jpg",
+      "question": {
+        "en": "Which of these films was NOT directed by Alan Smithee?",
+        "ru": "Какой из этих фильмов НЕ был снят Аланом Сміти?",
+        "be": "Які з гэтых фільмаў НЕ быў зняты Аланам Сміты?"
+      },
+      "options": {
+        "en": [
+          "Another Night of the Living Dead (2011)",
+          "My Left Foot (1989)",
+          "Bloodsucking Pharaohs in Pittsburgh (1991)",
+          "Anatar (2023)"
+        ],
+        "ru": [
+          "Another Night of the Living Dead (2011)",
+          "Моя левая нога (1989)",
+          "Кровососущие фараоны в Питтсбурге (1991)",
+          "Anatar (2023)"
+        ],
+        "be": [
+          "Another Night of the Living Dead (2011)",
+          "Мая левая нага (1989)",
+          "Крывасмактальныя фараоны ў Пітсбургу (1991)",
+          "Anatar (2023)"
+        ]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 114,
+      "imageUrl": "/images/cinema/101_dalmatians_1996_01.jpg",
+      "question": {
+        "en": "What is the name of the character played by Glenn Close in '101 Dalmatians' (1996)?",
+        "ru": "Как зовут персонажа, которого играет Гленн Клоуз в '101 далматинце' (1996)?",
+        "be": "Як завуць персанажа, якога іграе Глен Клоўз у '101 далмацінцы' (1996)?"
+      },
+      "options": {
+        "en": ["Cruella de Vil", "Anita Radcliffe", "Dana Barrett", "Morticia Addams"],
+        "ru": ["Круэлла де Виль", "Анита Рэдкліф", "Дана Барретт", "Мартиша Аддамс"],
+        "be": ["Круэла дэ Віль", "Аніта Рэдкліф", "Дана Барэт", "Мартыша Адамс"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 115,
+      "imageUrl": "/images/cinema/lord_of_the_rings_2001_03.jpg",
+      "question": {
+        "en": "What is the nickname of Ian McKellen's character in 'The Lord of the Rings' (2001-2003)?",
+        "ru": "Какое прозвище у персонажа Яна МакКеллена во 'Властелине колец' (2001–2003)?",
+        "be": "Якая мянушка ў персанажа Іена МакКелена ў 'Уладары пярсценкаў' (2001–2003)?"
+      },
+      "options": {
+        "en": ["White", "Blue", "Black", "Indigo"],
+        "ru": ["Белый", "Синий", "Черный", "Индиго"],
+        "be": ["Белы", "Сіні", "Чорны", "Індыга"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 116,
+      "imageUrl": "/images/cinema/superman_1978_01.jpg",
+      "question": {
+        "en": "Minimalistic poster of which movie do you see?",
+        "ru": "Плакат якого фильма в минималистичном стиле вы видите?",
+        "be": "Мінімалістычны постар якога фільма вы бачыце?"
+      },
+      "options": {
+        "en": ["Superman (1978)", "The Rocketeer (1991)", "Interstellar (2014)", "Rocketman (2019)"],
+        "ru": ["Супермен (1978)", "Ракетчик (1991)", "Интерстеллар (2014)", "Рокетмен (2019)"],
+        "be": ["Супермэн (1978)", "Ракетчык (1991)", "Інтэрстэлар (2014)", "Рокетмэн (2019)"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 117,
+      "imageUrl": "/images/cinema/phoenician_scheme_2025_01.jpg",
+      "question": {
+        "en": "What movie is this shot from?",
+        "ru": "Из какого фильма этот кадр?",
+        "be": "З якога фільма гэты кадр?"
+      },
+      "options": {
+        "en": [
+          "The Phoenician Scheme (2025)",
+          "Asteroid City (2023)",
+          "The French Dispatch (2021)",
+          "The Grand Budapest Hotel (2014)"
+        ],
+        "ru": [
+          "Финикийская схема (2025)",
+          "Астероид Сити (2023)",
+          "Французский вестник (2021)",
+          "Отель 'Гранд Будапешт' (2014)"
+        ],
+        "be": [
+          "Фінікійская схема (2025)",
+          "Астэроід Сіці (2023)",
+          "Французскі веснік (2021)",
+          "Гранд Будапешт гатэль (2014)"
+        ]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 118,
+      "imageUrl": "/images/cinema/big_lebowski_1998_03.jpg",
+      "question": {
+        "en": "What is the surname of the character played by John Goodman in the 1998 Coen Brothers movie?",
+        "ru": "Какая фамилия у персонажа, которого играет Джон Гудман в фильме Коэнов 1998 года?",
+        "be": "Якая прозвішча ў персанажа, якога іграе Джон Гудман у фільме братоў Коэнаў 1998 года?"
+      },
+      "options": {
+        "en": ["Sobchak", "Stone", "Lebowski", "Kerabatsos"],
+        "ru": ["Собчак", "Стоун", "Лебовски", "Керабатос"],
+        "be": ["Собчак", "Стоўн", "Лебоўскі", "Керабатас"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 119,
+      "imageUrl": "/images/cinema/mystic_river_2003_01.jpg",
+      "question": {
+        "en": "What movie is this shot from?",
+        "ru": "Из какого фильма этот кадр?",
+        "be": "З якога фільма гэты кадр?"
+      },
+      "options": {
+        "en": [
+          "Mystic River (2003)",
+          "The Shawshank Redemption (1994)",
+          "Arlington Road (1999)",
+          "The Secret Life of Words (2005)"
+        ],
+        "ru": [
+          "Таинственная река (2003)",
+          "Побег из Шоушенка (1994)",
+          "Дорога в Арлингтон (1999)",
+          "Тайная жизнь слов (2005)"
+        ],
+        "be": [
+          "Таямнічая рака (2003)",
+          "Уцекі з Шоўшэнка (1994)",
+          "Дарога ў Арлінгтан (1999)",
+          "Таемнае жыцце слоў (2005)"
+        ]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 120,
+      "imageUrl": "/images/cinema/flight_of_the_navigator_1986_01.jpg",
+      "question": {
+        "en": "What movie is this shot from?",
+        "ru": "Из какого фильма этот кадр?",
+        "be": "З якога фільма гэты кадр?"
+      },
+      "options": {
+        "en": [
+          "Flight of the Navigator (1986)",
+          "Honeymoon in Vegas (1992)",
+          "Mars Attacks! (1996)",
+          "Footloose (1984)"
+        ],
+        "ru": [
+          "Полет навигатора (1986)",
+          "Медовый месяц в Вегасе (1992)",
+          "Марс атакует! (1996)",
+          "Свободные (1984)"
+        ],
+        "be": [
+          "Палет навігатара (1986)",
+          "Мядовы месяц у Вегасе (1992)",
+          "Марс атакуе! (1996)",
+          "Футлуз (1984)"
+        ]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 121,
+      "imageUrl": "/images/cinema/indiana_jones_raiders_of_the_lost_ark_1981_01.jpg",
+      "question": {
+        "en": "Which Indiana Jones film is this shot from?",
+        "ru": "Из какого фильма об Индиане Джонсе этот кадр?",
+        "be": "З якога фільма пра Індыяну Джонса гэты кадр?"
+      },
+      "options": {
+        "en": [
+          "Indiana Jones and the Temple of Doom (1984)",
+          "Raiders of the Lost Ark (1981)",
+          "Indiana Jones and the Last Crusade (1989)",
+          "Indiana Jones and the Dial of Destiny (2023)"
+        ],
+        "ru": [
+          "Индиана Джонс и Храм судьбы (1984)",
+          "Индиана Джонс: В поисках утраченного ковчега (1981)",
+          "Индиана Джонс и последний крестовый поход (1989)",
+          "Индиана Джонс и Колесо судьбы (2023)"
+        ],
+        "be": [
+          "Індыяна Джонс і Храм лесу (1984)",
+          "Індыяна Джонс: У пошуках страчанага каўчэга (1981)",
+          "Індыяна Джонс і Апошні крыжовы паход (1989)",
+          "Індыяна Джонс і Цыферблат лесу (2023)"
+        ]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 122,
+      "imageUrl": "/images/cinema/blade_runner_1982_02.jpg",
+      "question": {
+        "en": "Who directed 'Blade Runner' (1982)?",
+        "ru": "Кто режиссировал 'Бегущего по лезвию' (1982)?",
+        "be": "Хто рэжысіраваў 'Бягучага па лязе' (1982)?"
+      },
+      "options": {
+        "en": ["Paul Verhoeven", "Ridley Scott", "David Lynch", "George Lucas"],
+        "ru": ["Пол Верховен", "Ридли Скотт", "Дэвид Линч", "Джордж Лукас"],
+        "be": ["Пол Верховен", "Рыдлі Скот", "Дэвід Лінч", "Джордж Лукас"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 123,
+      "imageUrl": "/images/cinema/amelie_2001_01.jpg",
+      "question": {
+        "en": "Who played the title character in 'Amélie' (2001)?",
+        "ru": "Кто сыграл главную героиню в 'Амели' (2001)?",
+        "be": "Хто сыграў галоўную гераіню ў 'Амелі' (2001)?"
+      },
+      "options": {
+        "en": ["Marion Cotillard", "Audrey Tautou", "Juliette Binoche", "Léa Seydoux"],
+        "ru": ["Марион Котийяр", "Одри Тоту", "Жюльет Бинош", "Леа Сейду"],
+        "be": ["Марыен Катыяр", "Одры Тату", "Жул'ет Бінош", "Леа Сейду"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 124,
+      "imageUrl": "/images/cinema/seven_samurai_1954_01.jpg",
+      "question": {
+        "en": "Who directed 'Seven Samurai' (1954)?",
+        "ru": "Кто режиссировал 'Семь самураев' (1954)?",
+        "be": "Хто рэжысіраваў 'Сямера самураяў' (1954)?"
+      },
+      "options": {
+        "en": ["Yasujirō Ozu", "Akira Kurosawa", "Kenji Mizoguchi", "Masaki Kobayashi"],
+        "ru": ["Ясудзиро Одзу", "Акира Куросава", "Кэндзи Мидзогути", "Масаки Кобаяси"],
+        "be": ["Ясудзіра Одзу", "Акіра Куросава", "Кэндзі Мідзагучы", "Масакі Кабаясі"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 125,
+      "imageUrl": "/images/cinema/spirited_away_2001_01.jpg",
+      "question": {
+        "en": "Who directed 'Spirited Away' (2001)?",
+        "ru": "Кто режиссировал 'Унесенных призраками' (2001)?",
+        "be": "Хто рэжысіраваў 'Унесеных прывідамі' (2001)?"
+      },
+      "options": {
+        "en": ["Isao Takahata", "Hayao Miyazaki", "Satoshi Kon", "Mamoru Hosoda"],
+        "ru": ["Исао Такахата", "Хаяо Миядзаки", "Сатоси Кон", "Мамору Хосода"],
+        "be": ["Ісаа Такахата", "Хае Міядзакі", "Сатосі Кон", "Мамору Хасода"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 126,
+      "imageUrl": "/images/cinema/clockwork_orange_1971_01.jpg",
+      "question": {
+        "en": "Who directed 'A Clockwork Orange' (1971)?",
+        "ru": "Кто режиссировал 'Заводной апельсин' (1971)?",
+        "be": "Хто рэжысіраваў 'Завадны апельсін' (1971)?"
+      },
+      "options": {
+        "en": ["Alfred Hitchcock", "Stanley Kubrick", "Francis Ford Coppola", "Roman Polanski"],
+        "ru": ["Альфред Хичкок", "Стэнли Кубрик", "Фрэнсис Форд Коппола", "Роман Полански"],
+        "be": ["Альфрэд Хічкок", "Стэнлі Кубрык", "Фрэнсіс Форд Капала", "Раман Поланскі"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 127,
+      "imageUrl": "/images/cinema/eternal_sunshine_of_the_spotless_mind_2004_01.jpg",
+      "question": {
+        "en": "Who directed 'Eternal Sunshine of the Spotless Mind' (2004)?",
+        "ru": "Кто режиссировал 'Вечное сияние чистого разума' (2004)?",
+        "be": "Хто рэжысіраваў 'Вечнае ззянне чыстага розуму' (2004)?"
+      },
+      "options": {
+        "en": ["Spike Jonze", "Michel Gondry", "Charlie Kaufman", "Wes Anderson"],
+        "ru": ["Спайк Джонз", "Мишель Гондри", "Чарли Кауфман", "Уэс Андерсон"],
+        "be": ["Спайк Джонз", "Мішэль Гондры", "Чарлі Каўфман", "Уэс Андэрсан"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 128,
+      "imageUrl": "/images/cinema/pans_labyrinth_2006_01.jpg",
+      "question": {
+        "en": "Who directed 'Pan's Labyrinth' (2006)?",
+        "ru": "Кто режиссировал 'Лабиринт Фавна' (2006)?",
+        "be": "Хто рэжысіраваў 'Лабірынт Фаўна' (2006)?"
+      },
+      "options": {
+        "en": ["Alfonso Cuarón", "Guillermo del Toro", "Alejandro G. Iñárritu", "Pedro Almodóvar"],
+        "ru": ["Альфонсо Куарон", "Гильермо дель Торо", "Алехандро Г. Иньярриту", "Педро Альмодовар"],
+        "be": ["Альфонса Куарон", "Гільерма дэль Тора", "Алехандра Г. Інярыту", "Педра Альмадовар"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 129,
+      "imageUrl": "/images/cinema/oldboy_2003_01.jpg",
+      "question": {
+        "en": "Who directed the original 'Oldboy' (2003)?",
+        "ru": "Кто режиссировал оригинальный 'Олдбой' (2003)?",
+        "be": "Хто рэжысіраваў арыгінальны 'Олдбой' (2003)?"
+      },
+      "options": {
+        "en": ["Bong Joon Ho", "Park Chan-wook", "Kim Jee-woon", "Lee Chang-dong"],
+        "ru": ["Пон Джун Хо", "Пак Чхан Ук", "Кім Джы Ун", "Лі Чхан Дон"],
+        "be": ["Пон Джун Хо", "Пак Чхан Ук", "Кім Джы Ун", "Лі Чхан Дон"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 130,
+      "imageUrl": "/images/cinema/city_of_god_2002_01.jpg",
+      "question": {
+          "en": "In what city is 'City of God' (2002) set?",
+          "ru": "В каком городе происходит действие 'Города Бога' (2002)?",
+          "be": "У якім горадзе адбываюцца падзеі 'Горада Бога' (2002)?"
+      },
+      "options": {
+        "en": ["São Paulo", "Rio de Janeiro", "Buenos Aires", "Mexico City"],
+        "ru": ["Сан-Паулу", "Рио-де-Жанейро", "Буэнос-Айрес", "Мехико"],
+        "be": ["Сан-Паўлу", "Рыа-дэ-Жанейра", "Буэнас-Айрэс", "Мехіка"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 131,
+      "imageUrl": "/images/cinema/memento_2000_01.jpg",
+      "question": {
+        "en": "What is unique about the narrative structure of 'Memento' (2000)?",
+        "ru": "Что уникального в структуре повествования 'Помни' (2000)?",
+        "be": "Што ўнікальнага ў структуры апавядання 'Памятай' (2000)?"
+      },
+      "options": {
+        "en": [
+          "It's told entirely through flashbacks",
+          "It's told in reverse chronological order",
+          "It's told from multiple perspectives",
+          "It's told in real-time"
+        ],
+        "ru": [
+          "Полностью рассказано через флэшбеки",
+          "Рассказано в обратном хронологическом порядке",
+          "Рассказано с нескольких точек зрения",
+          "Рассказано ў рэальным часе"
+        ],
+        "be": [
+          "Поўнасцю праз флэшбэкі",
+          "Пададзена ў зваротным храналагічным парадку",
+          "Пададзена з некалькіх перспектыў",
+          "Пададзена ў рэальным часе"
+        ]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 132,
+      "imageUrl": "/images/cinema/whiplash_2014_01.jpg",
+      "question": {
+        "en": "Who played the intimidating music teacher in 'Whiplash' (2014)?",
+        "ru": "Кто сыграл устрашающего преподавателя музыки в 'Одержимости' (2014)?",
+        "be": "Хто сыграў палохаючага настаўніка музыкі ў 'Одержимости' (2014)?"
+      },
+      "options": {
+        "en": ["Bryan Cranston", "J.K. Simmons", "Gary Oldman", "Willem Dafoe"],
+        "ru": ["Брайан Крэнстон", "Дж. К. Симмонс", "Гэри Олдман", "Уіллем Дэфо"],
+        "be": ["Браян Крэнстан", "Дж. К. Сіманс", "Гэры Олдман", "Уілем Дэфо"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 133,
+      "imageUrl": "/images/cinema/bong_joon_ho_oscars.jpg",
+      "question": {
+        "en": "Who directed 'Parasite' (2019)?",
+        "ru": "Кто режиссировал 'Паразитов' (2019)?",
+        "be": "Хто рэжысіраваў 'Паразітаў' (2019)?"
+      },
+      "options": {
+        "en": ["Park Chan-wook", "Bong Joon Ho", "Lee Chang-dong", "Kim Jee-woon"],
+        "ru": ["Пак Чхан Ук", "Пон Джун Хо", "Лі Чхан Дон", "Кім Джы Ун"],
+        "be": ["Пак Чхан Ук", "Пон Джун Хо", "Лі Чхан Дон", "Кім Джы Ун"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 134,
+      "imageUrl": "/images/cinema/la_la_land_2016_01.jpg",
+      "question": {
+        "en": "Who directed 'La La Land' (2016)?",
+        "ru": "Кто режиссировал 'Ла-Ла Ленд' (2016)?",
+        "be": "Хто рэжысіраваў 'Ла-Ла Лэнд' (2016)?"
+      },
+      "options": {
+        "en": ["David O. Russell", "Damien Chazelle", "Denis Villeneuve", "Barry Jenkins"],
+        "ru": ["Дэвид О. Рассел", "Дэмьен Шазелл", "Дэні Вільнев", "Барры Джэнкінс"],
+        "be": ["Дэвід О. Расэл", "Дам'ен Шазэль", "Дэні Вільнеў", "Бары Джэнкінс"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 135,
+      "imageUrl": "/images/cinema/moonlight_2016_01.jpg",
+      "question": {
+        "en": "Which film won Best Picture at the 2017 Academy Awards after an envelope mix-up?",
+        "ru": "Какой фильм получил 'Оскар' за лучший фильм в 2017 году после путаницы с конвертом?",
+        "be": "Які фільм атрымаў 'Оскар' за найлепшы фільм у 2017 годзе пасля блытаніны з канвертам?"
+      },
+      "options": {
+        "en": [
+          "La La Land (2016)",
+          "Moonlight (2016)",
+          "Manchester by the Sea (2016)",
+          "Arrival (2016)"
+        ],
+        "ru": [
+          "Ла-Ла Ленд (2016)",
+          "Лунный свет (2016)",
+          "Манчестер у моря (2016)",
+          "Прибытие (2016)"
+        ],
+        "be": [
+          "Ла-Ла Лэнд (2016)",
+          "Мсяцовае святло (2016)",
+          "Манчэсцер ля мора (2016)",
+          "Прыбыцце (2016)"
+        ]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 136,
+      "imageUrl": "/images/cinema/get_out_2017_01.jpg",
+      "question": {
+        "en": "Who directed 'Get Out' (2017)?",
+        "ru": "Кто режиссировал 'Прочь' (2017)?",
+        "be": "Хто рэжысіраваў 'Прэч' (2017)?"
+      },
+      "options": {
+        "en": ["Spike Lee", "Jordan Peele", "Ava DuVernay", "Ryan Coogler"],
+        "ru": ["Спайк Лі", "Джордан Пил", "Ава Дюверней", "Райан Куглер"],
+        "be": ["Спайк Лі", "Джордан Піл", "Ава Дзюверней", "Раян Куглер"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 137,
+      "imageUrl": "/images/cinema/shape_of_water_2017_01.jpg",
+      "question": {
+        "en": "Who directed 'The Shape of Water' (2017)?",
+        "ru": "Кто режиссировал 'Форму воды' (2017)?",
+        "be": "Хто рэжысіраваў 'Форму вады' (2017)?"
+      },
+      "options": {
+        "en": ["Alfonso Cuarón", "Guillermo del Toro", "Alejandro G. Iñárritu", "Pedro Almodóvar"],
+        "ru": ["Альфонсо Куарон", "Гильермо дель Торо", "Алехандро Г. Иньярриту", "Педро Альмодовар"],
+        "be": ["Альфонса Куарон", "Гільерма дэль Тора", "Алехандра Г. Інярыту", "Педра Альмадовар"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 138,
+      "imageUrl": "/images/cinema/three_billboards_outside_ebbing_missouri_2017_01.jpg",
+      "question": {
+        "en": "Who played Mildred Hayes in 'Three Billboards Outside Ebbing, Missouri' (2017)?",
+        "ru": "Кто сыграл Милдред Хейс в 'Три билборда на границе Эббинга, Миссури' (2017)?",
+        "be": "Хто сыграў Мілдрад Хэйс у 'Тры білборды на мяжы Эбінга, Місуры' (2017)?"
+      },
+      "options": {
+        "en": ["Meryl Streep", "Frances McDormand", "Viola Davis", "Cate Blanchett"],
+        "ru": ["Мерил Стрип", "Фрэнсіс МакДорманд", "Віола Дэйвіс", "Кейт Бланшэт"],
+        "be": ["Мэрыл Стрып", "Фрэнсіс МакДорманд", "Віела Дэвіс", "Кейт Бланшэт"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 139,
+      "imageUrl": "/images/cinema/black_panther_2018_01.jpg",
+      "question": {
+        "en": "Who played T'Challa in 'Black Panther' (2018)?",
+        "ru": "Кто сыграл Т'Чаллу в 'Черной пантере' (2018)?",
+        "be": "Хто сыграў Т'Чалу ў 'Чорнай панцеры' (2018)?"
+      },
+      "options": {
+        "en": ["Michael B. Jordan", "Chadwick Boseman", "Daniel Kaluuya", "John Boyega"],
+        "ru": ["Майкл Б. Джордан", "Чедвик Боузман", "Дэніэл Калуя", "Джон Баега"],
+        "be": ["Майкл Б. Джордан", "Чадвік Боузман", "Даніэл Калуя", "Джон Баега"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 140,
+      "imageUrl": "/images/cinema/roma_2018_01.jpg",
+      "question": {
+        "en": "Who directed 'Roma' (2018)?",
+        "ru": "Кто режиссировал 'Рому' (2018)?",
+        "be": "Хто рэжысіраваў 'Ромa' (2018)?"
+      },
+      "options": {
+        "en": ["Guillermo del Toro", "Alfonso Cuarón", "Alejandro G. Iñárritu", "Pedro Almodóvar"],
+        "ru": ["Гильермо дель Торо", "Альфонсо Куарон", "Алехандро Г. Иньярриту", "Педро Альмодовар"],
+        "be": ["Гільерма дэль Тора", "Альфонса Куарон", "Алехандра Г. Інярыту", "Педра Альмадовар"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 141,
+      "imageUrl": "/images/cinema/joker_2019_01.jpg",
+      "question": {
+        "en": "Who played the Joker in the 2019 film 'Joker'?",
+        "ru": "Кто сыграл Джокера в фильме 'Джокер' (2019)?",
+        "be": "Хто сыграў Джокера ў фільме 'Джокер' (2019)?"
+      },
+      "options": {
+        "en": ["Heath Ledger", "Joaquin Phoenix", "Jared Leto", "Jack Nicholson"],
+        "ru": ["Хит Леджер", "Хоакин Феникс", "Джаред Лето", "Джек Николсон"],
+        "be": ["Хіт Леджар", "Хаакін Фенікс", "Джарэд Лета", "Джэк Нікалсан"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 142,
+      "imageUrl": "/images/cinema/1917_2019_01.jpg",
+      "question": {
+        "en": "What is unique about the cinematography of '1917' (2019)?",
+        "ru": "Что уникального в кинематографии фильма '1917' (2019)?",
+        "be": "Што ўнікальнага ў кінематаграфіі фільма '1917' (2019)?"
+      },
+      "options": {
+        "en": [
+          "It was shot entirely at night",
+          "It appears to be filmed in one continuous shot",
+          "It was filmed entirely with handheld cameras",
+          "It was filmed entirely in black and white"
+        ],
+        "ru": [
+          "Полностью снят ночью",
+          "Выглядит как один непрерывный кадр",
+          "Снят полностью ручными камерами",
+          "Полностью снят у чорна-белым"
+        ],
+        "be": [
+          "Поўнасцю зняты ноччу",
+          "Выглядае як адзін бесперапынны кадр",
+          "Зняты цалкам ручнымі камерамі",
+          "Поўнасцю чорна-белы"
+        ]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 143,
+      "imageUrl": "/images/cinema/once_upon_a_time_in_hollywood_2019_01.jpg",
+      "question": {
+        "en": "Who directed 'Once Upon a Time in Hollywood' (2019)?",
+        "ru": "Кто режиссировал 'Однажды в Голливуде' (2019)?",
+        "be": "Хто рэжысіраваў 'Аднойчы ў Галівудзе' (2019)?"
+      },
+      "options": {
+        "en": ["Barry Sonnenfeld", "Quentin Tarantino", "Robert Rodriguez", "David Fincher"],
+        "ru": ["Барри Зонненфельд", "Квентин Тарантино", "Роберт Родригес", "Дэвид Финчер"],
+        "be": ["Бары Зонэнфельд", "Квенцін Таранціна", "Роберт Радрыгес", "Дэвід Фінчэр"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 144,
+      "imageUrl": "/images/cinema/marriage_story_2019_01.jpg",
+      "question": {
+        "en": "Who starred alongside Scarlett Johansson in 'Marriage Story' (2019)?",
+        "ru": "Кто снялся вместе со Скарлетт Йоханссон в 'Истории о браке' (2019)?",
+        "be": "Хто здымаўся разам са Скарлет ехансан у 'Гісторыі пра шлюб' (2019)?"
+      },
+      "options": {
+        "en": ["Ryan Gosling", "Adam Driver", "Bradley Cooper", "Joaquin Phoenix"],
+        "ru": ["Райан Гослинг", "Адам Драйвер", "Брэдлі Купер", "Хоакин Феникс"],
+        "be": ["Раян Гослінг", "Адам Драйвер", "Брэдлі Купер", "Хаакін Фенікс"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 145,
+      "imageUrl": "/images/cinema/nomadland_2020_01.jpg",
+      "question": {
+        "en": "Who directed 'Nomadland' (2020)?",
+        "ru": "Кто режиссировал 'Землю кочевников' (2020)?",
+        "be": "Хто рэжысіраваў 'Зямлю качэўнікаў' (2020)?"
+      },
+      "options": {
+        "en": ["Greta Gerwig", "Chloé Zhao", "Sofia Coppola", "Kathryn Bigelow"],
+        "ru": ["Грета Гервиг", "Клои Чжао", "София Коппола", "Кэтрин Бигелоу"],
+        "be": ["Грэта Гервіг", "Клоі Чжао", "Софія Копала", "Кэтрын Бігелоу"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 146,
+      "imageUrl": "/images/cinema/soul_2020_01.jpg",
+      "question": {
+        "en": "Who directed Pixar's 'Soul' (2020)?",
+        "ru": "Кто режиссировал 'Душу' (2020) студии Pixar?",
+        "be": "Хто рэжысіраваў 'Душу' (2020) студыі Pixar?"
+      },
+      "options": {
+        "en": ["Andrew Stanton", "Pete Docter", "Brad Bird", "Lee Unkrich"],
+        "ru": ["Эндрю Стэнтон", "Пит Доктер", "Брэд Берд", "Лі Анкрич"],
+        "be": ["Эндру Стэнтан", "Піт Доктар", "Брэд Берд", "Лі Анкрыш"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 147,
+      "imageUrl": "/images/cinema/dune_2021_01.jpg",
+      "question": {
+        "en": "Who directed 'Dune' (2021)?",
+        "ru": "Кто режиссировал 'Дюну' (2021)?",
+        "be": "Хто рэжысіраваў 'Дзюну' (2021)?"
+      },
+      "options": {
+        "en": ["Christopher Nolan", "Denis Villeneuve", "Ridley Scott", "James Cameron"],
+        "ru": ["Кристофер Нолан", "Дэні Вільнев", "Ридли Скотт", "Джеймс Кэмерон"],
+        "be": ["Крыстафер Нолан", "Дэні Вільнеў", "Рыдлі Скот", "Джэймс Кэмеран"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 148,
+      "imageUrl": "/images/cinema/power_of_the_dog_2021_01.jpg",
+      "question": {
+        "en": "Who directed 'The Power of the Dog' (2021)?",
+        "ru": "Кто режиссировал 'Власть пса' (2021)?",
+        "be": "Хто рэжысіраваў 'Улада сабакі' (2021)?"
+      },
+      "options": {
+        "en": ["Sofia Coppola", "Jane Campion", "Greta Gerwig", "Kathryn Bigelow", "Patty Jenkins", "Gina Prince-Bythewood"],
+        "ru": ["София Коппола", "Джейн Кэмпион", "Грета Гервиг", "Кэтрин Бигелоу", "Патти Дженкинс", "Джина Принс-Байтвуд"],
+        "be": ["Софія Копала", "Джэйн Кэмпіен", "Грэта Гервіг", "Кэтрын Бігелоу", "Паці Джэнкінс", "Джына Прынс-Байтвуд"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 149,
+      "imageUrl": "/images/cinema/interview_with_the_vampire_1994_01.jpg",
+      "question": {
+        "en": "What movie's cast do you see??",
+        "ru": "Актерский состав какого фильма перед вами?",
+        "be": "Акцерскі склад якога фільма вы бачыце??"
+      },
+      "options": {
+        "en": ["Interview with the Vampire (1994)", "Magnolia (1999)", "Melancholia (2011)", "True Romance (1993)", "Meet Joe Black (1998)", "The Usual Suspects (1995)"],
+        "ru": ["Интервью с вампиром (1994)", "Магнолия (1999)", "Меланхолия (2011)", "Настоящая любовь (1993)", "Знакомьтесь, Джо Блэк (1998)", "Подозрительные лица (1995"],
+        "be": ["Інтэрв'ю з вампірам (1994)", "Магнолія (1999)", "Меланхолія (2011)", "Сапраўднае каханне (1993)", "Знаемцеся, Джо Блэк (1998)", "Звычайныя падазраваныя (1995"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 150,
+      "imageUrl": "/images/cinema/furiosa_a_mad_max_saga_2024_01.jpg",
+      "question": {
+        "en": "What movie is this shot from?",
+        "ru": "Из какого фильма этот кадр?",
+        "be": "З якога фільма гэты кадр?"
+      },
+      "options": {
+        "en": ["The Road Warrior (1981)", "Mad Max Beyond Thunderdome (1985)", "Mad Max (1979)", "Mad Max: Fury Road (2015)", "Furiosa: A Mad Max Saga (2024)"],
+        "ru": ["Безумный Макс 2: Воин дороги (1981)", "Безумный Макс: Под куполом грома (1985)", "Безумный Макс (1979)", "Безумный Макс: Дорога ярости (2015)", "Фуриоса: Хроники Безумного Макса (2024)"],
+        "be": ["Воін дарогі (1981)", "Шалены Макс: За межамі громавага купалам (1985)", "Шалены Макс (1979)", "Шалены Макс: Дарога лютасці (2015)", "Фурыеза: Сага аб шаленым Максе (2024)"]
+      },
+      "correctAnswer": 4
+    },
+    {
+      "id": 151,
+      "imageUrl": "/images/cinema/leap_year_2010_01.jpg",
+      "question": {
+        "en": "Which actress played Anna Brady in 'Leap Year' 2010 romantic comedy?",
+        "ru": "Какая актриса сыграла Анну Брэди в романтической комедии 'Как выйти замуж за 3 дня' 2010?",
+        "be": "Якая актрыса сыграла Анна Брэдзі ў рамантычнай камедыі 'Высакосны год' 2010?"
+      },
+      "options": {
+        "en": ["Amy Adams", "Amy Smart", "Amy Acker", "Amy Landecker", "Amy Jackson", "Amy Huberman", "Amy Anderson", "Amy Schumer", "Amy Winehouse", "Emily Blunt"],
+        "ru": ["Эми Адамс", "Эми Смарт", "Эми Акер", "Эми Ландекер", "Эми Джексон", "Эми Хуберман", "Эми Андерсон", "Эми Шумер", "Эми Уайнхаус", "Эмили Блант"],
+        "be": ["Эмі Адамс", "Эмі Смарт", "Эмі Акер", "Эмі Ландэкер", "Эмі Джэксан", "Эмі Хуберман", "Эмі Андэрсан", "Эмі Шумер", "Эмі Уайнхаус", "Эмілі Блант"]
+      },
+      "correctAnswer": 0
+    }
+  ]
+}

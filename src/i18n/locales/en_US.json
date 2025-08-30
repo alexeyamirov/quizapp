@@ -1,13 +1,18 @@
-  {
+{
   "welcome": {
-    "title": "Welcome to the Quiz App",
-    "chooseTheme": "Choose a theme",
-    "playButton": "Play"
+    "title": "Welcome to the Quiz App!",
+    "chooseLanguage": "Choose language",
+    "chooseTopic": "Choose topic",
+    "playButton": "Play",
+    "languageSelector": "Select language"
   },
   "quiz": {
     "question": "Question",
     "of": "of",
-    "next": "Next"
+    "next": "Next",
+    "correct": "Correct!",
+    "incorrect": "Incorrect!",
+    "nextQuestionIn": "Next question in 2 seconds..."
   },
   "results": {
     "title": "Quiz Results",

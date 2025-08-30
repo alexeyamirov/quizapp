@@ -1,0 +1,186 @@
+{
+  "id": "geography",
+  "name": { "en": "Geography", "ru": "География", "be": "Геаграфія" },
+  "questions": [
+    {
+      "id": 1,
+      "imageUrl": "/images/geography/paris_01.jpg",
+      "question": {
+        "en": "In which city is the Eiffel Tower located?",
+        "ru": "В каком городе находится Эйфелева башня?",
+        "be": "У якім горадзе знаходзіцца Эйфелева вежа?"
+      },
+      "options": {
+        "en": ["London", "Paris", "Rome", "Berlin", "Madrid", "Milan", "Vienna", "Prague"],
+        "ru": ["Лондон", "Париж", "Рим", "Берлин", "Мадрид", "Милан", "Вена", "Прага"],
+        "be": ["Лондан", "Парыж", "Рым", "Берлін", "Мадрыд", "Мілан", "Вена", "Прага"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "imageUrl": "/images/geography/nile_01.jpg",
+      "question": {
+        "en": "Which is the longest river in the world?",
+        "ru": "Какая река самая длинная в мире?",
+        "be": "Якая рака самая доўгая ў свеце?"
+      },
+      "options": {
+        "en": ["Amazon", "Nile", "Mississippi", "Yangtze", "Volga", "Danube", "Yellow", "Lena", "Amur", "Irtysh"],
+        "ru": ["Амазонка", "Нил", "Миссисипи", "Янцзы", "Волга", "Дунай", "Хуанхэ", "Лена", "Амур", "Иртыш"],
+        "be": ["Амазонка", "Ніл", "Місісіпі", "Янцзы", "Волга", "Дунай", "Хуанхэ", "Лена", "Амур", "Іртыш"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "imageUrl": "/images/geography/mount_everest.jpg",
+      "question": {
+        "en": "What is the highest mountain in the world?",
+        "ru": "Какая самая высокая гора в мире?",
+        "be": "Якая самая высокая гара ў свеце?"
+      },
+      "options": {
+        "en": ["K2", "Mount Everest", "Kangchenjunga", "Lhotse"],
+        "ru": ["К2", "Эверест", "Канченджанга", "Лхоцзе"],
+        "be": ["К2", "Эверэст", "Канчэнджанга", "Лхацзэ"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "imageUrl": "/images/geography/canberra_01.jpg",
+      "question": {
+        "en": "What is the capital of Australia?",
+        "ru": "Какая столица Австралии?",
+        "be": "Якая сталіца Аўстраліі?"
+      },
+      "options": {
+        "en": ["Sydney", "Canberra", "Melbourne", "Perth"],
+        "ru": ["Сидней", "Канберра", "Мельбурн", "Перт"],
+        "be": ["Сіднэй", "Канбера", "Мельбурн", "Перт"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "imageUrl": "/images/geography/sahara_desert.jpg",
+      "question": {
+        "en": "Which is the largest desert in the world?",
+        "ru": "Какая самая большая пустыня в мире?",
+        "be": "Якая самая вялікая пустыня ў свеце?"
+      },
+      "options": {
+        "en": ["Gobi Desert", "Sahara Desert", "Arabian Desert", "Antarctic Desert"],
+        "ru": ["Пустыня Гоби", "Пустыня Сахара", "Аравийская пустыня", "Антарктическая пустыня"],
+        "be": ["Пустыня Гобі", "Пустыня Сахара", "Аравійская пустыня", "Антарктычная пустыня"]
+      },
+      "correctAnswer": 3
+    },
+    {
+      "id": 6,
+      "imageUrl": "/images/geography/tokyo_01.jpg",
+      "question": {
+        "en": "Which of these cities is the capital of Japan?",
+        "ru": "Какой из этих городов является столицей Японии?",
+        "be": "Які з гэтых гарадоў з'яўляецца сталіцай Японіі?"
+      },
+      "options": {
+        "en": ["Kyoto", "Tokyo", "Osaka", "Yokohama", "Hirosima", "Nagasaki", "Sapporo", "Nagoya", "Nagano", "Kobe", "Chiba"],
+        "ru": ["Киото", "Токио", "Осака", "Йокогама", "Хиросима", "Нагасаки", "Саппоро", "Нагоя", "Нагано", "Кобе", "Тиба"],
+        "be": ["Кіета", "Токіа", "Осака", "Екагама", "Хірасіма", "Нагасакі", "Сапара", "Нагоя", "Нагана", "Кобе", "Тиба"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "imageUrl": "/images/geography/brazil_01.jpg",
+      "question": {
+        "en": "Which country is the largest by land area in South America?",
+        "ru": "Какая страна является самой большой по площади в Южной Америке?",
+        "be": "Якая краіна з'яўляецца самай вялікай па плошчы ў Паўдневай Амерыцы?"
+      },
+      "options": {
+        "en": ["Argentina", "Brazil", "Peru", "Colombia", "Chile", "Paraguay", "Uruguay", "Venezuela", "Bolivia"],
+        "ru": ["Аргентина", "Бразилия", "Перу", "Колумбия", "Чили", "Парагвай", "Уругвай", "Венесуэла", "Боливия"],
+        "be": ["Аргенціна", "Бразілія", "Перу", "Калумбія", "Чылі", "Парагвай", "Уругвай", "Венесуэла", "Балівія"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "imageUrl": "/images/geography/pacific_ocean_01.jpg",
+      "question": {
+        "en": "Which is the largest ocean on Earth?",
+        "ru": "Какой самый большой океан на Земле?",
+        "be": "Які самы вялікі акіян на Зямлі?"
+      },
+      "options": {
+        "en": ["Atlantic", "Pacific", "Indian", "Arctic", "Southern / Antarctic"],
+        "ru": ["Атлантический ", "Тихий", "Индийский", "Северный ледовитый", "Южный ледовитый"],
+        "be": ["Атлантычны", "Ціхі", "Індыйскі ", "Паўночны Ледавіты акіян", "Паўночны Ледавіты"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 9,
+      "imageUrl": "/images/geography/belarus_01.jpg",
+      "question": {
+        "en": "Which landlocked country is the northernmost in the world?",
+        "ru": "Какая страна без выхода к морю является самой северной в мире?",
+        "be": "Якая краіна без выхаду да мора з'яўляецца самай паўночнай у свеце?"
+      },
+      "options": {
+        "en": ["Belarus", "Iceland", "Canada", "USA", "North Korea", "China", "Japan", "Norway", "Sweden", "Finland", "Denmark", "Russia", "Great Britain", "Estonia", "Latvia", "Lithuania", "Mongolia", "Kazakhstan"],
+        "ru": ["Беларусь", "Исландия", "Канада", "США", "Северная Корея", "Китай", "Япония", "Норвегия", "Швеция", "Финляндия", "Дания", "Россия", "Великобритания", "Эстония", "Латвия", "Литва", "Монголия", "Казахстан"],
+        "be": ["Беларусь", "Ісландыя", "Канада", "ЗША", "Паўночная Карэя", "Кітай", "Японія", "Нарвегія", "Швецыя", "Фінляндыя", "Данія", "Расія", "Вялікабрытанія", "Эстонія", "Латвія", "Літва", "Манголія", "Казахстан"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "imageUrl": "/images/geography/arctic_ocean_01.jpg",
+      "question": {
+        "en": "Which is the smallest ocean on Earth?",
+        "ru": "Какой самый маленький океан на Земле?",
+        "be": "Які самы малы акіян на Зямлі?"
+      },
+      "options": {
+        "en": ["Atlantic", "Pacific", "Indian", "Arctic", "Southern / Antarctic"],
+        "ru": ["Атлантический ", "Тихий", "Индийский", "Северный ледовитый", "Южный ледовитый"],
+        "be": ["Атлантычны", "Ціхі", "Індыйскі ", "Паўночны Ледавіты акіян", "Паўночны Ледавіты"]
+      },
+      "correctAnswer": 3
+    },
+    {
+      "id": 11,
+      "imageUrl": "/images/geography/congo_river_01.jpg",
+      "question": {
+        "en": "Which is the deepest river in the world?",
+        "ru": "Какая река самая глубокая в мире?",
+        "be": "Якая рака самая глыбокая ў свеце?"
+      },
+      "options": {
+        "en": ["Congo", "Amazon", "Nile", "Niger", "Gang", "Orange", "Danube", "Yellow", "Zambezi", "Limpopo", "Volta"],
+        "ru": ["Конго", "Амазонка", "Нил", "Нигер", "Ганг", "Оранжевая", "Дунай", "Хуанхэ", "Замбези", "Лимпопо", "Вольта"],
+        "be": ["Конга", "Амазонка", "Ніл", "Нігеr", "Ганг", "Аранжавая", "Дунай", "Хуанхэ", "Замбези", "Лімпапо", "Вольта"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "imageUrl": "/images/geography/pisa_01.jpg",
+      "question": {
+        "en": "In which city can you see this tower?",
+        "ru": "В каком городе можно увидеть эту башню?",
+        "be": "У якім горадзе можна ўбачыць гэтую вежу?"
+      },
+      "options": {
+        "en": ["Pisa", "Piecenza", "Perugia", "Paris", "Parma", "Palermo", "Prato", "Pescara"],
+        "ru": ["Пиза", "Пьеченца", "Перуджа", "Париж", "Парма", "Палермо", "Прато", "Пескара"],
+        "be": ["Піза", "П'ечэнца", "Перуджа", "Парыж", "Парма", "Палерма", "Прата", "Пескара"]
+      },
+      "correctAnswer": 0
+    } 
+  ]
+}
