@@ -27,6 +27,11 @@ const ResultsPage: React.FC = () => {
     navigate(`/quiz/${themeId}`);
   };
 
+  // Handle return to main button
+  const handleReturnToMain = () => {
+    navigate('/');
+  };
+
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-gray-100">
       <div className="w-full max-w-md p-8 bg-white rounded-lg shadow-md">
@@ -84,9 +89,17 @@ const ResultsPage: React.FC = () => {
         {/* Play again button */}
         <button
           onClick={handlePlayAgain}
-          className="w-full px-4 py-3 text-white bg-indigo-600 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          className="w-full px-4 py-3 mb-3 text-white bg-indigo-600 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
         >
           {t('results.playAgain')}
+        </button>
+
+        {/* Return to main button */}
+        <button
+          onClick={handleReturnToMain}
+          className="w-full px-4 py-3 text-indigo-600 bg-white border border-indigo-600 rounded-md hover:bg-indigo-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+        >
+          {t('results.returnToMain')}
         </button>
       </div>
     </div>

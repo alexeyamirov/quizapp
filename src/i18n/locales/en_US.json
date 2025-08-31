@@ -10,8 +10,8 @@
     "question": "Question",
     "of": "of",
     "next": "Next",
-    "correct": "Correct!",
-    "incorrect": "Incorrect!",
+    "correct": ["Correct!", "Excellent!", "Great job!", "Spot on!", "That's right!", "Perfect!", "You nailed it!", "Absolutely right!", "So true!", "100% true!", "Outstaind knowledge!", "Amazing!", "Hell yeah!", "Yeah!", "YES!"],
+    "incorrect": ["Incorrect!", "Not quite!", "Try again next time!", "Oops, wrong answer!", "That's not right!", "Sorry, incorrect!", "Nope!", "Wrong.", "Missed.", "You're not right here!", "NO.", "False."],
     "nextQuestionIn": "Next question in 2 seconds..."
   },
   "results": {
@@ -30,6 +30,7 @@
       "1": "Did you guess?",
       "0": "It doesn't seem you're an expert in the quiz theme"
     },
-    "playAgain": "Play Again"
+    "playAgain": "Play Again",
+    "returnToMain": "Return to Menu"
   }
 }

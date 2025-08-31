@@ -24,6 +24,7 @@ const QuizPage: React.FC = () => {
   const [answered, setAnswered] = useState(false);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   const [shuffledOptions, setShuffledOptions] = useState<ShuffledOption[]>([]);
+  const [feedbackMessage, setFeedbackMessage] = useState<string>('');
 
   // Function to shuffle options for a question
   const shuffleOptions = useCallback((question: QuizQuestion) => {
@@ -41,6 +42,18 @@ const QuizPage: React.FC = () => {
     return options;
   }, []);
 
+  // Function to get a random feedback message
+  const getRandomFeedbackMessage = useCallback((correct: boolean) => {
+    const messageKey = correct ? 'quiz.correct' : 'quiz.incorrect';
+    const messages = t(messageKey, { returnObjects: true });
+    
+    // If messages is an array, pick a random one, otherwise use the string as is
+    if (Array.isArray(messages)) {
+      const randomIndex = Math.floor(Math.random() * messages.length);
+      return messages[randomIndex];
+    }
+    return messages;
+  }, [t]);
   // Initialize quiz with random questions
   useEffect(() => {
     // Get localized quiz data based on current language
@@ -129,6 +142,8 @@ const QuizPage: React.FC = () => {
     setSelectedOption(shuffledIndex);
     setAnswered(true);
 
+    // Set random feedback message
+    setFeedbackMessage(getRandomFeedbackMessage(correct));
     // Save user's answer (using the original index)
     const newUserAnswers = [...userAnswers];
     newUserAnswers[currentQuestionIndex] = originalIndex;
@@ -194,9 +209,7 @@ const QuizPage: React.FC = () => {
           <div className={`mt-4 p-3 text-center rounded ${
             isCorrect ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'
           }`}>
-            {isCorrect 
-              ? t('quiz.correct', 'Correct!') 
-              : t('quiz.incorrect', 'Incorrect!')}
+            {feedbackMessage}
           </div>
         )}
         
