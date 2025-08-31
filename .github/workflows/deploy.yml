@@ -23,13 +23,19 @@ jobs:
 
       - name: Install Dependencies 🔧
         run: npm ci --legacy-peer-deps
+
       - name: Build 🏗️
         run: npm run build
         env:
           CI: false  # Prevents build failures on warnings
+          PUBLIC_URL: https://alexeyamirov.github.io/quizapp
+
+      - name: List build directory
+        run: ls -la build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: build  # The folder the action should deploy
           branch: gh-pages  # The branch the action should deploy to
+          clean: true  # Automatically remove deleted files from the deploy branch

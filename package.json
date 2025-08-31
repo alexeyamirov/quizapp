@@ -25,10 +25,12 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco build && cp build/index.html build/404.html",
+    "build": "PUBLIC_URL=https://alexeyamirov.github.io/quizapp craco build && cp build/index.html build/404.html",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "build:win": "craco build && copy build\\index.html build\\404.html"
+    "build:win": "set PUBLIC_URL=https://alexeyamirov.github.io/quizapp && craco build && copy build\\index.html build\\404.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": ["react-app","react-app/jest"]
