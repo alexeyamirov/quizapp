@@ -34,16 +34,16 @@
     },
     {
       "id": 3,
-      "imageUrl": "/images/geography/mount_everest.jpg",
+      "imageUrl": "/images/geography/chomolungma_01.jpg",
       "question": {
         "en": "What is the highest mountain in the world?",
         "ru": "Какая самая высокая гора в мире?",
         "be": "Якая самая высокая гара ў свеце?"
       },
       "options": {
-        "en": ["K2", "Mount Everest", "Kangchenjunga", "Lhotse"],
-        "ru": ["К2", "Эверест", "Канченджанга", "Лхоцзе"],
-        "be": ["К2", "Эверэст", "Канчэнджанга", "Лхацзэ"]
+        "en": ["Chogori", "Chomolungma", "Kangchenjunga", "Lhotse", "Makalu", "Cho Oyu", "Dhaulagiri", "Manaslu", "Nanga Parbat", "Annapurna"],
+        "ru": ["Чогори", "Джомолунгма", "Канченджанга", "Лхоцзе", "Макалу", "Чо-Ойю", "Дхаулагири", "Манаслу", "Нанга-Парбат", "Аннапурна"],
+        "be": ["Чогоры", "Джамалунгма", "Канчэнджанга", "Лхоцэ", "Макалу", "Чо-Ойю", "Дхаўлагіры", "Манаслу", "Нанга-Парбат", "Анапурна"]
       },
       "correctAnswer": 1
     },
@@ -64,16 +64,16 @@
     },
     {
       "id": 5,
-      "imageUrl": "/images/geography/sahara_desert.jpg",
+      "imageUrl": "/images/geography/antarctic_desert_01.jpg",
       "question": {
         "en": "Which is the largest desert in the world?",
         "ru": "Какая самая большая пустыня в мире?",
         "be": "Якая самая вялікая пустыня ў свеце?"
       },
       "options": {
-        "en": ["Gobi Desert", "Sahara Desert", "Arabian Desert", "Antarctic Desert"],
-        "ru": ["Пустыня Гоби", "Пустыня Сахара", "Аравийская пустыня", "Антарктическая пустыня"],
-        "be": ["Пустыня Гобі", "Пустыня Сахара", "Аравійская пустыня", "Антарктычная пустыня"]
+        "en": ["Gobi", "Sahara", "Arabian", "Antarctic", "Arctic", "Great Australian", "Kalahari", "Patagonian", "Syrian", "Great Basin"],
+        "ru": ["Гоби", "Сахара", "Аравийская", "Антарктическая", "Арктическая", "Большая Австралийская", "Калахари", "Патагонская", "Сирийская", "Большого Бассейна"],
+        "be": ["Гобі", "Сахара", "Аравійская", "Антарктычная", "Арктычная", "Вялікая Аўстралійская", "Калахары", "Патагонская", "Сірыйская", "Вялікага Басейна"]
       },
       "correctAnswer": 3
     },
