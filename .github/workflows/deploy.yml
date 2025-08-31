@@ -30,8 +30,18 @@ jobs:
           CI: false  # Prevents build failures on warnings
           PUBLIC_URL: https://alexeyamirov.github.io/quizapp
 
-      - name: List build directory
-        run: ls -la build
+      - name: Debug - List build directory
+        run: |
+          echo "Contents of build directory:"
+          ls -la build
+          echo "Contents of build/static directory (if exists):"
+          ls -la build/static || echo "No static directory"
+          echo "Contents of index.html:"
+          cat build/index.html
+
+      # Create a .nojekyll file to prevent GitHub Pages from ignoring files that begin with an underscore
+      - name: Add .nojekyll file
+        run: touch build/.nojekyll
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4

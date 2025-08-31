@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import './i18n/i18n';
 
@@ -36,6 +36,8 @@ const App: React.FC = () => {
             <Route path="/" element={<WelcomePage />} />
             <Route path="/quiz/:themeId" element={<QuizPage />} />
             <Route path="/results" element={<ResultsPage />} />
+            {/* Add a catch-all route that redirects to the home page */}
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </div>
       </Router>
