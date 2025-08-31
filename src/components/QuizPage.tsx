@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { QuizQuestion } from '../data/quizData';
 import { getLocalizedQuizData } from '../data/multilingualQuizData';
 import { LanguageContext } from '../contexts/LanguageContext';
+import { getImageUrl } from '../utils/imageUtils'; // Import the utility function
 
 interface ShuffledOption {
   text: string;
@@ -54,6 +55,7 @@ const QuizPage: React.FC = () => {
     }
     return messages;
   }, [t]);
+  
   // Initialize quiz with random questions
   useEffect(() => {
     // Get localized quiz data based on current language
@@ -144,6 +146,7 @@ const QuizPage: React.FC = () => {
 
     // Set random feedback message
     setFeedbackMessage(getRandomFeedbackMessage(correct));
+    
     // Save user's answer (using the original index)
     const newUserAnswers = [...userAnswers];
     newUserAnswers[currentQuestionIndex] = originalIndex;
@@ -166,10 +169,10 @@ const QuizPage: React.FC = () => {
           {t('quiz.question')} {currentQuestionIndex + 1} {t('quiz.of')} {questions.length}
         </div>
         
-        {/* Question image */}
+        {/* Question image - Using the getImageUrl utility function */}
         <div className="mb-6 overflow-hidden rounded-lg">
           <img 
-            src={currentQuestion.imageUrl} 
+            src={getImageUrl(currentQuestion.imageUrl)} 
             alt="Quiz question" 
             className="object-cover w-full h-96"
             onError={(e) => {
@@ -216,7 +219,7 @@ const QuizPage: React.FC = () => {
         {/* Loading indicator for next question */}
         {answered && (
           <div className="mt-4 text-center text-sm text-gray-500">
-            {t('quiz.nextQuestionIn', 'Next question in 2 seconds...')}
+            {t('quiz.nextQuestionIn')}
           </div>
         )}
       </div>

@@ -46,12 +46,18 @@ jobs:
       - name: Create index.md
         run: echo '# Quiz App' > build/index.md
         
-      - name: Debug - List build directory
+      # Ensure images directory is properly copied
+      - name: Check images directory
         run: |
-          echo "Contents of build directory:"
-          ls -la build
-          echo "Contents of build/static directory (if exists):"
-          ls -la build/static || echo "No static directory"
+          echo "Checking if images directory exists in build:"
+          if [ -d "build/images" ]; then
+            echo "✅ Images directory exists in build"
+            ls -la build/images
+          else
+            echo "❌ Images directory not found in build"
+            echo "Contents of build directory:"
+            ls -la build
+          fi
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
