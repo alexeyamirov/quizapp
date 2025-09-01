@@ -29,7 +29,7 @@ const WelcomePage: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4">
       <div className="w-full max-w-md p-8 space-y-8 bg-white rounded-lg shadow-md">
-        <h1 className="text-4xl font-bold text-center text-indigo-600">
+        <h1 className="text-2xl md:text-3xl font-bold text-center text-indigo-600">
           {t('welcome.title')}
         </h1>
         
@@ -64,7 +64,7 @@ const WelcomePage: React.FC = () => {
         <div className="mt-8">
           <button
             onClick={handlePlay}
-            className="w-full px-4 py-3 text-white bg-indigo-600 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            className="w-full px-4 py-3 font-semibold text-white bg-indigo-600 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           >
             {t('welcome.playButton')}
           </button>
