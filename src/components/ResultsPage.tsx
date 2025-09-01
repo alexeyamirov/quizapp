@@ -89,7 +89,7 @@ const ResultsPage: React.FC = () => {
         {/* Play again button */}
         <button
           onClick={handlePlayAgain}
-          className="w-full px-4 py-3 mb-3 text-white bg-indigo-600 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          className="w-full px-4 py-3 mb-3 font-semibold text-white bg-indigo-600 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
         >
           {t('results.playAgain')}
         </button>
@@ -97,7 +97,7 @@ const ResultsPage: React.FC = () => {
         {/* Return to main button */}
         <button
           onClick={handleReturnToMain}
-          className="w-full px-4 py-3 text-indigo-600 bg-white border border-indigo-600 rounded-md hover:bg-indigo-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          className="w-full px-4 py-3 font-semibold text-indigo-600 bg-white border border-indigo-600 rounded-md hover:bg-indigo-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
         >
           {t('results.returnToMain')}
         </button>

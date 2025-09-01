@@ -174,7 +174,7 @@ const QuizPage: React.FC = () => {
           <img 
             src={getImageUrl(currentQuestion.imageUrl)} 
             alt="Quiz question" 
-            className="object-cover w-full h-96"
+            className="object-cover w-full h-48 sm:h-64 md:h-96"
             onError={(e) => {
               const target = e.target as HTMLImageElement;
               target.src = 'https://via.placeholder.com/640x360?text=Image+Not+Found';
@@ -198,7 +198,7 @@ const QuizPage: React.FC = () => {
                   ? isCorrect
                     ? 'bg-green-100 border-green-500 border-2' // Correct answer
                     : 'bg-red-100 border-red-500 border-2'     // Wrong answer
-                  : 'bg-gray-100 hover:bg-gray-200'            // Unanswered
+                  : 'bg-gray-100 hover:bg-gray-200 border-2'   // Unanswered
               }`}
               disabled={answered}
             >
