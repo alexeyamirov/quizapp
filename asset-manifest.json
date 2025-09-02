@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "https://alexeyamirov.github.io/quizapp/static/css/main.794a9352.css",
-    "main.js": "https://alexeyamirov.github.io/quizapp/static/js/main.c512fa79.js",
+    "main.css": "https://alexeyamirov.github.io/quizapp/static/css/main.22f2498c.css",
+    "main.js": "https://alexeyamirov.github.io/quizapp/static/js/main.22ec83a4.js",
     "static/js/453.5979a855.chunk.js": "https://alexeyamirov.github.io/quizapp/static/js/453.5979a855.chunk.js",
     "index.html": "https://alexeyamirov.github.io/quizapp/index.html",
-    "main.794a9352.css.map": "https://alexeyamirov.github.io/quizapp/static/css/main.794a9352.css.map",
-    "main.c512fa79.js.map": "https://alexeyamirov.github.io/quizapp/static/js/main.c512fa79.js.map",
+    "main.22f2498c.css.map": "https://alexeyamirov.github.io/quizapp/static/css/main.22f2498c.css.map",
+    "main.22ec83a4.js.map": "https://alexeyamirov.github.io/quizapp/static/js/main.22ec83a4.js.map",
     "453.5979a855.chunk.js.map": "https://alexeyamirov.github.io/quizapp/static/js/453.5979a855.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.794a9352.css",
-    "static/js/main.c512fa79.js"
+    "static/css/main.22f2498c.css",
+    "static/js/main.22ec83a4.js"
   ]
 }
