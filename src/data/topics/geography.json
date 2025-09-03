@@ -21,16 +21,16 @@
       "id": 2,
       "imageUrl": "/images/geography/nile_01.jpg",
       "question": {
-        "en": "Which is the longest river in the world?",
-        "ru": "Какая река самая длинная в мире?",
-        "be": "Якая рака самая доўгая ў свеце?"
+        "en": "Which river is the longest of represented on the list?",
+        "ru": "Какая река самая длинная в этом списке?",
+        "be": "Якая рака самая доўгая ў гэтым спісе?"
       },
       "options": {
-        "en": ["Amazon", "Nile", "Mississippi", "Yangtze", "Volga", "Danube", "Yellow", "Lena", "Amur", "Irtysh"],
-        "ru": ["Амазонка", "Нил", "Миссисипи", "Янцзы", "Волга", "Дунай", "Хуанхэ", "Лена", "Амур", "Иртыш"],
-        "be": ["Амазонка", "Ніл", "Місісіпі", "Янцзы", "Волга", "Дунай", "Хуанхэ", "Лена", "Амур", "Іртыш"]
+        "en": ["Nile", "Mississippi", "Yangtze", "Volga", "Danube", "Yellow", "Lena", "Amur", "Irtysh"],
+        "ru": ["Нил", "Миссисипи", "Янцзы", "Волга", "Дунай", "Хуанхэ", "Лена", "Амур", "Иртыш"],
+        "be": ["Ніл", "Місісіпі", "Янцзы", "Волга", "Дунай", "Хуанхэ", "Лена", "Амур", "Іртыш"]
       },
-      "correctAnswer": 1
+      "correctAnswer": 0
     },
     {
       "id": 3,
@@ -168,7 +168,7 @@
       "correctAnswer": 0
     },
     {
-      "id": 11,
+      "id": 12,
       "imageUrl": "/images/geography/pisa_01.jpg",
       "question": {
         "en": "In which city can you see this tower?",
@@ -181,6 +181,51 @@
         "be": ["Піза", "П'ечэнца", "Перуджа", "Парыж", "Парма", "Палерма", "Прата", "Пескара"]
       },
       "correctAnswer": 0
-    } 
+    },
+    {
+      "id": 13,
+      "imageUrl": "/images/geography/nairobi_01.jpg",
+      "question": {
+        "en": "Which city is closer to the equator than the others?",
+        "ru": "Какой город находится к экватору ближе остальных?",
+        "be": "Які горад знаходзіцца да экватара бліжэй за астатніх?"
+      },
+      "options": {
+        "en": ["Nairobi", "Lima", "Bangkok", "Tashkent", "London", "Mexico", "Moscow", "Baghdad", "Manila", "Delhi"],
+        "ru": ["Найроби", "Лима", "Бангкок", "Ташкент", "Лондон", "Мехико", "Москва", "Багдад", "Манила", "Дели"],
+        "be": ["Найробі", "Ліма", "Бангкок", "Ташкент", "Лондан", "Мехіка", "Масква", "Багдад", "Маніла", "Дэлі"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "imageUrl": "/images/geography/nairobi_02.jpg",
+      "question": {
+        "en": "What is the capital of Kenia?",
+        "ru": "Какой город является столицей Кении?",
+        "be": "Які горад з'яўляецца сталіцай Кеніі?"
+      },
+      "options": {
+        "en": ["Nairobi", "Yaounde", "Khartoum", "Harare", "Monrovia", "Kinshasa", "Windhoek", "Addis Ababa", "Antananarivo", "Accra"],
+        "ru": ["Найроби", "Яунде", "Хартум", "Хараре", "Монровия", "Киншаса", "Виндхук", "Аддис-Абеба", "Антананариву", "Аккра"],
+        "be": ["Найробі", "Яундэ", "Хартум", "Харарэ", "Манровія", "Кіншаса", "Віндхук", "Адыс-Абеба", "Антананарыву", "Аккра"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "imageUrl": "/images/geography/sea_of_tranquility_01.jpg",
+      "question": {
+        "en": "What is the farthest from New York?",
+        "ru": "Что находится дальше всего от Нью-Йорка?",
+        "be": "Што далей за ўсе ад Нью-Ерка?"
+      },
+      "options": {
+        "en": ["Sea of Tranquility", "North Pole", "South Pole", "Africa", "Australia", "Bikini Bottom", "Springfield", "ISS", "Large Hadron Collider", "Mariana Trench", "Equator", "Greenwich"],
+        "ru": ["Море Спокойствия", "Северный полюс", "Южный полюс", "Африка", "Австралия", "Бикини Боттом", "Спрингфилд", "МКС", "Большой адронный коллайдер", "Марианская впадина", "Экватор", "Гринвич"],
+        "be": ["Мора Спакою", "Паўночны полюс", "Паўднёвы полюс", "Афрыка", "Аўстралія", "Бікіні Ботам", "Спрынгфілд", "МКС", "Вялікі адронны калайдар", "Марыянская ўпадзіна", "Экватар", "Грынвіч"]
+      },
+      "correctAnswer": 0
+    }
   ]
 }

@@ -196,6 +196,66 @@
         "be": ["Хірасіма", "Нагасакі", "Дрэзден", "Токіа", "Кіёта", "Берлін", "Бікіні Ботам", "Рым", "Чарнобыль", "Фукусіма", "Лос-Анджэлес", "Сан-Анджэлес", "Тоцкае", "Лос-Аламас"]
       },
       "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "imageUrl": "/images/history/pepin_the_short_01.jpg",
+      "question": {
+        "en": "In the territory of which country is Pepin the Short buried?",
+        "ru": "На территории какой страны похоронен Пипин Короткий?",
+        "be": "На тэрыторыі якой краіны пахаваны Піпін Кароткі?"
+      },
+      "options": {
+        "en": ["France", "Spain", "Italy", "Germany", "England", "Wales", "Ireland", "Iceland", "Switzerland", "Romania", "Scotland", "Croatia", "Poland", "Czechia"],
+        "ru": ["Франция", "Испания", "Италия", "Германия", "Англия", "Уэльс", "Ирландия", "Исландия", "Швейцария", "Румыния", "Шотландия", "Хорватия", "Польша", "Чехия"],
+        "be": ["Францыя", "Іспанія", "Італія", "Германія", "Англія", "Уэльс", "Ірландыя", "Ісландыя", "Швейцарыя", "Румынія", "Шатландыя", "Харватыя", "Польшча", "Чэхія"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "imageUrl": "/images/history/human_zoo_01.jpg",
+      "question": {
+        "en": "In which century did human zoos cease to exist?",
+        "ru": "В каком веке прекратили существование человеческие зоопарки?",
+        "be": "У якім стагоддзі спынілі існаванне чалавечыя заапаркі?"
+      },
+      "options": {
+        "en": ["Still exist", "There was no such thing", "XX", "XXI", "XIX", "XVIII", "XVII", "XVI", "XV"],
+        "ru": ["Все еще существуют", "Их никогда не было", "XX", "XXI", "XIX", "XVIII", "XVII", "XVI", "XV"],
+        "be": ["Яшчэ існуюць", "Іх ніколі не было", "XX", "XXI", "XIX", "XVIII", "XVII", "XVI", "XV"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "imageUrl": "/images/history/ottoman_empire_01.jpg",
+      "question": {
+        "en": "In which century did the Ottoman Empire emerge?",
+        "ru": "В каком веке возникла Османская империя?",
+        "be": "У якім стагоддзі ўзнікла Асманская імперыя?"
+      },
+      "options": {
+        "en": ["XIII", "XII", "XI", "X", "IX", "VIII", "VII", "VI", "V", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX", "XXI"],
+        "ru": ["XIII", "XII", "XI", "X", "IX", "VIII", "VII", "VI", "V", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX", "XXI"],
+        "be": ["XIII", "XII", "XI", "X", "IX", "VIII", "VII", "VI", "V", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX", "XXI"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "imageUrl": "/images/history/ottoman_empire_02.jpg",
+      "question": {
+        "en": "In what century did the Ottoman Empire collapse?",
+        "ru": "В каком веке распалась Османская империя?",
+        "be": "У якім стагоддзі знікла Асманская імперыя?"
+      },
+      "options": {
+        "en": ["XX", "XII", "XI", "X", "IX", "VIII", "VII", "VI", "V", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XIII", "XXI"],
+        "ru": ["XX", "XII", "XI", "X", "IX", "VIII", "VII", "VI", "V", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XIII", "XXI"],
+        "be": ["XX", "XII", "XI", "X", "IX", "VIII", "VII", "VI", "V", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XIII", "XXI"]
+      },
+      "correctAnswer": 0
     }
   ]
 }
