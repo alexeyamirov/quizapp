@@ -223,7 +223,82 @@
       "options": {
         "en": ["Sea of Tranquility", "North Pole", "South Pole", "Africa", "Australia", "Bikini Bottom", "Springfield", "ISS", "Large Hadron Collider", "Mariana Trench", "Equator", "Greenwich"],
         "ru": ["Море Спокойствия", "Северный полюс", "Южный полюс", "Африка", "Австралия", "Бикини Боттом", "Спрингфилд", "МКС", "Большой адронный коллайдер", "Марианская впадина", "Экватор", "Гринвич"],
-        "be": ["Мора Спакою", "Паўночны полюс", "Паўднёвы полюс", "Афрыка", "Аўстралія", "Бікіні Ботам", "Спрынгфілд", "МКС", "Вялікі адронны калайдар", "Марыянская ўпадзіна", "Экватар", "Грынвіч"]
+        "be": ["Мора Спакою", "Паўночны полюс", "Паўдневы полюс", "Афрыка", "Аўстралія", "Бікіні Ботам", "Спрынгфілд", "МКС", "Вялікі адронны калайдар", "Марыянская ўпадзіна", "Экватар", "Грынвіч"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "imageUrl": "/images/geography/australia_01.jpg",
+      "question": {
+        "en": "Which country does this flag belong to?",
+        "ru": "Какой стране принадлежит это флаг?",
+        "be": "Якой краіне належыць гэты сцяг?"
+      },
+      "options": {
+        "en": ["Australia", "Austria", "New Zealand", "Samoa", "Solomon Islands", "Bikini Bottom", "Tuvalu", "USA", "Fiji", "Chile", "United Kingdom", "Northern Ireland"],
+        "ru": ["Австралия", "Австрия", "Новая Зеландия", "Самоа", "Соломоновы острова", "Бикини Боттом", "Тувалу", "США", "Фиджи", "Чили", "Великобритания", "Северная Ирландия"],
+        "be": ["Аўстралія", "Аўстрыя", "Новая Зеландыя", "Самоа", "Саламонавы астравы", "Бікіні Ботам", "Тувалу", "ЗША", "Фіджы", "Чылі", "Вялікабрытанія", "Паўночная Ірландыя"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "imageUrl": "/images/geography/new_zealand_01.jpg",
+      "question": {
+        "en": "Which country does this flag belong to?",
+        "ru": "Какой стране принадлежит это флаг?",
+        "be": "Якой краіне належыць гэты сцяг?"
+      },
+      "options": {
+        "en": ["New Zealand", "Australia", "Austria", "Samoa", "Solomon Islands", "Bikini Bottom", "Tuvalu", "USA", "Fiji", "Chile", "United Kingdom", "Northern Ireland"],
+        "ru": ["Новая Зеландия", "Австралия", "Австрия", "Самоа", "Соломоновы острова", "Бикини Боттом", "Тувалу", "США", "Фиджи", "Чили", "Великобритания", "Северная Ирландия"],
+        "be": ["Новая Зеландыя", "Аўстралія", "Аўстрыя", "Самоа", "Саламонавы астравы", "Бікіні Ботам", "Тувалу", "ЗША", "Фіджы", "Чылі", "Вялікабрытанія", "Паўночная Ірландыя"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "imageUrl": "/images/geography/romania_01.jpg",
+      "question": {
+        "en": "Which country does this flag belong to?",
+        "ru": "Какой стране принадлежит это флаг?",
+        "be": "Якой краіне належыць гэты сцяг?"
+      },
+      "options": {
+        "en": ["Romania", "Chad", "Moldova", "Spain", "Colombia", "Venezuela", "Central African Republic", "South Africa", "Mali", "Mauritania", "Mauritius", "Mexico"],
+        "ru": ["Румыния", "Чад", "Молдова", "Испания", "Колумбия", "Венесуэла", "ЦАР", "ЮАР", "Мали", "Мавритания", "Маврикий", "Мексика"],
+        "be": ["Румынія", "Чад", "Малдова", "Іспанія", "Калумбія", "Венесуэла", "ЦАР", "ПАР", "Малі", "Маўрытанія", "Маўрыкій", "Мексіка"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "imageUrl": "/images/geography/chad_01.jpg",
+      "question": {
+        "en": "Which country does this flag belong to?",
+        "ru": "Какой стране принадлежит это флаг?",
+        "be": "Якой краіне належыць гэты сцяг?"
+      },
+      "options": {
+        "en": ["Romania", "Chad", "Moldova", "Spain", "Colombia", "Venezuela", "Central African Republic", "South Africa", "Mali", "Mauritania", "Mauritius", "Mexico"],
+        "ru": ["Румыния", "Чад", "Молдова", "Испания", "Колумбия", "Венесуэла", "ЦАР", "ЮАР", "Мали", "Мавритания", "Маврикий", "Мексика"],
+        "be": ["Румынія", "Чад", "Малдова", "Іспанія", "Калумбія", "Венесуэла", "ЦАР", "ПАР", "Малі", "Маўрытанія", "Маўрыкій", "Мексіка"]
+      },
+      "correctAnswer": 1
+    },
+    {
+      "id": 20,
+      "imageUrl": "/images/geography/canada_01.jpg",
+      "question": {
+        "en": "Which country does this flag belong to?",
+        "ru": "Какой стране принадлежит это флаг?",
+        "be": "Якой краіне належыць гэты сцяг?"
+      },
+      "options": {
+        "en": ["Canada", "Greenland", "Georgia", "Northern Ireland", "Denmark", "Bikini Bottom", "Japan", "Indonesia", "Hong Kong", "Lebanon", "Tunisia", "Singapore"],
+        "ru": ["Канада", "Гренландия", "Грузия", "Северная Ирландия", "Дания", "Бикини Боттом", "Япония", "Индонезия", "Гонконг", "Ливан", "Тунис", "Сингапур"],
+        "be": ["Канада", "Грэнландыя", "Грузія", "Паўночная Ірландыя", "Данія", "Бікіні Ботам", "Японія", "Інданезія", "Ганконг", "Ліван", "Туніс", "Сінгапур"]
       },
       "correctAnswer": 0
     }

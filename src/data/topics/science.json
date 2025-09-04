@@ -211,6 +211,81 @@
         "be": ["Вернер Гайзенберг", "Роберт Апенгеймер", "Нільс Бор", "Стывен Хокінг", "Эрвін Шрэдынгер", "Макс Планк", "Рычард Фейнман", "Энрыка Фермі", "Леонард Эйлер"]
       },
       "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "imageUrl": "/images/science/bronze_01.jpg",
+      "question": {
+        "en": "Bronze is an alloy of which metals?",
+        "ru": "Сплавом каких металлов является бронза?",
+        "be": "Сплавам якіх металаў з'яўляецца бронза?"
+      },
+      "options": {
+        "en": ["Copper and tin", "Copper and lead", "Copper and silver", "Copper and nickel", "Gold and silver", "Gold and platinum", "Copper and platinum", "Copper and chromium", "Copper and iron"],
+        "ru": ["Медь и олово", "Медь и свинец", "Медь и серебро", "Медь и никель", "Золото и серебро", "Золото и платина", "Медь и платина", "Медь и хром", "Медь и железо"],
+        "be": ["Медзь і волава", "Медзь і свінец", "Медзь і срэбра", "Медзь і нікель", "Золата і срэбра", "Золата і плаціна", "Медзь і плаціна", "Медзь і хром", "Медзь і жалеза"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "imageUrl": "/images/science/mir_space_station_01.jpg",
+      "question": {
+        "en": "For how many years was the 'Mir' space station in orbit?",
+        "ru": "Сколько лет космическая станция 'Мир' была на орбите?",
+        "be": "Колькі гадоў касмічная станцыя 'Мір' была на арбіце?"
+      },
+      "options": {
+        "en": ["5", "10", "15", "17", "13", "21", "25", "33", "40"],
+        "ru": ["5", "10", "15", "17", "13", "21", "25", "33", "40"],
+        "be": ["5", "10", "15", "17", "13", "21", "25", "33", "40"]
+      },
+      "correctAnswer": 2
+    },
+    {
+      "id": 17,
+      "imageUrl": "/images/science/brass_01.jpg",
+      "question": {
+        "en": "Brass is an alloy of which metals?",
+        "ru": "Сплавом каких металлов является латунь?",
+        "be": "Сплавам якіх металаў з'яўляецца латунь?"
+      },
+      "options": {
+        "en": ["Copper and zinc", "Copper and tin", "Copper and lead", "Copper and silver", "Gold and silver", "Gold and platinum", "Copper and platinum", "Copper and chromium", "Copper and iron"],
+        "ru": ["Медь и цинк", "Медь и олово", "Медь и свинец", "Медь и серебро", "Золото и серебро", "Золото и платина", "Медь и платина", "Медь и хром", "Медь и железо"],
+        "be": ["Медзь і цынк", "Медзь і волава", "Медзь і свінец", "Медзь і срэбра", "Золата і срэбра", "Золата і плаціна", "Медзь і плаціна", "Медзь і хром", "Медзь і жалеза"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "imageUrl": "/images/science/steel_01.jpg",
+      "question": {
+        "en": "Steel is an alloy of which elements?",
+        "ru": "Сплавом каких химических элементов является сталь?",
+        "be": "Сплавам якіх хімічных элементаў з'яўляецца сталь?"
+      },
+      "options": {
+        "en": ["Iron and carbon", "Iron and silver", "Iron and aluminum", "Iron and platinum", "Iron and hydrogen", "Iron and oxygen", "Iron and tin", "Iron and lead", "Iron and mercury"],
+        "ru": ["Железо и углерод", "Железо и серебро", "Железо и алюминий", "Железо и платина", "Железо и водород", "Железо и кислород", "Железо и олово", "Железо и свинец", "Железо и ртуть"],
+        "be": ["Жалеза і вуглярод", "Жалеза і срэбра", "Жалеза і алюміній", "Жалеза і плаціна", "Жалеза і вадарод", "Жалеза і кісларод", "Жалеза і волава", "Жалеза і свінец", "Жалеза і ртуць"]
+      },
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "imageUrl": "/images/science/pig_iron_01.jpg",
+      "question": {
+        "en": "Pig iron is an alloy of which elements?",
+        "ru": "Сплавом каких химических элементов является чугун?",
+        "be": "Сплавам якіх хімічных элементаў з'яўляецца чыгун?"
+      },
+      "options": {
+        "en": ["Iron and carbon", "Iron and silver", "Iron and aluminum", "Iron and platinum", "Iron and hydrogen", "Iron and oxygen", "Iron and tin", "Iron and lead", "Iron and mercury"],
+        "ru": ["Железо и углерод", "Железо и серебро", "Железо и алюминий", "Железо и платина", "Железо и водород", "Железо и кислород", "Железо и олово", "Железо и свинец", "Железо и ртуть"],
+        "be": ["Жалеза і вуглярод", "Жалеза і срэбра", "Жалеза і алюміній", "Жалеза і плаціна", "Жалеза і вадарод", "Жалеза і кісларод", "Жалеза і волава", "Жалеза і свінец", "Жалеза і ртуць"]
+      },
+      "correctAnswer": 0
     }
   ]
 }
